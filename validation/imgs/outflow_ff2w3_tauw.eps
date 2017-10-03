@@ -1,0 +1,4363 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%Creator: MATLAB, The MathWorks, Inc. Version 8.1.0.604 (R2013a). Operating System: Linux 4.10.6-1-ARCH #1 SMP PREEMPT Mon Mar 27 08:28:22 CEST 2017 x86_64.
+%%Title: ./_tauw.eps
+%%CreationDate: 09/13/2017  18:29:36
+%%DocumentNeededFonts: Helvetica
+%%DocumentProcessColors: Cyan Magenta Yellow Black
+%%LanguageLevel: 2
+%%Pages: 1
+%%BoundingBox:    38   187   549   606
+%%EndComments
+
+%%BeginProlog
+% MathWorks dictionary
+/MathWorks 160 dict begin
+% definition operators
+/bdef {bind def} bind def
+/ldef {load def} bind def
+/xdef {exch def} bdef
+/xstore {exch store} bdef
+% operator abbreviations
+/c  /clip ldef
+/cc /concat ldef
+/cp /closepath ldef
+/gr /grestore ldef
+/gs /gsave ldef
+/mt /moveto ldef
+/np /newpath ldef
+/cm /currentmatrix ldef
+/sm /setmatrix ldef
+/rm /rmoveto ldef
+/rl /rlineto ldef
+/s {show newpath} bdef
+/sc {setcmykcolor} bdef
+/sr /setrgbcolor ldef
+/sg /setgray ldef
+/w /setlinewidth ldef
+/j /setlinejoin ldef
+/cap /setlinecap ldef
+/rc {rectclip} bdef
+/rf {rectfill} bdef
+% page state control
+/pgsv () def
+/bpage {/pgsv save def} bdef
+/epage {pgsv restore} bdef
+/bplot /gsave ldef
+/eplot {stroke grestore} bdef
+% orientation switch
+/portraitMode 0 def /landscapeMode 1 def /rotateMode 2 def
+% coordinate system mappings
+/dpi2point 0 def
+% font control
+/FontSize 0 def
+/FMS {/FontSize xstore findfont [FontSize 0 0 FontSize neg 0 0]
+  makefont setfont} bdef
+/reencode {exch dup where {pop load} {pop StandardEncoding} ifelse
+  exch dup 3 1 roll findfont dup length dict begin
+  { 1 index /FID ne {def}{pop pop} ifelse } forall
+  /Encoding exch def currentdict end definefont pop} bdef
+/isroman {findfont /CharStrings get /Agrave known} bdef
+/FMSR {3 1 roll 1 index dup isroman {reencode} {pop pop} ifelse
+  exch FMS} bdef
+/csm {1 dpi2point div -1 dpi2point div scale neg translate
+ dup landscapeMode eq {pop -90 rotate}
+  {rotateMode eq {90 rotate} if} ifelse} bdef
+% line types: solid, dotted, dashed, dotdash
+/SO { [] 0 setdash } bdef
+/DO { [.5 dpi2point mul 4 dpi2point mul] 0 setdash } bdef
+/DA { [6 dpi2point mul] 0 setdash } bdef
+/DD { [.5 dpi2point mul 4 dpi2point mul 6 dpi2point mul 4
+  dpi2point mul] 0 setdash } bdef
+% macros for lines and objects
+/L {lineto stroke} bdef
+/MP {3 1 roll moveto 1 sub {rlineto} repeat} bdef
+/AP {{rlineto} repeat} bdef
+/PDlw -1 def
+/W {/PDlw currentlinewidth def setlinewidth} def
+/PP {closepath eofill} bdef
+/DP {closepath stroke} bdef
+/MR {4 -2 roll moveto dup  0 exch rlineto exch 0 rlineto
+  neg 0 exch rlineto closepath} bdef
+/FR {MR stroke} bdef
+/PR {MR fill} bdef
+/L1i {{currentfile picstr readhexstring pop} image} bdef
+/tMatrix matrix def
+/MakeOval {newpath tMatrix currentmatrix pop translate scale
+0 0 1 0 360 arc tMatrix setmatrix} bdef
+/FO {MakeOval stroke} bdef
+/PO {MakeOval fill} bdef
+/PD {currentlinewidth 2 div 0 360 arc fill
+   PDlw -1 eq not {PDlw w /PDlw -1 def} if} def
+/FA {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arc tMatrix setmatrix stroke} bdef
+/PA {newpath tMatrix currentmatrix pop	translate 0 0 moveto scale
+  0 0 1 5 -2 roll arc closepath tMatrix setmatrix fill} bdef
+/FAn {newpath tMatrix currentmatrix pop translate scale
+  0 0 1 5 -2 roll arcn tMatrix setmatrix stroke} bdef
+/PAn {newpath tMatrix currentmatrix pop translate 0 0 moveto scale
+  0 0 1 5 -2 roll arcn closepath tMatrix setmatrix fill} bdef
+/vradius 0 def /hradius 0 def /lry 0 def
+/lrx 0 def /uly 0 def /ulx 0 def /rad 0 def
+/MRR {/vradius xdef /hradius xdef /lry xdef /lrx xdef /uly xdef
+  /ulx xdef newpath tMatrix currentmatrix pop ulx hradius add uly
+  vradius add translate hradius vradius scale 0 0 1 180 270 arc 
+  tMatrix setmatrix lrx hradius sub uly vradius add translate
+  hradius vradius scale 0 0 1 270 360 arc tMatrix setmatrix
+  lrx hradius sub lry vradius sub translate hradius vradius scale
+  0 0 1 0 90 arc tMatrix setmatrix ulx hradius add lry vradius sub
+  translate hradius vradius scale 0 0 1 90 180 arc tMatrix setmatrix
+  closepath} bdef
+/FRR {MRR stroke } bdef
+/PRR {MRR fill } bdef
+/MlrRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lry uly sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 90 270 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 270 90 arc tMatrix setmatrix
+  closepath} bdef
+/FlrRR {MlrRR stroke } bdef
+/PlrRR {MlrRR fill } bdef
+/MtbRR {/lry xdef /lrx xdef /uly xdef /ulx xdef /rad lrx ulx sub 2 div def
+  newpath tMatrix currentmatrix pop ulx rad add uly rad add translate
+  rad rad scale 0 0 1 180 360 arc tMatrix setmatrix lrx rad sub lry rad
+  sub translate rad rad scale 0 0 1 0 180 arc tMatrix setmatrix
+  closepath} bdef
+/FtbRR {MtbRR stroke } bdef
+/PtbRR {MtbRR fill } bdef
+/stri 6 array def /dtri 6 array def
+/smat 6 array def /dmat 6 array def
+/tmat1 6 array def /tmat2 6 array def /dif 3 array def
+/asub {/ind2 exch def /ind1 exch def dup dup
+  ind1 get exch ind2 get sub exch } bdef
+/tri_to_matrix {
+  2 0 asub 3 1 asub 4 0 asub 5 1 asub
+  dup 0 get exch 1 get 7 -1 roll astore } bdef
+/compute_transform {
+  dmat dtri tri_to_matrix tmat1 invertmatrix 
+  smat stri tri_to_matrix tmat2 concatmatrix } bdef
+/ds {stri astore pop} bdef
+/dt {dtri astore pop} bdef
+/db {2 copy /cols xdef /rows xdef mul dup 3 mul string
+  currentfile 
+  3 index 0 eq {/ASCIIHexDecode filter}
+  {/ASCII85Decode filter 3 index 2 eq {/RunLengthDecode filter} if }
+  ifelse exch readstring pop
+  dup 0 3 index getinterval /rbmap xdef
+  dup 2 index dup getinterval /gbmap xdef
+  1 index dup 2 mul exch getinterval /bbmap xdef pop pop}bdef
+/it {gs np dtri aload pop moveto lineto lineto cp c
+  cols rows 8 compute_transform 
+  rbmap gbmap bbmap true 3 colorimage gr}bdef
+/il {newpath moveto lineto stroke}bdef
+currentdict end def
+%%EndProlog
+
+%%BeginSetup
+MathWorks begin
+
+0 cap
+
+end
+%%EndSetup
+
+%%Page: 1 1
+%%BeginPageSetup
+%%PageBoundingBox:    38   187   549   606
+MathWorks begin
+bpage
+%%EndPageSetup
+
+%%BeginObject: obj1
+bplot
+
+/dpi2point 2.08333 def
+portraitMode 0037 1275 csm
+
+   43    11  1065   874 rc
+85 dict begin %Colortable dictionary
+/c0 { 0.000000 0.000000 0.000000 sr} bdef
+/c1 { 1.000000 1.000000 1.000000 sr} bdef
+/c2 { 0.900000 0.000000 0.000000 sr} bdef
+/c3 { 0.000000 0.820000 0.000000 sr} bdef
+/c4 { 0.000000 0.000000 0.800000 sr} bdef
+/c5 { 0.910000 0.820000 0.320000 sr} bdef
+/c6 { 1.000000 0.260000 0.820000 sr} bdef
+/c7 { 0.000000 0.820000 0.820000 sr} bdef
+c0
+1 j
+1 sg
+   0    0 1201  902 rf
+1.04167 w
+0 734 930 0 0 -734 156 802 4 MP
+PP
+-930 0 0 734 930 0 0 -734 156 802 5 MP stroke
+0.694444 w
+DO
+0 sg
+ 156  802 mt  156   68 L
+ 156   68 mt  156   68 L
+ 342  802 mt  342   68 L
+ 342   68 mt  342   68 L
+ 528  802 mt  528   68 L
+ 528   68 mt  528   68 L
+ 714  802 mt  714   68 L
+ 714   68 mt  714   68 L
+ 900  802 mt  900   68 L
+ 900   68 mt  900   68 L
+1086  802 mt 1086   68 L
+1086   68 mt 1086   68 L
+ 156  802 mt 1086  802 L
+1086  802 mt 1086  802 L
+ 156  679 mt 1086  679 L
+1086  679 mt 1086  679 L
+ 156  557 mt 1086  557 L
+1086  557 mt 1086  557 L
+ 156  435 mt 1086  435 L
+1086  435 mt 1086  435 L
+ 156  312 mt 1086  312 L
+1086  312 mt 1086  312 L
+ 156  190 mt 1086  190 L
+1086  190 mt 1086  190 L
+ 156   68 mt 1086   68 L
+1086   68 mt 1086   68 L
+SO
+1.04167 w
+ 156  802 mt 1086  802 L
+ 156   68 mt 1086   68 L
+ 156  802 mt  156   68 L
+1086  802 mt 1086   68 L
+ 156  802 mt 1086  802 L
+ 156  802 mt  156   68 L
+ 156  802 mt  156  792 L
+ 156   68 mt  156   77 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 33.3333 FMSR
+
+ 147  839 mt 
+(0) s
+ 342  802 mt  342  792 L
+ 342   68 mt  342   77 L
+ 319  839 mt 
+(0.2) s
+ 528  802 mt  528  792 L
+ 528   68 mt  528   77 L
+ 505  839 mt 
+(0.4) s
+ 714  802 mt  714  792 L
+ 714   68 mt  714   77 L
+ 691  839 mt 
+(0.6) s
+ 900  802 mt  900  792 L
+ 900   68 mt  900   77 L
+ 877  839 mt 
+(0.8) s
+1086  802 mt 1086  792 L
+1086   68 mt 1086   77 L
+1077  839 mt 
+(1) s
+ 156  802 mt  165  802 L
+1086  802 mt 1076  802 L
+ 112  814 mt 
+(-2) s
+ 156  679 mt  165  679 L
+1086  679 mt 1076  679 L
+ 132  691 mt 
+(0) s
+ 156  557 mt  165  557 L
+1086  557 mt 1076  557 L
+ 132  569 mt 
+(2) s
+ 156  435 mt  165  435 L
+1086  435 mt 1076  435 L
+ 132  447 mt 
+(4) s
+ 156  312 mt  165  312 L
+1086  312 mt 1076  312 L
+ 132  324 mt 
+(6) s
+ 156  190 mt  165  190 L
+1086  190 mt 1076  190 L
+ 132  202 mt 
+(8) s
+ 156   68 mt  165   68 L
+1086   68 mt 1076   68 L
+ 113   80 mt 
+(10) s
+ 156   59 mt 
+(x 10) s
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 22.2222 FMSR
+
+ 219   39 mt 
+(-3) s
+ 156  802 mt 1086  802 L
+ 156   68 mt 1086   68 L
+ 156  802 mt  156   68 L
+1086  802 mt 1086   68 L
+gs 156 68 931 735 rc
+gr
+
+gs 162 54 938 723 rc
+ 170   79 mt  182   79 L
+ 176   73 mt  176   85 L
+ 170  104 mt  182  104 L
+ 176   98 mt  176  110 L
+ 171  119 mt  183  119 L
+ 177  113 mt  177  125 L
+ 171  123 mt  183  123 L
+ 177  117 mt  177  129 L
+ 171  121 mt  183  121 L
+ 177  115 mt  177  127 L
+ 171  129 mt  183  129 L
+ 177  123 mt  177  135 L
+ 172  140 mt  184  140 L
+ 178  134 mt  178  146 L
+ 172  152 mt  184  152 L
+ 178  146 mt  178  158 L
+ 173  163 mt  185  163 L
+ 179  157 mt  179  169 L
+ 174  176 mt  186  176 L
+ 180  170 mt  180  182 L
+ 175  190 mt  187  190 L
+ 181  184 mt  181  196 L
+ 175  203 mt  187  203 L
+ 181  197 mt  181  209 L
+ 176  215 mt  188  215 L
+ 182  209 mt  182  221 L
+ 177  224 mt  189  224 L
+ 183  218 mt  183  230 L
+ 177  230 mt  189  230 L
+ 183  224 mt  183  236 L
+ 177  231 mt  189  231 L
+ 183  225 mt  183  237 L
+ 178  235 mt  190  235 L
+ 184  229 mt  184  241 L
+ 178  240 mt  190  240 L
+ 184  234 mt  184  246 L
+ 179  247 mt  191  247 L
+ 185  241 mt  185  253 L
+ 180  254 mt  192  254 L
+ 186  248 mt  186  260 L
+ 181  263 mt  193  263 L
+ 187  257 mt  187  269 L
+ 182  272 mt  194  272 L
+ 188  266 mt  188  278 L
+ 183  281 mt  195  281 L
+ 189  275 mt  189  287 L
+ 183  289 mt  195  289 L
+ 189  283 mt  189  295 L
+ 184  296 mt  196  296 L
+ 190  290 mt  190  302 L
+ 185  300 mt  197  300 L
+ 191  294 mt  191  306 L
+ 185  302 mt  197  302 L
+ 191  296 mt  191  308 L
+ 185  304 mt  197  304 L
+ 191  298 mt  191  310 L
+ 186  309 mt  198  309 L
+ 192  303 mt  192  315 L
+ 186  317 mt  198  317 L
+ 192  311 mt  192  323 L
+ 187  326 mt  199  326 L
+ 193  320 mt  193  332 L
+ 188  336 mt  200  336 L
+ 194  330 mt  194  342 L
+ 189  346 mt  201  346 L
+ 195  340 mt  195  352 L
+ 191  356 mt  203  356 L
+ 197  350 mt  197  362 L
+ 192  364 mt  204  364 L
+ 198  358 mt  198  370 L
+ 192  371 mt  204  371 L
+ 198  365 mt  198  377 L
+ 193  375 mt  205  375 L
+ 199  369 mt  199  381 L
+ 193  377 mt  205  377 L
+ 199  371 mt  199  383 L
+ 193  379 mt  205  379 L
+ 199  373 mt  199  385 L
+ 194  384 mt  206  384 L
+ 200  378 mt  200  390 L
+ 195  390 mt  207  390 L
+ 201  384 mt  201  396 L
+ 196  397 mt  208  397 L
+ 202  391 mt  202  403 L
+ 197  404 mt  209  404 L
+ 203  398 mt  203  410 L
+ 199  412 mt  211  412 L
+ 205  406 mt  205  418 L
+ 200  419 mt  212  419 L
+ 206  413 mt  206  425 L
+ 201  426 mt  213  426 L
+ 207  420 mt  207  432 L
+ 202  430 mt  214  430 L
+ 208  424 mt  208  436 L
+ 203  433 mt  215  433 L
+ 209  427 mt  209  439 L
+ 203  434 mt  215  434 L
+ 209  428 mt  209  440 L
+ 203  436 mt  215  436 L
+ 209  430 mt  209  442 L
+ 204  438 mt  216  438 L
+ 210  432 mt  210  444 L
+ 205  441 mt  217  441 L
+ 211  435 mt  211  447 L
+ 207  445 mt  219  445 L
+ 213  439 mt  213  451 L
+ 208  449 mt  220  449 L
+ 214  443 mt  214  455 L
+ 210  453 mt  222  453 L
+ 216  447 mt  216  459 L
+ 211  456 mt  223  456 L
+ 217  450 mt  217  462 L
+ 213  460 mt  225  460 L
+ 219  454 mt  219  466 L
+ 214  463 mt  226  463 L
+ 220  457 mt  220  469 L
+ 215  465 mt  227  465 L
+ 221  459 mt  221  471 L
+ 216  466 mt  228  466 L
+ 222  460 mt  222  472 L
+ 216  469 mt  228  469 L
+ 222  463 mt  222  475 L
+ 218  472 mt  230  472 L
+ 224  466 mt  224  478 L
+ 219  475 mt  231  475 L
+ 225  469 mt  225  481 L
+ 221  479 mt  233  479 L
+ 227  473 mt  227  485 L
+ 223  483 mt  235  483 L
+ 229  477 mt  229  489 L
+ 225  487 mt  237  487 L
+ 231  481 mt  231  493 L
+ 227  490 mt  239  490 L
+ 233  484 mt  233  496 L
+ 228  493 mt  240  493 L
+ 234  487 mt  234  499 L
+ 229  494 mt  241  494 L
+ 235  488 mt  235  500 L
+ 230  494 mt  242  494 L
+ 236  488 mt  236  500 L
+ 230  495 mt  242  495 L
+ 236  489 mt  236  501 L
+ 231  497 mt  243  497 L
+ 237  491 mt  237  503 L
+ 233  498 mt  245  498 L
+ 239  492 mt  239  504 L
+ 235  499 mt  247  499 L
+ 241  493 mt  241  505 L
+ 237  496 mt  249  496 L
+ 243  490 mt  243  502 L
+ 239  492 mt  251  492 L
+ 245  486 mt  245  498 L
+ 241  486 mt  253  486 L
+ 247  480 mt  247  492 L
+ 243  479 mt  255  479 L
+ 249  473 mt  249  485 L
+ 245  468 mt  257  468 L
+ 251  462 mt  251  474 L
+ 246  456 mt  258  456 L
+ 252  450 mt  252  462 L
+ 247  449 mt  259  449 L
+ 253  443 mt  253  455 L
+ 247  453 mt  259  453 L
+ 253  447 mt  253  459 L
+ 247  448 mt  259  448 L
+ 253  442 mt  253  454 L
+ 248  432 mt  260  432 L
+ 254  426 mt  254  438 L
+ 250  413 mt  262  413 L
+ 256  407 mt  256  419 L
+ 252  394 mt  264  394 L
+ 258  388 mt  258  400 L
+ 255  377 mt  267  377 L
+ 261  371 mt  261  383 L
+ 257  361 mt  269  361 L
+ 263  355 mt  263  367 L
+ 259  348 mt  271  348 L
+ 265  342 mt  265  354 L
+ 262  340 mt  274  340 L
+ 268  334 mt  268  346 L
+ 263  336 mt  275  336 L
+ 269  330 mt  269  342 L
+ 265  336 mt  277  336 L
+ 271  330 mt  271  342 L
+ 265  335 mt  277  335 L
+ 271  329 mt  271  341 L
+ 266  335 mt  278  335 L
+ 272  329 mt  272  341 L
+ 267  336 mt  279  336 L
+ 273  330 mt  273  342 L
+ 269  337 mt  281  337 L
+ 275  331 mt  275  343 L
+ 271  339 mt  283  339 L
+ 277  333 mt  277  345 L
+ 273  341 mt  285  341 L
+ 279  335 mt  279  347 L
+ 276  342 mt  288  342 L
+ 282  336 mt  282  348 L
+ 279  344 mt  291  344 L
+ 285  338 mt  285  350 L
+ 281  346 mt  293  346 L
+ 287  340 mt  287  352 L
+ 283  348 mt  295  348 L
+ 289  342 mt  289  354 L
+ 284  348 mt  296  348 L
+ 290  342 mt  290  354 L
+ 285  348 mt  297  348 L
+ 291  342 mt  291  354 L
+ 285  349 mt  297  349 L
+ 291  343 mt  291  355 L
+ 286  349 mt  298  349 L
+ 292  343 mt  292  355 L
+ 288  349 mt  300  349 L
+ 294  343 mt  294  355 L
+ 290  348 mt  302  348 L
+ 296  342 mt  296  354 L
+ 293  347 mt  305  347 L
+ 299  341 mt  299  353 L
+ 296  346 mt  308  346 L
+ 302  340 mt  302  352 L
+ 298  345 mt  310  345 L
+ 304  339 mt  304  351 L
+ 300  344 mt  312  344 L
+ 306  338 mt  306  350 L
+ 302  342 mt  314  342 L
+ 308  336 mt  308  348 L
+ 303  341 mt  315  341 L
+ 309  335 mt  309  347 L
+ 304  341 mt  316  341 L
+ 310  335 mt  310  347 L
+ 305  340 mt  317  340 L
+ 311  334 mt  311  346 L
+ 306  339 mt  318  339 L
+ 312  333 mt  312  345 L
+ 308  337 mt  320  337 L
+ 314  331 mt  314  343 L
+ 310  334 mt  322  334 L
+ 316  328 mt  316  340 L
+ 312  330 mt  324  330 L
+ 318  324 mt  318  336 L
+ 315  326 mt  327  326 L
+ 321  320 mt  321  332 L
+ 317  323 mt  329  323 L
+ 323  317 mt  323  329 L
+ 320  319 mt  332  319 L
+ 326  313 mt  326  325 L
+ 321  317 mt  333  317 L
+ 327  311 mt  327  323 L
+ 323  315 mt  335  315 L
+ 329  309 mt  329  321 L
+ 323  314 mt  335  314 L
+ 329  308 mt  329  320 L
+ 324  313 mt  336  313 L
+ 330  307 mt  330  319 L
+ 325  311 mt  337  311 L
+ 331  305 mt  331  317 L
+ 326  308 mt  338  308 L
+ 332  302 mt  332  314 L
+ 329  305 mt  341  305 L
+ 335  299 mt  335  311 L
+ 331  301 mt  343  301 L
+ 337  295 mt  337  307 L
+ 334  297 mt  346  297 L
+ 340  291 mt  340  303 L
+ 336  294 mt  348  294 L
+ 342  288 mt  342  300 L
+ 338  291 mt  350  291 L
+ 344  285 mt  344  297 L
+ 340  288 mt  352  288 L
+ 346  282 mt  346  294 L
+ 341  287 mt  353  287 L
+ 347  281 mt  347  293 L
+ 342  286 mt  354  286 L
+ 348  280 mt  348  292 L
+ 342  285 mt  354  285 L
+ 348  279 mt  348  291 L
+ 343  284 mt  355  284 L
+ 349  278 mt  349  290 L
+ 345  281 mt  357  281 L
+ 351  275 mt  351  287 L
+ 347  279 mt  359  279 L
+ 353  273 mt  353  285 L
+ 350  276 mt  362  276 L
+ 356  270 mt  356  282 L
+ 353  274 mt  365  274 L
+ 359  268 mt  359  280 L
+ 355  271 mt  367  271 L
+ 361  265 mt  361  277 L
+ 357  270 mt  369  270 L
+ 363  264 mt  363  276 L
+ 359  268 mt  371  268 L
+ 365  262 mt  365  274 L
+ 360  268 mt  372  268 L
+ 366  262 mt  366  274 L
+ 361  268 mt  373  268 L
+ 367  262 mt  367  274 L
+ 363  267 mt  375  267 L
+ 369  261 mt  369  273 L
+ 365  267 mt  377  267 L
+ 371  261 mt  371  273 L
+ 367  267 mt  379  267 L
+ 373  261 mt  373  273 L
+ 370  268 mt  382  268 L
+ 376  262 mt  376  274 L
+ 373  269 mt  385  269 L
+ 379  263 mt  379  275 L
+ 376  269 mt  388  269 L
+ 382  263 mt  382  275 L
+ 378  270 mt  390  270 L
+ 384  264 mt  384  276 L
+ 380  271 mt  392  271 L
+ 386  265 mt  386  277 L
+ 381  271 mt  393  271 L
+ 387  265 mt  387  277 L
+ 382  271 mt  394  271 L
+ 388  265 mt  388  277 L
+ 383  272 mt  395  272 L
+ 389  266 mt  389  278 L
+ 384  272 mt  396  272 L
+ 390  266 mt  390  278 L
+ 386  273 mt  398  273 L
+ 392  267 mt  392  279 L
+ 388  275 mt  400  275 L
+ 394  269 mt  394  281 L
+ 391  276 mt  403  276 L
+ 397  270 mt  397  282 L
+ 394  278 mt  406  278 L
+ 400  272 mt  400  284 L
+ 397  280 mt  409  280 L
+ 403  274 mt  403  286 L
+ 399  281 mt  411  281 L
+ 405  275 mt  405  287 L
+ 401  283 mt  413  283 L
+ 407  277 mt  407  289 L
+ 403  283 mt  415  283 L
+ 409  277 mt  409  289 L
+ 403  284 mt  415  284 L
+ 409  278 mt  409  290 L
+ 404  284 mt  416  284 L
+ 410  278 mt  410  290 L
+ 405  285 mt  417  285 L
+ 411  279 mt  411  291 L
+ 407  286 mt  419  286 L
+ 413  280 mt  413  292 L
+ 410  288 mt  422  288 L
+ 416  282 mt  416  294 L
+ 413  289 mt  425  289 L
+ 419  283 mt  419  295 L
+ 416  291 mt  428  291 L
+ 422  285 mt  422  297 L
+ 419  293 mt  431  293 L
+ 425  287 mt  425  299 L
+ 421  294 mt  433  294 L
+ 427  288 mt  427  300 L
+ 424  296 mt  436  296 L
+ 430  290 mt  430  302 L
+ 425  297 mt  437  297 L
+ 431  291 mt  431  303 L
+ 426  297 mt  438  297 L
+ 432  291 mt  432  303 L
+ 426  298 mt  438  298 L
+ 432  292 mt  432  304 L
+ 428  299 mt  440  299 L
+ 434  293 mt  434  305 L
+ 430  300 mt  442  300 L
+ 436  294 mt  436  306 L
+ 432  302 mt  444  302 L
+ 438  296 mt  438  308 L
+ 435  305 mt  447  305 L
+ 441  299 mt  441  311 L
+ 438  307 mt  450  307 L
+ 444  301 mt  444  313 L
+ 441  309 mt  453  309 L
+ 447  303 mt  447  315 L
+ 444  311 mt  456  311 L
+ 450  305 mt  450  317 L
+ 446  313 mt  458  313 L
+ 452  307 mt  452  319 L
+ 448  314 mt  460  314 L
+ 454  308 mt  454  320 L
+ 449  315 mt  461  315 L
+ 455  309 mt  455  321 L
+ 450  315 mt  462  315 L
+ 456  309 mt  456  321 L
+ 452  317 mt  464  317 L
+ 458  311 mt  458  323 L
+ 455  318 mt  467  318 L
+ 461  312 mt  461  324 L
+ 458  320 mt  470  320 L
+ 464  314 mt  464  326 L
+ 461  321 mt  473  321 L
+ 467  315 mt  467  327 L
+ 464  323 mt  476  323 L
+ 470  317 mt  470  329 L
+ 466  325 mt  478  325 L
+ 472  319 mt  472  331 L
+ 468  326 mt  480  326 L
+ 474  320 mt  474  332 L
+ 470  327 mt  482  327 L
+ 476  321 mt  476  333 L
+ 471  328 mt  483  328 L
+ 477  322 mt  477  334 L
+ 472  328 mt  484  328 L
+ 478  322 mt  478  334 L
+ 474  330 mt  486  330 L
+ 480  324 mt  480  336 L
+ 477  331 mt  489  331 L
+ 483  325 mt  483  337 L
+ 480  333 mt  492  333 L
+ 486  327 mt  486  339 L
+ 483  335 mt  495  335 L
+ 489  329 mt  489  341 L
+ 486  336 mt  498  336 L
+ 492  330 mt  492  342 L
+ 488  338 mt  500  338 L
+ 494  332 mt  494  344 L
+ 490  339 mt  502  339 L
+ 496  333 mt  496  345 L
+ 492  340 mt  504  340 L
+ 498  334 mt  498  346 L
+ 493  340 mt  505  340 L
+ 499  334 mt  499  346 L
+ 494  341 mt  506  341 L
+ 500  335 mt  500  347 L
+ 496  342 mt  508  342 L
+ 502  336 mt  502  348 L
+ 498  343 mt  510  343 L
+ 504  337 mt  504  349 L
+ 501  344 mt  513  344 L
+ 507  338 mt  507  350 L
+ 504  346 mt  516  346 L
+ 510  340 mt  510  352 L
+ 507  347 mt  519  347 L
+ 513  341 mt  513  353 L
+ 509  349 mt  521  349 L
+ 515  343 mt  515  355 L
+ 511  350 mt  523  350 L
+ 517  344 mt  517  356 L
+ 513  351 mt  525  351 L
+ 519  345 mt  519  357 L
+ 514  352 mt  526  352 L
+ 520  346 mt  520  358 L
+ 515  352 mt  527  352 L
+ 521  346 mt  521  358 L
+ 517  354 mt  529  354 L
+ 523  348 mt  523  360 L
+ 519  355 mt  531  355 L
+ 525  349 mt  525  361 L
+ 522  357 mt  534  357 L
+ 528  351 mt  528  363 L
+ 525  359 mt  537  359 L
+ 531  353 mt  531  365 L
+ 527  361 mt  539  361 L
+ 533  355 mt  533  367 L
+ 530  363 mt  542  363 L
+ 536  357 mt  536  369 L
+ 532  364 mt  544  364 L
+ 538  358 mt  538  370 L
+ 533  365 mt  545  365 L
+ 539  359 mt  539  371 L
+ 534  365 mt  546  365 L
+ 540  359 mt  540  371 L
+ 535  366 mt  547  366 L
+ 541  360 mt  541  372 L
+ 537  367 mt  549  367 L
+ 543  361 mt  543  373 L
+ 540  368 mt  552  368 L
+ 546  362 mt  546  374 L
+ 542  369 mt  554  369 L
+ 548  363 mt  548  375 L
+ 545  370 mt  557  370 L
+ 551  364 mt  551  376 L
+ 548  371 mt  560  371 L
+ 554  365 mt  554  377 L
+ 550  372 mt  562  372 L
+ 556  366 mt  556  378 L
+ 552  373 mt  564  373 L
+ 558  367 mt  558  379 L
+ 553  373 mt  565  373 L
+ 559  367 mt  559  379 L
+ 554  373 mt  566  373 L
+ 560  367 mt  560  379 L
+ 554  374 mt  566  374 L
+ 560  368 mt  560  380 L
+ 555  374 mt  567  374 L
+ 561  368 mt  561  380 L
+ 557  375 mt  569  375 L
+ 563  369 mt  563  381 L
+ 560  376 mt  572  376 L
+ 566  370 mt  566  382 L
+ 562  377 mt  574  377 L
+ 568  371 mt  568  383 L
+ 565  378 mt  577  378 L
+ 571  372 mt  571  384 L
+ 568  379 mt  580  379 L
+ 574  373 mt  574  385 L
+ 570  380 mt  582  380 L
+ 576  374 mt  576  386 L
+ 572  381 mt  584  381 L
+ 578  375 mt  578  387 L
+ 573  382 mt  585  382 L
+ 579  376 mt  579  388 L
+ 574  383 mt  586  383 L
+ 580  377 mt  580  389 L
+ 576  384 mt  588  384 L
+ 582  378 mt  582  390 L
+ 577  385 mt  589  385 L
+ 583  379 mt  583  391 L
+ 580  387 mt  592  387 L
+ 586  381 mt  586  393 L
+ 583  388 mt  595  388 L
+ 589  382 mt  589  394 L
+ 585  390 mt  597  390 L
+ 591  384 mt  591  396 L
+ 588  392 mt  600  392 L
+ 594  386 mt  594  398 L
+ 590  394 mt  602  394 L
+ 596  388 mt  596  400 L
+ 592  395 mt  604  395 L
+ 598  389 mt  598  401 L
+ 594  395 mt  606  395 L
+ 600  389 mt  600  401 L
+ 594  396 mt  606  396 L
+ 600  390 mt  600  402 L
+ 595  396 mt  607  396 L
+ 601  390 mt  601  402 L
+ 596  397 mt  608  397 L
+ 602  391 mt  602  403 L
+ 598  398 mt  610  398 L
+ 604  392 mt  604  404 L
+ 601  399 mt  613  399 L
+ 607  393 mt  607  405 L
+ 603  400 mt  615  400 L
+ 609  394 mt  609  406 L
+ 606  401 mt  618  401 L
+ 612  395 mt  612  407 L
+ 609  403 mt  621  403 L
+ 615  397 mt  615  409 L
+ 611  404 mt  623  404 L
+ 617  398 mt  617  410 L
+ 613  405 mt  625  405 L
+ 619  399 mt  619  411 L
+ 615  406 mt  627  406 L
+ 621  400 mt  621  412 L
+ 616  406 mt  628  406 L
+ 622  400 mt  622  412 L
+ 617  407 mt  629  407 L
+ 623  401 mt  623  413 L
+ 619  408 mt  631  408 L
+ 625  402 mt  625  414 L
+ 622  409 mt  634  409 L
+ 628  403 mt  628  415 L
+ 625  410 mt  637  410 L
+ 631  404 mt  631  416 L
+ 628  412 mt  640  412 L
+ 634  406 mt  634  418 L
+ 631  414 mt  643  414 L
+ 637  408 mt  637  420 L
+ 633  415 mt  645  415 L
+ 639  409 mt  639  421 L
+ 635  416 mt  647  416 L
+ 641  410 mt  641  422 L
+ 637  417 mt  649  417 L
+ 643  411 mt  643  423 L
+ 638  418 mt  650  418 L
+ 644  412 mt  644  424 L
+ 640  419 mt  652  419 L
+ 646  413 mt  646  425 L
+ 642  420 mt  654  420 L
+ 648  414 mt  648  426 L
+ 645  422 mt  657  422 L
+ 651  416 mt  651  428 L
+ 648  424 mt  660  424 L
+ 654  418 mt  654  430 L
+ 651  426 mt  663  426 L
+ 657  420 mt  657  432 L
+ 654  428 mt  666  428 L
+ 660  422 mt  660  434 L
+ 657  430 mt  669  430 L
+ 663  424 mt  663  436 L
+ 659  432 mt  671  432 L
+ 665  426 mt  665  438 L
+ 660  433 mt  672  433 L
+ 666  427 mt  666  439 L
+ 661  433 mt  673  433 L
+ 667  427 mt  667  439 L
+ 662  434 mt  674  434 L
+ 668  428 mt  668  440 L
+ 663  435 mt  675  435 L
+ 669  429 mt  669  441 L
+ 666  437 mt  678  437 L
+ 672  431 mt  672  443 L
+ 669  439 mt  681  439 L
+ 675  433 mt  675  445 L
+ 672  441 mt  684  441 L
+ 678  435 mt  678  447 L
+ 675  444 mt  687  444 L
+ 681  438 mt  681  450 L
+ 679  446 mt  691  446 L
+ 685  440 mt  685  452 L
+ 682  449 mt  694  449 L
+ 688  443 mt  688  455 L
+ 684  451 mt  696  451 L
+ 690  445 mt  690  457 L
+ 686  452 mt  698  452 L
+ 692  446 mt  692  458 L
+ 687  453 mt  699  453 L
+ 693  447 mt  693  459 L
+ 689  454 mt  701  454 L
+ 695  448 mt  695  460 L
+ 691  456 mt  703  456 L
+ 697  450 mt  697  462 L
+ 694  459 mt  706  459 L
+ 700  453 mt  700  465 L
+ 698  462 mt  710  462 L
+ 704  456 mt  704  468 L
+ 702  465 mt  714  465 L
+ 708  459 mt  708  471 L
+ 705  468 mt  717  468 L
+ 711  462 mt  711  474 L
+ 708  471 mt  720  471 L
+ 714  465 mt  714  477 L
+ 711  473 mt  723  473 L
+ 717  467 mt  717  479 L
+ 713  475 mt  725  475 L
+ 719  469 mt  719  481 L
+ 713  476 mt  725  476 L
+ 719  470 mt  719  482 L
+ 714  476 mt  726  476 L
+ 720  470 mt  720  482 L
+ 716  478 mt  728  478 L
+ 722  472 mt  722  484 L
+ 719  481 mt  731  481 L
+ 725  475 mt  725  487 L
+ 722  485 mt  734  485 L
+ 728  479 mt  728  491 L
+ 726  489 mt  738  489 L
+ 732  483 mt  732  495 L
+ 730  493 mt  742  493 L
+ 736  487 mt  736  499 L
+ 733  497 mt  745  497 L
+ 739  491 mt  739  503 L
+ 737  501 mt  749  501 L
+ 743  495 mt  743  507 L
+ 739  503 mt  751  503 L
+ 745  497 mt  745  509 L
+ 741  505 mt  753  505 L
+ 747  499 mt  747  511 L
+ 742  506 mt  754  506 L
+ 748  500 mt  748  512 L
+ 743  507 mt  755  507 L
+ 749  501 mt  749  513 L
+ 745  509 mt  757  509 L
+ 751  503 mt  751  515 L
+ 747  512 mt  759  512 L
+ 753  506 mt  753  518 L
+ 751  515 mt  763  515 L
+ 757  509 mt  757  521 L
+ 755  519 mt  767  519 L
+ 761  513 mt  761  525 L
+ 759  524 mt  771  524 L
+ 765  518 mt  765  530 L
+ 762  529 mt  774  529 L
+ 768  523 mt  768  535 L
+ 766  533 mt  778  533 L
+ 772  527 mt  772  539 L
+ 769  536 mt  781  536 L
+ 775  530 mt  775  542 L
+ 770  539 mt  782  539 L
+ 776  533 mt  776  545 L
+ 771  540 mt  783  540 L
+ 777  534 mt  777  546 L
+ 772  541 mt  784  541 L
+ 778  535 mt  778  547 L
+ 774  544 mt  786  544 L
+ 780  538 mt  780  550 L
+ 777  548 mt  789  548 L
+ 783  542 mt  783  554 L
+ 780  553 mt  792  553 L
+ 786  547 mt  786  559 L
+ 784  559 mt  796  559 L
+ 790  553 mt  790  565 L
+ 788  565 mt  800  565 L
+ 794  559 mt  794  571 L
+ 792  571 mt  804  571 L
+ 798  565 mt  798  577 L
+ 795  576 mt  807  576 L
+ 801  570 mt  801  582 L
+ 798  581 mt  810  581 L
+ 804  575 mt  804  587 L
+ 800  583 mt  812  583 L
+ 806  577 mt  806  589 L
+ 801  584 mt  813  584 L
+ 807  578 mt  807  590 L
+ 801  586 mt  813  586 L
+ 807  580 mt  807  592 L
+ 803  589 mt  815  589 L
+ 809  583 mt  809  595 L
+ 806  593 mt  818  593 L
+ 812  587 mt  812  599 L
+ 809  598 mt  821  598 L
+ 815  592 mt  815  604 L
+ 813  604 mt  825  604 L
+ 819  598 mt  819  610 L
+ 817  610 mt  829  610 L
+ 823  604 mt  823  616 L
+ 821  616 mt  833  616 L
+ 827  610 mt  827  622 L
+ 824  622 mt  836  622 L
+ 830  616 mt  830  628 L
+ 827  626 mt  839  626 L
+ 833  620 mt  833  632 L
+ 829  629 mt  841  629 L
+ 835  623 mt  835  635 L
+ 830  630 mt  842  630 L
+ 836  624 mt  836  636 L
+ 830  632 mt  842  632 L
+ 836  626 mt  836  638 L
+ 832  634 mt  844  634 L
+ 838  628 mt  838  640 L
+ 834  637 mt  846  637 L
+ 840  631 mt  840  643 L
+ 837  642 mt  849  642 L
+ 843  636 mt  843  648 L
+ 841  647 mt  853  647 L
+ 847  641 mt  847  653 L
+ 844  651 mt  856  651 L
+ 850  645 mt  850  657 L
+ 848  656 mt  860  656 L
+ 854  650 mt  854  662 L
+ 851  660 mt  863  660 L
+ 857  654 mt  857  666 L
+ 853  663 mt  865  663 L
+ 859  657 mt  859  669 L
+ 855  664 mt  867  664 L
+ 861  658 mt  861  670 L
+ 855  665 mt  867  665 L
+ 861  659 mt  861  671 L
+ 856  666 mt  868  666 L
+ 862  660 mt  862  672 L
+ 858  667 mt  870  667 L
+ 864  661 mt  864  673 L
+ 860  669 mt  872  669 L
+ 866  663 mt  866  675 L
+ 863  671 mt  875  671 L
+ 869  665 mt  869  677 L
+ 866  674 mt  878  674 L
+ 872  668 mt  872  680 L
+ 869  676 mt  881  676 L
+ 875  670 mt  875  682 L
+ 873  679 mt  885  679 L
+ 879  673 mt  879  685 L
+ 876  681 mt  888  681 L
+ 882  675 mt  882  687 L
+ 878  682 mt  890  682 L
+ 884  676 mt  884  688 L
+ 879  683 mt  891  683 L
+ 885  677 mt  885  689 L
+ 880  683 mt  892  683 L
+ 886  677 mt  886  689 L
+ 881  684 mt  893  684 L
+ 887  678 mt  887  690 L
+ 882  684 mt  894  684 L
+ 888  678 mt  888  690 L
+ 885  685 mt  897  685 L
+ 891  679 mt  891  691 L
+ 888  686 mt  900  686 L
+ 894  680 mt  894  692 L
+ 891  687 mt  903  687 L
+ 897  681 mt  897  693 L
+ 894  688 mt  906  688 L
+ 900  682 mt  900  694 L
+ 898  689 mt  910  689 L
+ 904  683 mt  904  695 L
+ 901  690 mt  913  690 L
+ 907  684 mt  907  696 L
+ 903  690 mt  915  690 L
+ 909  684 mt  909  696 L
+ 904  690 mt  916  690 L
+ 910  684 mt  910  696 L
+ 905  690 mt  917  690 L
+ 911  684 mt  911  696 L
+ 906  690 mt  918  690 L
+ 912  684 mt  912  696 L
+ 907  690 mt  919  690 L
+ 913  684 mt  913  696 L
+ 910  690 mt  922  690 L
+ 916  684 mt  916  696 L
+ 913  690 mt  925  690 L
+ 919  684 mt  919  696 L
+ 916  691 mt  928  691 L
+ 922  685 mt  922  697 L
+ 920  692 mt  932  692 L
+ 926  686 mt  926  698 L
+ 923  692 mt  935  692 L
+ 929  686 mt  929  698 L
+ 926  693 mt  938  693 L
+ 932  687 mt  932  699 L
+ 928  694 mt  940  694 L
+ 934  688 mt  934  700 L
+ 930  694 mt  942  694 L
+ 936  688 mt  936  700 L
+ 931  694 mt  943  694 L
+ 937  688 mt  937  700 L
+ 933  695 mt  945  695 L
+ 939  689 mt  939  701 L
+ 935  695 mt  947  695 L
+ 941  689 mt  941  701 L
+ 938  694 mt  950  694 L
+ 944  688 mt  944  700 L
+ 941  694 mt  953  694 L
+ 947  688 mt  947  700 L
+ 945  694 mt  957  694 L
+ 951  688 mt  951  700 L
+ 948  693 mt  960  693 L
+ 954  687 mt  954  699 L
+ 951  693 mt  963  693 L
+ 957  687 mt  957  699 L
+ 953  693 mt  965  693 L
+ 959  687 mt  959  699 L
+ 955  693 mt  967  693 L
+ 961  687 mt  961  699 L
+ 956  693 mt  968  693 L
+ 962  687 mt  962  699 L
+ 958  693 mt  970  693 L
+ 964  687 mt  964  699 L
+ 960  693 mt  972  693 L
+ 966  687 mt  966  699 L
+ 962  693 mt  974  693 L
+ 968  687 mt  968  699 L
+ 966  694 mt  978  694 L
+ 972  688 mt  972  700 L
+ 969  694 mt  981  694 L
+ 975  688 mt  975  700 L
+ 972  694 mt  984  694 L
+ 978  688 mt  978  700 L
+ 974  693 mt  986  693 L
+ 980  687 mt  980  699 L
+ 977  693 mt  989  693 L
+ 983  687 mt  983  699 L
+ 978  692 mt  990  692 L
+ 984  686 mt  984  698 L
+ 979  692 mt  991  692 L
+ 985  686 mt  985  698 L
+ 981  691 mt  993  691 L
+ 987  685 mt  987  697 L
+ 983  691 mt  995  691 L
+ 989  685 mt  989  697 L
+ 985  690 mt  997  690 L
+ 991  684 mt  991  696 L
+ 988  690 mt 1000  690 L
+ 994  684 mt  994  696 L
+ 991  689 mt 1003  689 L
+ 997  683 mt  997  695 L
+ 994  689 mt 1006  689 L
+1000  683 mt 1000  695 L
+ 996  689 mt 1008  689 L
+1002  683 mt 1002  695 L
+ 998  688 mt 1010  688 L
+1004  682 mt 1004  694 L
+1000  688 mt 1012  688 L
+1006  682 mt 1006  694 L
+1001  688 mt 1013  688 L
+1007  682 mt 1007  694 L
+1002  688 mt 1014  688 L
+1008  682 mt 1008  694 L
+1004  688 mt 1016  688 L
+1010  682 mt 1010  694 L
+1006  687 mt 1018  687 L
+1012  681 mt 1012  693 L
+1008  687 mt 1020  687 L
+1014  681 mt 1014  693 L
+1011  686 mt 1023  686 L
+1017  680 mt 1017  692 L
+1014  686 mt 1026  686 L
+1020  680 mt 1020  692 L
+1016  685 mt 1028  685 L
+1022  679 mt 1022  691 L
+1018  685 mt 1030  685 L
+1024  679 mt 1024  691 L
+1019  685 mt 1031  685 L
+1025  679 mt 1025  691 L
+1020  685 mt 1032  685 L
+1026  679 mt 1026  691 L
+1021  685 mt 1033  685 L
+1027  679 mt 1027  691 L
+1022  685 mt 1034  685 L
+1028  679 mt 1028  691 L
+1024  685 mt 1036  685 L
+1030  679 mt 1030  691 L
+1026  686 mt 1038  686 L
+1032  680 mt 1032  692 L
+1029  686 mt 1041  686 L
+1035  680 mt 1035  692 L
+1031  686 mt 1043  686 L
+1037  680 mt 1037  692 L
+1033  686 mt 1045  686 L
+1039  680 mt 1039  692 L
+1034  687 mt 1046  687 L
+1040  681 mt 1040  693 L
+1035  687 mt 1047  687 L
+1041  681 mt 1041  693 L
+1036  687 mt 1048  687 L
+1042  681 mt 1042  693 L
+1037  688 mt 1049  688 L
+1043  682 mt 1043  694 L
+1038  688 mt 1050  688 L
+1044  682 mt 1044  694 L
+1040  689 mt 1052  689 L
+1046  683 mt 1046  695 L
+1042  691 mt 1054  691 L
+1048  685 mt 1048  697 L
+1043  692 mt 1055  692 L
+1049  686 mt 1049  698 L
+1045  694 mt 1057  694 L
+1051  688 mt 1051  700 L
+1047  695 mt 1059  695 L
+1053  689 mt 1053  701 L
+1048  696 mt 1060  696 L
+1054  690 mt 1054  702 L
+1049  697 mt 1061  697 L
+1055  691 mt 1055  703 L
+1049  698 mt 1061  698 L
+1055  692 mt 1055  704 L
+1050  698 mt 1062  698 L
+1056  692 mt 1056  704 L
+1050  699 mt 1062  699 L
+1056  693 mt 1056  705 L
+1051  700 mt 1063  700 L
+1057  694 mt 1057  706 L
+1053  702 mt 1065  702 L
+1059  696 mt 1059  708 L
+1054  704 mt 1066  704 L
+1060  698 mt 1060  710 L
+1056  706 mt 1068  706 L
+1062  700 mt 1062  712 L
+1057  708 mt 1069  708 L
+1063  702 mt 1063  714 L
+1059  710 mt 1071  710 L
+1065  704 mt 1065  716 L
+1060  712 mt 1072  712 L
+1066  706 mt 1066  718 L
+1060  713 mt 1072  713 L
+1066  707 mt 1066  719 L
+1061  713 mt 1073  713 L
+1067  707 mt 1067  719 L
+1061  714 mt 1073  714 L
+1067  708 mt 1067  720 L
+1062  715 mt 1074  715 L
+1068  709 mt 1068  721 L
+1063  716 mt 1075  716 L
+1069  710 mt 1069  722 L
+1064  718 mt 1076  718 L
+1070  712 mt 1070  724 L
+1065  720 mt 1077  720 L
+1071  714 mt 1071  726 L
+1066  722 mt 1078  722 L
+1072  716 mt 1072  728 L
+1068  724 mt 1080  724 L
+1074  718 mt 1074  730 L
+1069  726 mt 1081  726 L
+1075  720 mt 1075  732 L
+1070  728 mt 1082  728 L
+1076  722 mt 1076  734 L
+1070  729 mt 1082  729 L
+1076  723 mt 1076  735 L
+1071  730 mt 1083  730 L
+1077  724 mt 1077  736 L
+1071  731 mt 1083  731 L
+1077  725 mt 1077  737 L
+1072  733 mt 1084  733 L
+1078  727 mt 1078  739 L
+1073  737 mt 1085  737 L
+1079  731 mt 1079  743 L
+1074  741 mt 1086  741 L
+1080  735 mt 1080  747 L
+1076  747 mt 1088  747 L
+1082  741 mt 1082  753 L
+1077  751 mt 1089  751 L
+1083  745 mt 1083  757 L
+1078  756 mt 1090  756 L
+1084  750 mt 1084  762 L
+1079  759 mt 1091  759 L
+1085  753 mt 1085  765 L
+1079  761 mt 1091  761 L
+1085  755 mt 1085  767 L
+1079  762 mt 1091  762 L
+1085  756 mt 1085  768 L
+ 172   75 mt  180   83 L
+ 180   75 mt  172   83 L
+ 172  100 mt  180  108 L
+ 180  100 mt  172  108 L
+ 173  115 mt  181  123 L
+ 181  115 mt  173  123 L
+ 173  119 mt  181  127 L
+ 181  119 mt  173  127 L
+ 173  117 mt  181  125 L
+ 181  117 mt  173  125 L
+ 173  125 mt  181  133 L
+ 181  125 mt  173  133 L
+ 174  136 mt  182  144 L
+ 182  136 mt  174  144 L
+ 174  148 mt  182  156 L
+ 182  148 mt  174  156 L
+ 175  159 mt  183  167 L
+ 183  159 mt  175  167 L
+ 176  172 mt  184  180 L
+ 184  172 mt  176  180 L
+ 177  186 mt  185  194 L
+ 185  186 mt  177  194 L
+ 177  199 mt  185  207 L
+ 185  199 mt  177  207 L
+ 178  211 mt  186  219 L
+ 186  211 mt  178  219 L
+ 179  220 mt  187  228 L
+ 187  220 mt  179  228 L
+ 179  226 mt  187  234 L
+ 187  226 mt  179  234 L
+ 179  227 mt  187  235 L
+ 187  227 mt  179  235 L
+ 180  231 mt  188  239 L
+ 188  231 mt  180  239 L
+ 180  236 mt  188  244 L
+ 188  236 mt  180  244 L
+ 181  243 mt  189  251 L
+ 189  243 mt  181  251 L
+ 182  250 mt  190  258 L
+ 190  250 mt  182  258 L
+ 183  259 mt  191  267 L
+ 191  259 mt  183  267 L
+ 184  268 mt  192  276 L
+ 192  268 mt  184  276 L
+ 185  277 mt  193  285 L
+ 193  277 mt  185  285 L
+ 185  285 mt  193  293 L
+ 193  285 mt  185  293 L
+ 186  292 mt  194  300 L
+ 194  292 mt  186  300 L
+ 187  296 mt  195  304 L
+ 195  296 mt  187  304 L
+ 187  298 mt  195  306 L
+ 195  298 mt  187  306 L
+ 187  300 mt  195  308 L
+ 195  300 mt  187  308 L
+ 188  305 mt  196  313 L
+ 196  305 mt  188  313 L
+ 188  313 mt  196  321 L
+ 196  313 mt  188  321 L
+ 189  322 mt  197  330 L
+ 197  322 mt  189  330 L
+ 190  332 mt  198  340 L
+ 198  332 mt  190  340 L
+ 191  342 mt  199  350 L
+ 199  342 mt  191  350 L
+ 193  352 mt  201  360 L
+ 201  352 mt  193  360 L
+ 194  360 mt  202  368 L
+ 202  360 mt  194  368 L
+ 194  367 mt  202  375 L
+ 202  367 mt  194  375 L
+ 195  371 mt  203  379 L
+ 203  371 mt  195  379 L
+ 195  373 mt  203  381 L
+ 203  373 mt  195  381 L
+ 195  375 mt  203  383 L
+ 203  375 mt  195  383 L
+ 196  380 mt  204  388 L
+ 204  380 mt  196  388 L
+ 197  386 mt  205  394 L
+ 205  386 mt  197  394 L
+ 198  393 mt  206  401 L
+ 206  393 mt  198  401 L
+ 199  400 mt  207  408 L
+ 207  400 mt  199  408 L
+ 201  408 mt  209  416 L
+ 209  408 mt  201  416 L
+ 202  415 mt  210  423 L
+ 210  415 mt  202  423 L
+ 203  422 mt  211  430 L
+ 211  422 mt  203  430 L
+ 204  426 mt  212  434 L
+ 212  426 mt  204  434 L
+ 205  429 mt  213  437 L
+ 213  429 mt  205  437 L
+ 205  430 mt  213  438 L
+ 213  430 mt  205  438 L
+ 205  432 mt  213  440 L
+ 213  432 mt  205  440 L
+ 206  434 mt  214  442 L
+ 214  434 mt  206  442 L
+ 207  437 mt  215  445 L
+ 215  437 mt  207  445 L
+ 209  441 mt  217  449 L
+ 217  441 mt  209  449 L
+ 210  445 mt  218  453 L
+ 218  445 mt  210  453 L
+ 212  449 mt  220  457 L
+ 220  449 mt  212  457 L
+ 213  452 mt  221  460 L
+ 221  452 mt  213  460 L
+ 215  456 mt  223  464 L
+ 223  456 mt  215  464 L
+ 216  459 mt  224  467 L
+ 224  459 mt  216  467 L
+ 217  461 mt  225  469 L
+ 225  461 mt  217  469 L
+ 218  462 mt  226  470 L
+ 226  462 mt  218  470 L
+ 218  465 mt  226  473 L
+ 226  465 mt  218  473 L
+ 220  468 mt  228  476 L
+ 228  468 mt  220  476 L
+ 221  471 mt  229  479 L
+ 229  471 mt  221  479 L
+ 223  475 mt  231  483 L
+ 231  475 mt  223  483 L
+ 225  479 mt  233  487 L
+ 233  479 mt  225  487 L
+ 227  483 mt  235  491 L
+ 235  483 mt  227  491 L
+ 229  486 mt  237  494 L
+ 237  486 mt  229  494 L
+ 230  489 mt  238  497 L
+ 238  489 mt  230  497 L
+ 231  490 mt  239  498 L
+ 239  490 mt  231  498 L
+ 232  490 mt  240  498 L
+ 240  490 mt  232  498 L
+ 232  491 mt  240  499 L
+ 240  491 mt  232  499 L
+ 233  493 mt  241  501 L
+ 241  493 mt  233  501 L
+ 235  494 mt  243  502 L
+ 243  494 mt  235  502 L
+ 237  495 mt  245  503 L
+ 245  495 mt  237  503 L
+ 239  492 mt  247  500 L
+ 247  492 mt  239  500 L
+ 241  488 mt  249  496 L
+ 249  488 mt  241  496 L
+ 243  482 mt  251  490 L
+ 251  482 mt  243  490 L
+ 245  475 mt  253  483 L
+ 253  475 mt  245  483 L
+ 247  464 mt  255  472 L
+ 255  464 mt  247  472 L
+ 248  452 mt  256  460 L
+ 256  452 mt  248  460 L
+ 249  445 mt  257  453 L
+ 257  445 mt  249  453 L
+ 249  449 mt  257  457 L
+ 257  449 mt  249  457 L
+ 249  444 mt  257  452 L
+ 257  444 mt  249  452 L
+ 250  428 mt  258  436 L
+ 258  428 mt  250  436 L
+ 252  409 mt  260  417 L
+ 260  409 mt  252  417 L
+ 254  390 mt  262  398 L
+ 262  390 mt  254  398 L
+ 257  373 mt  265  381 L
+ 265  373 mt  257  381 L
+ 259  357 mt  267  365 L
+ 267  357 mt  259  365 L
+ 261  344 mt  269  352 L
+ 269  344 mt  261  352 L
+ 264  336 mt  272  344 L
+ 272  336 mt  264  344 L
+ 265  332 mt  273  340 L
+ 273  332 mt  265  340 L
+ 267  332 mt  275  340 L
+ 275  332 mt  267  340 L
+ 267  331 mt  275  339 L
+ 275  331 mt  267  339 L
+ 268  331 mt  276  339 L
+ 276  331 mt  268  339 L
+ 269  332 mt  277  340 L
+ 277  332 mt  269  340 L
+ 271  333 mt  279  341 L
+ 279  333 mt  271  341 L
+ 273  335 mt  281  343 L
+ 281  335 mt  273  343 L
+ 275  337 mt  283  345 L
+ 283  337 mt  275  345 L
+ 278  338 mt  286  346 L
+ 286  338 mt  278  346 L
+ 281  340 mt  289  348 L
+ 289  340 mt  281  348 L
+ 283  342 mt  291  350 L
+ 291  342 mt  283  350 L
+ 285  344 mt  293  352 L
+ 293  344 mt  285  352 L
+ 286  344 mt  294  352 L
+ 294  344 mt  286  352 L
+ 287  344 mt  295  352 L
+ 295  344 mt  287  352 L
+ 287  345 mt  295  353 L
+ 295  345 mt  287  353 L
+ 288  345 mt  296  353 L
+ 296  345 mt  288  353 L
+ 290  345 mt  298  353 L
+ 298  345 mt  290  353 L
+ 292  344 mt  300  352 L
+ 300  344 mt  292  352 L
+ 295  343 mt  303  351 L
+ 303  343 mt  295  351 L
+ 298  342 mt  306  350 L
+ 306  342 mt  298  350 L
+ 300  341 mt  308  349 L
+ 308  341 mt  300  349 L
+ 302  340 mt  310  348 L
+ 310  340 mt  302  348 L
+ 304  338 mt  312  346 L
+ 312  338 mt  304  346 L
+ 305  337 mt  313  345 L
+ 313  337 mt  305  345 L
+ 306  337 mt  314  345 L
+ 314  337 mt  306  345 L
+ 307  336 mt  315  344 L
+ 315  336 mt  307  344 L
+ 308  335 mt  316  343 L
+ 316  335 mt  308  343 L
+ 310  333 mt  318  341 L
+ 318  333 mt  310  341 L
+ 312  330 mt  320  338 L
+ 320  330 mt  312  338 L
+ 314  326 mt  322  334 L
+ 322  326 mt  314  334 L
+ 317  322 mt  325  330 L
+ 325  322 mt  317  330 L
+ 319  319 mt  327  327 L
+ 327  319 mt  319  327 L
+ 322  315 mt  330  323 L
+ 330  315 mt  322  323 L
+ 323  313 mt  331  321 L
+ 331  313 mt  323  321 L
+ 325  311 mt  333  319 L
+ 333  311 mt  325  319 L
+ 325  310 mt  333  318 L
+ 333  310 mt  325  318 L
+ 326  309 mt  334  317 L
+ 334  309 mt  326  317 L
+ 327  307 mt  335  315 L
+ 335  307 mt  327  315 L
+ 328  304 mt  336  312 L
+ 336  304 mt  328  312 L
+ 331  301 mt  339  309 L
+ 339  301 mt  331  309 L
+ 333  297 mt  341  305 L
+ 341  297 mt  333  305 L
+ 336  293 mt  344  301 L
+ 344  293 mt  336  301 L
+ 338  290 mt  346  298 L
+ 346  290 mt  338  298 L
+ 340  287 mt  348  295 L
+ 348  287 mt  340  295 L
+ 342  284 mt  350  292 L
+ 350  284 mt  342  292 L
+ 343  283 mt  351  291 L
+ 351  283 mt  343  291 L
+ 344  282 mt  352  290 L
+ 352  282 mt  344  290 L
+ 344  281 mt  352  289 L
+ 352  281 mt  344  289 L
+ 345  280 mt  353  288 L
+ 353  280 mt  345  288 L
+ 347  277 mt  355  285 L
+ 355  277 mt  347  285 L
+ 349  275 mt  357  283 L
+ 357  275 mt  349  283 L
+ 352  272 mt  360  280 L
+ 360  272 mt  352  280 L
+ 355  270 mt  363  278 L
+ 363  270 mt  355  278 L
+ 357  267 mt  365  275 L
+ 365  267 mt  357  275 L
+ 359  266 mt  367  274 L
+ 367  266 mt  359  274 L
+ 361  264 mt  369  272 L
+ 369  264 mt  361  272 L
+ 362  264 mt  370  272 L
+ 370  264 mt  362  272 L
+ 363  264 mt  371  272 L
+ 371  264 mt  363  272 L
+ 365  263 mt  373  271 L
+ 373  263 mt  365  271 L
+ 367  263 mt  375  271 L
+ 375  263 mt  367  271 L
+ 369  263 mt  377  271 L
+ 377  263 mt  369  271 L
+ 372  264 mt  380  272 L
+ 380  264 mt  372  272 L
+ 375  265 mt  383  273 L
+ 383  265 mt  375  273 L
+ 378  265 mt  386  273 L
+ 386  265 mt  378  273 L
+ 380  266 mt  388  274 L
+ 388  266 mt  380  274 L
+ 382  267 mt  390  275 L
+ 390  267 mt  382  275 L
+ 383  267 mt  391  275 L
+ 391  267 mt  383  275 L
+ 384  267 mt  392  275 L
+ 392  267 mt  384  275 L
+ 385  268 mt  393  276 L
+ 393  268 mt  385  276 L
+ 386  268 mt  394  276 L
+ 394  268 mt  386  276 L
+ 388  269 mt  396  277 L
+ 396  269 mt  388  277 L
+ 390  271 mt  398  279 L
+ 398  271 mt  390  279 L
+ 393  272 mt  401  280 L
+ 401  272 mt  393  280 L
+ 396  274 mt  404  282 L
+ 404  274 mt  396  282 L
+ 399  276 mt  407  284 L
+ 407  276 mt  399  284 L
+ 401  277 mt  409  285 L
+ 409  277 mt  401  285 L
+ 403  279 mt  411  287 L
+ 411  279 mt  403  287 L
+ 405  279 mt  413  287 L
+ 413  279 mt  405  287 L
+ 405  280 mt  413  288 L
+ 413  280 mt  405  288 L
+ 406  280 mt  414  288 L
+ 414  280 mt  406  288 L
+ 407  281 mt  415  289 L
+ 415  281 mt  407  289 L
+ 409  282 mt  417  290 L
+ 417  282 mt  409  290 L
+ 412  284 mt  420  292 L
+ 420  284 mt  412  292 L
+ 415  285 mt  423  293 L
+ 423  285 mt  415  293 L
+ 418  287 mt  426  295 L
+ 426  287 mt  418  295 L
+ 421  289 mt  429  297 L
+ 429  289 mt  421  297 L
+ 423  290 mt  431  298 L
+ 431  290 mt  423  298 L
+ 426  292 mt  434  300 L
+ 434  292 mt  426  300 L
+ 427  293 mt  435  301 L
+ 435  293 mt  427  301 L
+ 428  293 mt  436  301 L
+ 436  293 mt  428  301 L
+ 428  294 mt  436  302 L
+ 436  294 mt  428  302 L
+ 430  295 mt  438  303 L
+ 438  295 mt  430  303 L
+ 432  296 mt  440  304 L
+ 440  296 mt  432  304 L
+ 434  298 mt  442  306 L
+ 442  298 mt  434  306 L
+ 437  301 mt  445  309 L
+ 445  301 mt  437  309 L
+ 440  303 mt  448  311 L
+ 448  303 mt  440  311 L
+ 443  305 mt  451  313 L
+ 451  305 mt  443  313 L
+ 446  307 mt  454  315 L
+ 454  307 mt  446  315 L
+ 448  309 mt  456  317 L
+ 456  309 mt  448  317 L
+ 450  310 mt  458  318 L
+ 458  310 mt  450  318 L
+ 451  311 mt  459  319 L
+ 459  311 mt  451  319 L
+ 452  311 mt  460  319 L
+ 460  311 mt  452  319 L
+ 454  313 mt  462  321 L
+ 462  313 mt  454  321 L
+ 457  314 mt  465  322 L
+ 465  314 mt  457  322 L
+ 460  316 mt  468  324 L
+ 468  316 mt  460  324 L
+ 463  317 mt  471  325 L
+ 471  317 mt  463  325 L
+ 466  319 mt  474  327 L
+ 474  319 mt  466  327 L
+ 468  321 mt  476  329 L
+ 476  321 mt  468  329 L
+ 470  322 mt  478  330 L
+ 478  322 mt  470  330 L
+ 472  323 mt  480  331 L
+ 480  323 mt  472  331 L
+ 473  324 mt  481  332 L
+ 481  324 mt  473  332 L
+ 474  324 mt  482  332 L
+ 482  324 mt  474  332 L
+ 476  326 mt  484  334 L
+ 484  326 mt  476  334 L
+ 479  327 mt  487  335 L
+ 487  327 mt  479  335 L
+ 482  329 mt  490  337 L
+ 490  329 mt  482  337 L
+ 485  331 mt  493  339 L
+ 493  331 mt  485  339 L
+ 488  332 mt  496  340 L
+ 496  332 mt  488  340 L
+ 490  334 mt  498  342 L
+ 498  334 mt  490  342 L
+ 492  335 mt  500  343 L
+ 500  335 mt  492  343 L
+ 494  336 mt  502  344 L
+ 502  336 mt  494  344 L
+ 495  336 mt  503  344 L
+ 503  336 mt  495  344 L
+ 496  337 mt  504  345 L
+ 504  337 mt  496  345 L
+ 498  338 mt  506  346 L
+ 506  338 mt  498  346 L
+ 500  339 mt  508  347 L
+ 508  339 mt  500  347 L
+ 503  340 mt  511  348 L
+ 511  340 mt  503  348 L
+ 506  342 mt  514  350 L
+ 514  342 mt  506  350 L
+ 509  343 mt  517  351 L
+ 517  343 mt  509  351 L
+ 511  345 mt  519  353 L
+ 519  345 mt  511  353 L
+ 513  346 mt  521  354 L
+ 521  346 mt  513  354 L
+ 515  347 mt  523  355 L
+ 523  347 mt  515  355 L
+ 516  348 mt  524  356 L
+ 524  348 mt  516  356 L
+ 517  348 mt  525  356 L
+ 525  348 mt  517  356 L
+ 519  350 mt  527  358 L
+ 527  350 mt  519  358 L
+ 521  351 mt  529  359 L
+ 529  351 mt  521  359 L
+ 524  353 mt  532  361 L
+ 532  353 mt  524  361 L
+ 527  355 mt  535  363 L
+ 535  355 mt  527  363 L
+ 529  357 mt  537  365 L
+ 537  357 mt  529  365 L
+ 532  359 mt  540  367 L
+ 540  359 mt  532  367 L
+ 534  360 mt  542  368 L
+ 542  360 mt  534  368 L
+ 535  361 mt  543  369 L
+ 543  361 mt  535  369 L
+ 536  361 mt  544  369 L
+ 544  361 mt  536  369 L
+ 537  362 mt  545  370 L
+ 545  362 mt  537  370 L
+ 539  363 mt  547  371 L
+ 547  363 mt  539  371 L
+ 542  364 mt  550  372 L
+ 550  364 mt  542  372 L
+ 544  365 mt  552  373 L
+ 552  365 mt  544  373 L
+ 547  366 mt  555  374 L
+ 555  366 mt  547  374 L
+ 550  367 mt  558  375 L
+ 558  367 mt  550  375 L
+ 552  368 mt  560  376 L
+ 560  368 mt  552  376 L
+ 554  369 mt  562  377 L
+ 562  369 mt  554  377 L
+ 555  369 mt  563  377 L
+ 563  369 mt  555  377 L
+ 556  369 mt  564  377 L
+ 564  369 mt  556  377 L
+ 556  370 mt  564  378 L
+ 564  370 mt  556  378 L
+ 557  370 mt  565  378 L
+ 565  370 mt  557  378 L
+ 559  371 mt  567  379 L
+ 567  371 mt  559  379 L
+ 562  372 mt  570  380 L
+ 570  372 mt  562  380 L
+ 564  373 mt  572  381 L
+ 572  373 mt  564  381 L
+ 567  374 mt  575  382 L
+ 575  374 mt  567  382 L
+ 570  375 mt  578  383 L
+ 578  375 mt  570  383 L
+ 572  376 mt  580  384 L
+ 580  376 mt  572  384 L
+ 574  377 mt  582  385 L
+ 582  377 mt  574  385 L
+ 575  378 mt  583  386 L
+ 583  378 mt  575  386 L
+ 576  379 mt  584  387 L
+ 584  379 mt  576  387 L
+ 578  380 mt  586  388 L
+ 586  380 mt  578  388 L
+ 579  381 mt  587  389 L
+ 587  381 mt  579  389 L
+ 582  383 mt  590  391 L
+ 590  383 mt  582  391 L
+ 585  384 mt  593  392 L
+ 593  384 mt  585  392 L
+ 587  386 mt  595  394 L
+ 595  386 mt  587  394 L
+ 590  388 mt  598  396 L
+ 598  388 mt  590  396 L
+ 592  390 mt  600  398 L
+ 600  390 mt  592  398 L
+ 594  391 mt  602  399 L
+ 602  391 mt  594  399 L
+ 596  391 mt  604  399 L
+ 604  391 mt  596  399 L
+ 596  392 mt  604  400 L
+ 604  392 mt  596  400 L
+ 597  392 mt  605  400 L
+ 605  392 mt  597  400 L
+ 598  393 mt  606  401 L
+ 606  393 mt  598  401 L
+ 600  394 mt  608  402 L
+ 608  394 mt  600  402 L
+ 603  395 mt  611  403 L
+ 611  395 mt  603  403 L
+ 605  396 mt  613  404 L
+ 613  396 mt  605  404 L
+ 608  397 mt  616  405 L
+ 616  397 mt  608  405 L
+ 611  399 mt  619  407 L
+ 619  399 mt  611  407 L
+ 613  400 mt  621  408 L
+ 621  400 mt  613  408 L
+ 615  401 mt  623  409 L
+ 623  401 mt  615  409 L
+ 617  402 mt  625  410 L
+ 625  402 mt  617  410 L
+ 618  402 mt  626  410 L
+ 626  402 mt  618  410 L
+ 619  403 mt  627  411 L
+ 627  403 mt  619  411 L
+ 621  404 mt  629  412 L
+ 629  404 mt  621  412 L
+ 624  405 mt  632  413 L
+ 632  405 mt  624  413 L
+ 627  406 mt  635  414 L
+ 635  406 mt  627  414 L
+ 630  408 mt  638  416 L
+ 638  408 mt  630  416 L
+ 633  410 mt  641  418 L
+ 641  410 mt  633  418 L
+ 635  411 mt  643  419 L
+ 643  411 mt  635  419 L
+ 637  412 mt  645  420 L
+ 645  412 mt  637  420 L
+ 639  413 mt  647  421 L
+ 647  413 mt  639  421 L
+ 640  414 mt  648  422 L
+ 648  414 mt  640  422 L
+ 642  415 mt  650  423 L
+ 650  415 mt  642  423 L
+ 644  416 mt  652  424 L
+ 652  416 mt  644  424 L
+ 647  418 mt  655  426 L
+ 655  418 mt  647  426 L
+ 650  420 mt  658  428 L
+ 658  420 mt  650  428 L
+ 653  422 mt  661  430 L
+ 661  422 mt  653  430 L
+ 656  424 mt  664  432 L
+ 664  424 mt  656  432 L
+ 659  426 mt  667  434 L
+ 667  426 mt  659  434 L
+ 661  428 mt  669  436 L
+ 669  428 mt  661  436 L
+ 662  429 mt  670  437 L
+ 670  429 mt  662  437 L
+ 663  429 mt  671  437 L
+ 671  429 mt  663  437 L
+ 664  430 mt  672  438 L
+ 672  430 mt  664  438 L
+ 665  431 mt  673  439 L
+ 673  431 mt  665  439 L
+ 668  433 mt  676  441 L
+ 676  433 mt  668  441 L
+ 671  435 mt  679  443 L
+ 679  435 mt  671  443 L
+ 674  437 mt  682  445 L
+ 682  437 mt  674  445 L
+ 677  440 mt  685  448 L
+ 685  440 mt  677  448 L
+ 681  442 mt  689  450 L
+ 689  442 mt  681  450 L
+ 684  445 mt  692  453 L
+ 692  445 mt  684  453 L
+ 686  447 mt  694  455 L
+ 694  447 mt  686  455 L
+ 688  448 mt  696  456 L
+ 696  448 mt  688  456 L
+ 689  449 mt  697  457 L
+ 697  449 mt  689  457 L
+ 691  450 mt  699  458 L
+ 699  450 mt  691  458 L
+ 693  452 mt  701  460 L
+ 701  452 mt  693  460 L
+ 696  455 mt  704  463 L
+ 704  455 mt  696  463 L
+ 700  458 mt  708  466 L
+ 708  458 mt  700  466 L
+ 704  461 mt  712  469 L
+ 712  461 mt  704  469 L
+ 707  464 mt  715  472 L
+ 715  464 mt  707  472 L
+ 710  467 mt  718  475 L
+ 718  467 mt  710  475 L
+ 713  469 mt  721  477 L
+ 721  469 mt  713  477 L
+ 715  471 mt  723  479 L
+ 723  471 mt  715  479 L
+ 715  472 mt  723  480 L
+ 723  472 mt  715  480 L
+ 716  472 mt  724  480 L
+ 724  472 mt  716  480 L
+ 718  474 mt  726  482 L
+ 726  474 mt  718  482 L
+ 721  477 mt  729  485 L
+ 729  477 mt  721  485 L
+ 724  481 mt  732  489 L
+ 732  481 mt  724  489 L
+ 728  485 mt  736  493 L
+ 736  485 mt  728  493 L
+ 732  489 mt  740  497 L
+ 740  489 mt  732  497 L
+ 735  493 mt  743  501 L
+ 743  493 mt  735  501 L
+ 739  497 mt  747  505 L
+ 747  497 mt  739  505 L
+ 741  499 mt  749  507 L
+ 749  499 mt  741  507 L
+ 743  501 mt  751  509 L
+ 751  501 mt  743  509 L
+ 744  502 mt  752  510 L
+ 752  502 mt  744  510 L
+ 745  503 mt  753  511 L
+ 753  503 mt  745  511 L
+ 747  505 mt  755  513 L
+ 755  505 mt  747  513 L
+ 749  508 mt  757  516 L
+ 757  508 mt  749  516 L
+ 753  511 mt  761  519 L
+ 761  511 mt  753  519 L
+ 757  515 mt  765  523 L
+ 765  515 mt  757  523 L
+ 761  520 mt  769  528 L
+ 769  520 mt  761  528 L
+ 764  525 mt  772  533 L
+ 772  525 mt  764  533 L
+ 768  529 mt  776  537 L
+ 776  529 mt  768  537 L
+ 771  532 mt  779  540 L
+ 779  532 mt  771  540 L
+ 772  535 mt  780  543 L
+ 780  535 mt  772  543 L
+ 773  536 mt  781  544 L
+ 781  536 mt  773  544 L
+ 774  537 mt  782  545 L
+ 782  537 mt  774  545 L
+ 776  540 mt  784  548 L
+ 784  540 mt  776  548 L
+ 779  544 mt  787  552 L
+ 787  544 mt  779  552 L
+ 782  549 mt  790  557 L
+ 790  549 mt  782  557 L
+ 786  555 mt  794  563 L
+ 794  555 mt  786  563 L
+ 790  561 mt  798  569 L
+ 798  561 mt  790  569 L
+ 794  567 mt  802  575 L
+ 802  567 mt  794  575 L
+ 797  572 mt  805  580 L
+ 805  572 mt  797  580 L
+ 800  577 mt  808  585 L
+ 808  577 mt  800  585 L
+ 802  579 mt  810  587 L
+ 810  579 mt  802  587 L
+ 803  580 mt  811  588 L
+ 811  580 mt  803  588 L
+ 803  582 mt  811  590 L
+ 811  582 mt  803  590 L
+ 805  585 mt  813  593 L
+ 813  585 mt  805  593 L
+ 808  589 mt  816  597 L
+ 816  589 mt  808  597 L
+ 811  594 mt  819  602 L
+ 819  594 mt  811  602 L
+ 815  600 mt  823  608 L
+ 823  600 mt  815  608 L
+ 819  606 mt  827  614 L
+ 827  606 mt  819  614 L
+ 823  612 mt  831  620 L
+ 831  612 mt  823  620 L
+ 826  618 mt  834  626 L
+ 834  618 mt  826  626 L
+ 829  622 mt  837  630 L
+ 837  622 mt  829  630 L
+ 831  625 mt  839  633 L
+ 839  625 mt  831  633 L
+ 832  626 mt  840  634 L
+ 840  626 mt  832  634 L
+ 832  628 mt  840  636 L
+ 840  628 mt  832  636 L
+ 834  630 mt  842  638 L
+ 842  630 mt  834  638 L
+ 836  633 mt  844  641 L
+ 844  633 mt  836  641 L
+ 839  638 mt  847  646 L
+ 847  638 mt  839  646 L
+ 843  643 mt  851  651 L
+ 851  643 mt  843  651 L
+ 846  647 mt  854  655 L
+ 854  647 mt  846  655 L
+ 850  652 mt  858  660 L
+ 858  652 mt  850  660 L
+ 853  656 mt  861  664 L
+ 861  656 mt  853  664 L
+ 855  659 mt  863  667 L
+ 863  659 mt  855  667 L
+ 857  660 mt  865  668 L
+ 865  660 mt  857  668 L
+ 857  661 mt  865  669 L
+ 865  661 mt  857  669 L
+ 858  662 mt  866  670 L
+ 866  662 mt  858  670 L
+ 860  663 mt  868  671 L
+ 868  663 mt  860  671 L
+ 862  665 mt  870  673 L
+ 870  665 mt  862  673 L
+ 865  667 mt  873  675 L
+ 873  667 mt  865  675 L
+ 868  670 mt  876  678 L
+ 876  670 mt  868  678 L
+ 871  672 mt  879  680 L
+ 879  672 mt  871  680 L
+ 875  675 mt  883  683 L
+ 883  675 mt  875  683 L
+ 878  677 mt  886  685 L
+ 886  677 mt  878  685 L
+ 880  678 mt  888  686 L
+ 888  678 mt  880  686 L
+ 881  679 mt  889  687 L
+ 889  679 mt  881  687 L
+ 882  679 mt  890  687 L
+ 890  679 mt  882  687 L
+ 883  680 mt  891  688 L
+ 891  680 mt  883  688 L
+ 884  680 mt  892  688 L
+ 892  680 mt  884  688 L
+ 887  681 mt  895  689 L
+ 895  681 mt  887  689 L
+ 890  682 mt  898  690 L
+ 898  682 mt  890  690 L
+ 893  683 mt  901  691 L
+ 901  683 mt  893  691 L
+ 896  684 mt  904  692 L
+ 904  684 mt  896  692 L
+ 900  685 mt  908  693 L
+ 908  685 mt  900  693 L
+ 903  686 mt  911  694 L
+ 911  686 mt  903  694 L
+ 905  686 mt  913  694 L
+ 913  686 mt  905  694 L
+ 906  686 mt  914  694 L
+ 914  686 mt  906  694 L
+ 907  686 mt  915  694 L
+ 915  686 mt  907  694 L
+ 908  686 mt  916  694 L
+ 916  686 mt  908  694 L
+ 909  686 mt  917  694 L
+ 917  686 mt  909  694 L
+ 912  686 mt  920  694 L
+ 920  686 mt  912  694 L
+ 915  686 mt  923  694 L
+ 923  686 mt  915  694 L
+ 918  687 mt  926  695 L
+ 926  687 mt  918  695 L
+ 922  688 mt  930  696 L
+ 930  688 mt  922  696 L
+ 925  688 mt  933  696 L
+ 933  688 mt  925  696 L
+ 928  689 mt  936  697 L
+ 936  689 mt  928  697 L
+ 930  690 mt  938  698 L
+ 938  690 mt  930  698 L
+ 932  690 mt  940  698 L
+ 940  690 mt  932  698 L
+ 933  690 mt  941  698 L
+ 941  690 mt  933  698 L
+ 935  691 mt  943  699 L
+ 943  691 mt  935  699 L
+ 937  691 mt  945  699 L
+ 945  691 mt  937  699 L
+ 940  690 mt  948  698 L
+ 948  690 mt  940  698 L
+ 943  690 mt  951  698 L
+ 951  690 mt  943  698 L
+ 947  690 mt  955  698 L
+ 955  690 mt  947  698 L
+ 950  689 mt  958  697 L
+ 958  689 mt  950  697 L
+ 953  689 mt  961  697 L
+ 961  689 mt  953  697 L
+ 955  689 mt  963  697 L
+ 963  689 mt  955  697 L
+ 957  689 mt  965  697 L
+ 965  689 mt  957  697 L
+ 958  689 mt  966  697 L
+ 966  689 mt  958  697 L
+ 960  689 mt  968  697 L
+ 968  689 mt  960  697 L
+ 962  689 mt  970  697 L
+ 970  689 mt  962  697 L
+ 964  689 mt  972  697 L
+ 972  689 mt  964  697 L
+ 968  690 mt  976  698 L
+ 976  690 mt  968  698 L
+ 971  690 mt  979  698 L
+ 979  690 mt  971  698 L
+ 974  690 mt  982  698 L
+ 982  690 mt  974  698 L
+ 976  689 mt  984  697 L
+ 984  689 mt  976  697 L
+ 979  689 mt  987  697 L
+ 987  689 mt  979  697 L
+ 980  688 mt  988  696 L
+ 988  688 mt  980  696 L
+ 981  688 mt  989  696 L
+ 989  688 mt  981  696 L
+ 983  687 mt  991  695 L
+ 991  687 mt  983  695 L
+ 985  687 mt  993  695 L
+ 993  687 mt  985  695 L
+ 987  686 mt  995  694 L
+ 995  686 mt  987  694 L
+ 990  686 mt  998  694 L
+ 998  686 mt  990  694 L
+ 993  685 mt 1001  693 L
+1001  685 mt  993  693 L
+ 996  685 mt 1004  693 L
+1004  685 mt  996  693 L
+ 998  685 mt 1006  693 L
+1006  685 mt  998  693 L
+1000  684 mt 1008  692 L
+1008  684 mt 1000  692 L
+1002  684 mt 1010  692 L
+1010  684 mt 1002  692 L
+1003  684 mt 1011  692 L
+1011  684 mt 1003  692 L
+1004  684 mt 1012  692 L
+1012  684 mt 1004  692 L
+1006  684 mt 1014  692 L
+1014  684 mt 1006  692 L
+1008  683 mt 1016  691 L
+1016  683 mt 1008  691 L
+1010  683 mt 1018  691 L
+1018  683 mt 1010  691 L
+1013  682 mt 1021  690 L
+1021  682 mt 1013  690 L
+1016  682 mt 1024  690 L
+1024  682 mt 1016  690 L
+1018  681 mt 1026  689 L
+1026  681 mt 1018  689 L
+1020  681 mt 1028  689 L
+1028  681 mt 1020  689 L
+1021  681 mt 1029  689 L
+1029  681 mt 1021  689 L
+1022  681 mt 1030  689 L
+1030  681 mt 1022  689 L
+1023  681 mt 1031  689 L
+1031  681 mt 1023  689 L
+1024  681 mt 1032  689 L
+1032  681 mt 1024  689 L
+1026  681 mt 1034  689 L
+1034  681 mt 1026  689 L
+1028  682 mt 1036  690 L
+1036  682 mt 1028  690 L
+1031  682 mt 1039  690 L
+1039  682 mt 1031  690 L
+1033  682 mt 1041  690 L
+1041  682 mt 1033  690 L
+1035  682 mt 1043  690 L
+1043  682 mt 1035  690 L
+1036  683 mt 1044  691 L
+1044  683 mt 1036  691 L
+1037  683 mt 1045  691 L
+1045  683 mt 1037  691 L
+1038  683 mt 1046  691 L
+1046  683 mt 1038  691 L
+1039  684 mt 1047  692 L
+1047  684 mt 1039  692 L
+1040  684 mt 1048  692 L
+1048  684 mt 1040  692 L
+1042  685 mt 1050  693 L
+1050  685 mt 1042  693 L
+1044  687 mt 1052  695 L
+1052  687 mt 1044  695 L
+1045  688 mt 1053  696 L
+1053  688 mt 1045  696 L
+1047  690 mt 1055  698 L
+1055  690 mt 1047  698 L
+1049  691 mt 1057  699 L
+1057  691 mt 1049  699 L
+1050  692 mt 1058  700 L
+1058  692 mt 1050  700 L
+1051  693 mt 1059  701 L
+1059  693 mt 1051  701 L
+1051  694 mt 1059  702 L
+1059  694 mt 1051  702 L
+1052  694 mt 1060  702 L
+1060  694 mt 1052  702 L
+1052  695 mt 1060  703 L
+1060  695 mt 1052  703 L
+1053  696 mt 1061  704 L
+1061  696 mt 1053  704 L
+1055  698 mt 1063  706 L
+1063  698 mt 1055  706 L
+1056  700 mt 1064  708 L
+1064  700 mt 1056  708 L
+1058  702 mt 1066  710 L
+1066  702 mt 1058  710 L
+1059  704 mt 1067  712 L
+1067  704 mt 1059  712 L
+1061  706 mt 1069  714 L
+1069  706 mt 1061  714 L
+1062  708 mt 1070  716 L
+1070  708 mt 1062  716 L
+1062  709 mt 1070  717 L
+1070  709 mt 1062  717 L
+1063  709 mt 1071  717 L
+1071  709 mt 1063  717 L
+1063  710 mt 1071  718 L
+1071  710 mt 1063  718 L
+1064  711 mt 1072  719 L
+1072  711 mt 1064  719 L
+1065  712 mt 1073  720 L
+1073  712 mt 1065  720 L
+1066  714 mt 1074  722 L
+1074  714 mt 1066  722 L
+1067  716 mt 1075  724 L
+1075  716 mt 1067  724 L
+1068  718 mt 1076  726 L
+1076  718 mt 1068  726 L
+1070  720 mt 1078  728 L
+1078  720 mt 1070  728 L
+1071  722 mt 1079  730 L
+1079  722 mt 1071  730 L
+1072  724 mt 1080  732 L
+1080  724 mt 1072  732 L
+1072  725 mt 1080  733 L
+1080  725 mt 1072  733 L
+1073  726 mt 1081  734 L
+1081  726 mt 1073  734 L
+1073  727 mt 1081  735 L
+1081  727 mt 1073  735 L
+1074  729 mt 1082  737 L
+1082  729 mt 1074  737 L
+1075  733 mt 1083  741 L
+1083  733 mt 1075  741 L
+1076  737 mt 1084  745 L
+1084  737 mt 1076  745 L
+1078  743 mt 1086  751 L
+1086  743 mt 1078  751 L
+1079  747 mt 1087  755 L
+1087  747 mt 1079  755 L
+1080  752 mt 1088  760 L
+1088  752 mt 1080  760 L
+1081  755 mt 1089  763 L
+1089  755 mt 1081  763 L
+1081  757 mt 1089  765 L
+1089  757 mt 1081  765 L
+1081  758 mt 1089  766 L
+1089  758 mt 1081  766 L
+gr
+
+gs 156 68 931 735 rc
+gr
+
+%%IncludeResource: font Symbol
+/Symbol /ISOLatin1Encoding 33.3333 FMSR
+
+  81  452 mt  -90 rotate
+(t) s
+90 rotate
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 25 FMSR
+
+  97  438 mt  -90 rotate
+(w) s
+90 rotate
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 33.3333 FMSR
+
+ 599  873 mt 
+(x/c) s
+gs 156 68 931 735 rc
+gr
+
+gs 161 54 939 726 rc
+/c8 { 0.000000 0.000000 1.000000 sr} bdef
+c8
+ 170   94 mt  182   94 L
+ 176   88 mt  176  100 L
+ 170  120 mt  182  120 L
+ 176  114 mt  176  126 L
+ 171  135 mt  183  135 L
+ 177  129 mt  177  141 L
+ 171  138 mt  183  138 L
+ 177  132 mt  177  144 L
+ 171  136 mt  183  136 L
+ 177  130 mt  177  142 L
+ 171  144 mt  183  144 L
+ 177  138 mt  177  150 L
+ 172  156 mt  184  156 L
+ 178  150 mt  178  162 L
+ 172  167 mt  184  167 L
+ 178  161 mt  178  173 L
+ 173  178 mt  185  178 L
+ 179  172 mt  179  184 L
+ 174  190 mt  186  190 L
+ 180  184 mt  180  196 L
+ 175  203 mt  187  203 L
+ 181  197 mt  181  209 L
+ 175  216 mt  187  216 L
+ 181  210 mt  181  222 L
+ 176  228 mt  188  228 L
+ 182  222 mt  182  234 L
+ 177  237 mt  189  237 L
+ 183  231 mt  183  243 L
+ 177  242 mt  189  242 L
+ 183  236 mt  183  248 L
+ 177  243 mt  189  243 L
+ 183  237 mt  183  249 L
+ 177  244 mt  189  244 L
+ 183  238 mt  183  250 L
+ 178  247 mt  190  247 L
+ 184  241 mt  184  253 L
+ 178  253 mt  190  253 L
+ 184  247 mt  184  259 L
+ 179  259 mt  191  259 L
+ 185  253 mt  185  265 L
+ 180  266 mt  192  266 L
+ 186  260 mt  186  272 L
+ 181  274 mt  193  274 L
+ 187  268 mt  187  280 L
+ 182  283 mt  194  283 L
+ 188  277 mt  188  289 L
+ 183  292 mt  195  292 L
+ 189  286 mt  189  298 L
+ 183  299 mt  195  299 L
+ 189  293 mt  189  305 L
+ 184  306 mt  196  306 L
+ 190  300 mt  190  312 L
+ 185  311 mt  197  311 L
+ 191  305 mt  191  317 L
+ 185  313 mt  197  313 L
+ 191  307 mt  191  319 L
+ 185  312 mt  197  312 L
+ 191  306 mt  191  318 L
+ 185  315 mt  197  315 L
+ 191  309 mt  191  321 L
+ 186  320 mt  198  320 L
+ 192  314 mt  192  326 L
+ 186  327 mt  198  327 L
+ 192  321 mt  192  333 L
+ 187  336 mt  199  336 L
+ 193  330 mt  193  342 L
+ 188  346 mt  200  346 L
+ 194  340 mt  194  352 L
+ 189  356 mt  201  356 L
+ 195  350 mt  195  362 L
+ 191  366 mt  203  366 L
+ 197  360 mt  197  372 L
+ 192  374 mt  204  374 L
+ 198  368 mt  198  380 L
+ 192  381 mt  204  381 L
+ 198  375 mt  198  387 L
+ 193  385 mt  205  385 L
+ 199  379 mt  199  391 L
+ 193  387 mt  205  387 L
+ 199  381 mt  199  393 L
+ 193  389 mt  205  389 L
+ 199  383 mt  199  395 L
+ 194  394 mt  206  394 L
+ 200  388 mt  200  400 L
+ 195  399 mt  207  399 L
+ 201  393 mt  201  405 L
+ 196  406 mt  208  406 L
+ 202  400 mt  202  412 L
+ 197  413 mt  209  413 L
+ 203  407 mt  203  419 L
+ 199  421 mt  211  421 L
+ 205  415 mt  205  427 L
+ 200  428 mt  212  428 L
+ 206  422 mt  206  434 L
+ 201  435 mt  213  435 L
+ 207  429 mt  207  441 L
+ 202  439 mt  214  439 L
+ 208  433 mt  208  445 L
+ 203  442 mt  215  442 L
+ 209  436 mt  209  448 L
+ 203  444 mt  215  444 L
+ 209  438 mt  209  450 L
+ 204  446 mt  216  446 L
+ 210  440 mt  210  452 L
+ 205  449 mt  217  449 L
+ 211  443 mt  211  455 L
+ 207  453 mt  219  453 L
+ 213  447 mt  213  459 L
+ 208  456 mt  220  456 L
+ 214  450 mt  214  462 L
+ 210  460 mt  222  460 L
+ 216  454 mt  216  466 L
+ 211  464 mt  223  464 L
+ 217  458 mt  217  470 L
+ 213  467 mt  225  467 L
+ 219  461 mt  219  473 L
+ 214  470 mt  226  470 L
+ 220  464 mt  220  476 L
+ 215  472 mt  227  472 L
+ 221  466 mt  221  478 L
+ 216  473 mt  228  473 L
+ 222  467 mt  222  479 L
+ 216  475 mt  228  475 L
+ 222  469 mt  222  481 L
+ 218  478 mt  230  478 L
+ 224  472 mt  224  484 L
+ 219  482 mt  231  482 L
+ 225  476 mt  225  488 L
+ 221  485 mt  233  485 L
+ 227  479 mt  227  491 L
+ 223  489 mt  235  489 L
+ 229  483 mt  229  495 L
+ 225  493 mt  237  493 L
+ 231  487 mt  231  499 L
+ 227  496 mt  239  496 L
+ 233  490 mt  233  502 L
+ 228  499 mt  240  499 L
+ 234  493 mt  234  505 L
+ 229  500 mt  241  500 L
+ 235  494 mt  235  506 L
+ 230  500 mt  242  500 L
+ 236  494 mt  236  506 L
+ 230  501 mt  242  501 L
+ 236  495 mt  236  507 L
+ 231  502 mt  243  502 L
+ 237  496 mt  237  508 L
+ 233  504 mt  245  504 L
+ 239  498 mt  239  510 L
+ 235  504 mt  247  504 L
+ 241  498 mt  241  510 L
+ 237  502 mt  249  502 L
+ 243  496 mt  243  508 L
+ 239  497 mt  251  497 L
+ 245  491 mt  245  503 L
+ 241  491 mt  253  491 L
+ 247  485 mt  247  497 L
+ 243  484 mt  255  484 L
+ 249  478 mt  249  490 L
+ 245  473 mt  257  473 L
+ 251  467 mt  251  479 L
+ 246  460 mt  258  460 L
+ 252  454 mt  252  466 L
+ 247  453 mt  259  453 L
+ 253  447 mt  253  459 L
+ 247  458 mt  259  458 L
+ 253  452 mt  253  464 L
+ 247  453 mt  259  453 L
+ 253  447 mt  253  459 L
+ 248  437 mt  260  437 L
+ 254  431 mt  254  443 L
+ 250  417 mt  262  417 L
+ 256  411 mt  256  423 L
+ 252  398 mt  264  398 L
+ 258  392 mt  258  404 L
+ 255  380 mt  267  380 L
+ 261  374 mt  261  386 L
+ 257  364 mt  269  364 L
+ 263  358 mt  263  370 L
+ 259  351 mt  271  351 L
+ 265  345 mt  265  357 L
+ 262  343 mt  274  343 L
+ 268  337 mt  268  349 L
+ 263  339 mt  275  339 L
+ 269  333 mt  269  345 L
+ 265  338 mt  277  338 L
+ 271  332 mt  271  344 L
+ 265  339 mt  277  339 L
+ 271  333 mt  271  345 L
+ 265  338 mt  277  338 L
+ 271  332 mt  271  344 L
+ 266  338 mt  278  338 L
+ 272  332 mt  272  344 L
+ 267  339 mt  279  339 L
+ 273  333 mt  273  345 L
+ 269  340 mt  281  340 L
+ 275  334 mt  275  346 L
+ 271  341 mt  283  341 L
+ 277  335 mt  277  347 L
+ 273  343 mt  285  343 L
+ 279  337 mt  279  349 L
+ 276  345 mt  288  345 L
+ 282  339 mt  282  351 L
+ 279  347 mt  291  347 L
+ 285  341 mt  285  353 L
+ 281  349 mt  293  349 L
+ 287  343 mt  287  355 L
+ 283  350 mt  295  350 L
+ 289  344 mt  289  356 L
+ 284  350 mt  296  350 L
+ 290  344 mt  290  356 L
+ 285  350 mt  297  350 L
+ 291  344 mt  291  356 L
+ 285  351 mt  297  351 L
+ 291  345 mt  291  357 L
+ 286  351 mt  298  351 L
+ 292  345 mt  292  357 L
+ 288  351 mt  300  351 L
+ 294  345 mt  294  357 L
+ 290  350 mt  302  350 L
+ 296  344 mt  296  356 L
+ 293  349 mt  305  349 L
+ 299  343 mt  299  355 L
+ 296  347 mt  308  347 L
+ 302  341 mt  302  353 L
+ 298  346 mt  310  346 L
+ 304  340 mt  304  352 L
+ 300  344 mt  312  344 L
+ 306  338 mt  306  350 L
+ 302  343 mt  314  343 L
+ 308  337 mt  308  349 L
+ 303  342 mt  315  342 L
+ 309  336 mt  309  348 L
+ 304  341 mt  316  341 L
+ 310  335 mt  310  347 L
+ 305  341 mt  317  341 L
+ 311  335 mt  311  347 L
+ 306  339 mt  318  339 L
+ 312  333 mt  312  345 L
+ 308  337 mt  320  337 L
+ 314  331 mt  314  343 L
+ 310  333 mt  322  333 L
+ 316  327 mt  316  339 L
+ 312  330 mt  324  330 L
+ 318  324 mt  318  336 L
+ 315  326 mt  327  326 L
+ 321  320 mt  321  332 L
+ 317  322 mt  329  322 L
+ 323  316 mt  323  328 L
+ 320  318 mt  332  318 L
+ 326  312 mt  326  324 L
+ 321  315 mt  333  315 L
+ 327  309 mt  327  321 L
+ 323  313 mt  335  313 L
+ 329  307 mt  329  319 L
+ 323  312 mt  335  312 L
+ 329  306 mt  329  318 L
+ 324  311 mt  336  311 L
+ 330  305 mt  330  317 L
+ 325  309 mt  337  309 L
+ 331  303 mt  331  315 L
+ 327  307 mt  339  307 L
+ 333  301 mt  333  313 L
+ 329  303 mt  341  303 L
+ 335  297 mt  335  309 L
+ 331  299 mt  343  299 L
+ 337  293 mt  337  305 L
+ 334  295 mt  346  295 L
+ 340  289 mt  340  301 L
+ 336  292 mt  348  292 L
+ 342  286 mt  342  298 L
+ 338  289 mt  350  289 L
+ 344  283 mt  344  295 L
+ 340  286 mt  352  286 L
+ 346  280 mt  346  292 L
+ 341  284 mt  353  284 L
+ 347  278 mt  347  290 L
+ 342  284 mt  354  284 L
+ 348  278 mt  348  290 L
+ 342  283 mt  354  283 L
+ 348  277 mt  348  289 L
+ 343  281 mt  355  281 L
+ 349  275 mt  349  287 L
+ 345  279 mt  357  279 L
+ 351  273 mt  351  285 L
+ 347  277 mt  359  277 L
+ 353  271 mt  353  283 L
+ 350  274 mt  362  274 L
+ 356  268 mt  356  280 L
+ 353  271 mt  365  271 L
+ 359  265 mt  359  277 L
+ 355  269 mt  367  269 L
+ 361  263 mt  361  275 L
+ 357  267 mt  369  267 L
+ 363  261 mt  363  273 L
+ 359  266 mt  371  266 L
+ 365  260 mt  365  272 L
+ 360  266 mt  372  266 L
+ 366  260 mt  366  272 L
+ 361  266 mt  373  266 L
+ 367  260 mt  367  272 L
+ 363  266 mt  375  266 L
+ 369  260 mt  369  272 L
+ 365  266 mt  377  266 L
+ 371  260 mt  371  272 L
+ 367  266 mt  379  266 L
+ 373  260 mt  373  272 L
+ 370  267 mt  382  267 L
+ 376  261 mt  376  273 L
+ 373  267 mt  385  267 L
+ 379  261 mt  379  273 L
+ 376  268 mt  388  268 L
+ 382  262 mt  382  274 L
+ 378  269 mt  390  269 L
+ 384  263 mt  384  275 L
+ 380  270 mt  392  270 L
+ 386  264 mt  386  276 L
+ 381  270 mt  393  270 L
+ 387  264 mt  387  276 L
+ 382  270 mt  394  270 L
+ 388  264 mt  388  276 L
+ 383  271 mt  395  271 L
+ 389  265 mt  389  277 L
+ 384  271 mt  396  271 L
+ 390  265 mt  390  277 L
+ 386  273 mt  398  273 L
+ 392  267 mt  392  279 L
+ 388  274 mt  400  274 L
+ 394  268 mt  394  280 L
+ 391  276 mt  403  276 L
+ 397  270 mt  397  282 L
+ 394  278 mt  406  278 L
+ 400  272 mt  400  284 L
+ 397  280 mt  409  280 L
+ 403  274 mt  403  286 L
+ 399  281 mt  411  281 L
+ 405  275 mt  405  287 L
+ 401  283 mt  413  283 L
+ 407  277 mt  407  289 L
+ 403  284 mt  415  284 L
+ 409  278 mt  409  290 L
+ 404  284 mt  416  284 L
+ 410  278 mt  410  290 L
+ 405  285 mt  417  285 L
+ 411  279 mt  411  291 L
+ 407  286 mt  419  286 L
+ 413  280 mt  413  292 L
+ 410  288 mt  422  288 L
+ 416  282 mt  416  294 L
+ 413  289 mt  425  289 L
+ 419  283 mt  419  295 L
+ 416  291 mt  428  291 L
+ 422  285 mt  422  297 L
+ 419  293 mt  431  293 L
+ 425  287 mt  425  299 L
+ 422  295 mt  434  295 L
+ 428  289 mt  428  301 L
+ 424  296 mt  436  296 L
+ 430  290 mt  430  302 L
+ 425  297 mt  437  297 L
+ 431  291 mt  431  303 L
+ 426  298 mt  438  298 L
+ 432  292 mt  432  304 L
+ 428  299 mt  440  299 L
+ 434  293 mt  434  305 L
+ 430  301 mt  442  301 L
+ 436  295 mt  436  307 L
+ 432  303 mt  444  303 L
+ 438  297 mt  438  309 L
+ 435  306 mt  447  306 L
+ 441  300 mt  441  312 L
+ 438  309 mt  450  309 L
+ 444  303 mt  444  315 L
+ 441  311 mt  453  311 L
+ 447  305 mt  447  317 L
+ 444  313 mt  456  313 L
+ 450  307 mt  450  319 L
+ 446  315 mt  458  315 L
+ 452  309 mt  452  321 L
+ 448  316 mt  460  316 L
+ 454  310 mt  454  322 L
+ 449  317 mt  461  317 L
+ 455  311 mt  455  323 L
+ 450  318 mt  462  318 L
+ 456  312 mt  456  324 L
+ 452  319 mt  464  319 L
+ 458  313 mt  458  325 L
+ 455  321 mt  467  321 L
+ 461  315 mt  461  327 L
+ 458  322 mt  470  322 L
+ 464  316 mt  464  328 L
+ 461  324 mt  473  324 L
+ 467  318 mt  467  330 L
+ 464  326 mt  476  326 L
+ 470  320 mt  470  332 L
+ 466  328 mt  478  328 L
+ 472  322 mt  472  334 L
+ 468  329 mt  480  329 L
+ 474  323 mt  474  335 L
+ 470  330 mt  482  330 L
+ 476  324 mt  476  336 L
+ 471  331 mt  483  331 L
+ 477  325 mt  477  337 L
+ 472  332 mt  484  332 L
+ 478  326 mt  478  338 L
+ 474  333 mt  486  333 L
+ 480  327 mt  480  339 L
+ 477  335 mt  489  335 L
+ 483  329 mt  483  341 L
+ 480  337 mt  492  337 L
+ 486  331 mt  486  343 L
+ 483  339 mt  495  339 L
+ 489  333 mt  489  345 L
+ 486  340 mt  498  340 L
+ 492  334 mt  492  346 L
+ 488  342 mt  500  342 L
+ 494  336 mt  494  348 L
+ 490  343 mt  502  343 L
+ 496  337 mt  496  349 L
+ 492  344 mt  504  344 L
+ 498  338 mt  498  350 L
+ 493  345 mt  505  345 L
+ 499  339 mt  499  351 L
+ 494  345 mt  506  345 L
+ 500  339 mt  500  351 L
+ 496  346 mt  508  346 L
+ 502  340 mt  502  352 L
+ 498  348 mt  510  348 L
+ 504  342 mt  504  354 L
+ 501  349 mt  513  349 L
+ 507  343 mt  507  355 L
+ 504  350 mt  516  350 L
+ 510  344 mt  510  356 L
+ 507  352 mt  519  352 L
+ 513  346 mt  513  358 L
+ 509  353 mt  521  353 L
+ 515  347 mt  515  359 L
+ 511  354 mt  523  354 L
+ 517  348 mt  517  360 L
+ 513  355 mt  525  355 L
+ 519  349 mt  519  361 L
+ 513  356 mt  525  356 L
+ 519  350 mt  519  362 L
+ 514  356 mt  526  356 L
+ 520  350 mt  520  362 L
+ 515  357 mt  527  357 L
+ 521  351 mt  521  363 L
+ 517  358 mt  529  358 L
+ 523  352 mt  523  364 L
+ 519  360 mt  531  360 L
+ 525  354 mt  525  366 L
+ 522  362 mt  534  362 L
+ 528  356 mt  528  368 L
+ 525  364 mt  537  364 L
+ 531  358 mt  531  370 L
+ 527  365 mt  539  365 L
+ 533  359 mt  533  371 L
+ 530  367 mt  542  367 L
+ 536  361 mt  536  373 L
+ 532  368 mt  544  368 L
+ 538  362 mt  538  374 L
+ 533  369 mt  545  369 L
+ 539  363 mt  539  375 L
+ 534  369 mt  546  369 L
+ 540  363 mt  540  375 L
+ 534  370 mt  546  370 L
+ 540  364 mt  540  376 L
+ 535  370 mt  547  370 L
+ 541  364 mt  541  376 L
+ 537  371 mt  549  371 L
+ 543  365 mt  543  377 L
+ 540  372 mt  552  372 L
+ 546  366 mt  546  378 L
+ 542  374 mt  554  374 L
+ 548  368 mt  548  380 L
+ 545  375 mt  557  375 L
+ 551  369 mt  551  381 L
+ 548  376 mt  560  376 L
+ 554  370 mt  554  382 L
+ 550  377 mt  562  377 L
+ 556  371 mt  556  383 L
+ 552  378 mt  564  378 L
+ 558  372 mt  558  384 L
+ 553  379 mt  565  379 L
+ 559  373 mt  559  385 L
+ 554  379 mt  566  379 L
+ 560  373 mt  560  385 L
+ 555  379 mt  567  379 L
+ 561  373 mt  561  385 L
+ 557  380 mt  569  380 L
+ 563  374 mt  563  386 L
+ 560  381 mt  572  381 L
+ 566  375 mt  566  387 L
+ 562  382 mt  574  382 L
+ 568  376 mt  568  388 L
+ 565  383 mt  577  383 L
+ 571  377 mt  571  389 L
+ 568  384 mt  580  384 L
+ 574  378 mt  574  390 L
+ 570  385 mt  582  385 L
+ 576  379 mt  576  391 L
+ 572  386 mt  584  386 L
+ 578  380 mt  578  392 L
+ 573  387 mt  585  387 L
+ 579  381 mt  579  393 L
+ 574  387 mt  586  387 L
+ 580  381 mt  580  393 L
+ 574  388 mt  586  388 L
+ 580  382 mt  580  394 L
+ 576  388 mt  588  388 L
+ 582  382 mt  582  394 L
+ 577  390 mt  589  390 L
+ 583  384 mt  583  396 L
+ 580  391 mt  592  391 L
+ 586  385 mt  586  397 L
+ 583  393 mt  595  393 L
+ 589  387 mt  589  399 L
+ 585  395 mt  597  395 L
+ 591  389 mt  591  401 L
+ 588  397 mt  600  397 L
+ 594  391 mt  594  403 L
+ 590  399 mt  602  399 L
+ 596  393 mt  596  405 L
+ 592  400 mt  604  400 L
+ 598  394 mt  598  406 L
+ 594  401 mt  606  401 L
+ 600  395 mt  600  407 L
+ 595  401 mt  607  401 L
+ 601  395 mt  601  407 L
+ 596  402 mt  608  402 L
+ 602  396 mt  602  408 L
+ 598  403 mt  610  403 L
+ 604  397 mt  604  409 L
+ 601  404 mt  613  404 L
+ 607  398 mt  607  410 L
+ 603  406 mt  615  406 L
+ 609  400 mt  609  412 L
+ 606  408 mt  618  408 L
+ 612  402 mt  612  414 L
+ 609  409 mt  621  409 L
+ 615  403 mt  615  415 L
+ 611  410 mt  623  410 L
+ 617  404 mt  617  416 L
+ 613  411 mt  625  411 L
+ 619  405 mt  619  417 L
+ 615  412 mt  627  412 L
+ 621  406 mt  621  418 L
+ 616  413 mt  628  413 L
+ 622  407 mt  622  419 L
+ 617  413 mt  629  413 L
+ 623  407 mt  623  419 L
+ 619  414 mt  631  414 L
+ 625  408 mt  625  420 L
+ 622  416 mt  634  416 L
+ 628  410 mt  628  422 L
+ 625  417 mt  637  417 L
+ 631  411 mt  631  423 L
+ 628  419 mt  640  419 L
+ 634  413 mt  634  425 L
+ 631  420 mt  643  420 L
+ 637  414 mt  637  426 L
+ 633  422 mt  645  422 L
+ 639  416 mt  639  428 L
+ 635  423 mt  647  423 L
+ 641  417 mt  641  429 L
+ 637  424 mt  649  424 L
+ 643  418 mt  643  430 L
+ 638  424 mt  650  424 L
+ 644  418 mt  644  430 L
+ 640  425 mt  652  425 L
+ 646  419 mt  646  431 L
+ 642  427 mt  654  427 L
+ 648  421 mt  648  433 L
+ 645  428 mt  657  428 L
+ 651  422 mt  651  434 L
+ 648  430 mt  660  430 L
+ 654  424 mt  654  436 L
+ 651  432 mt  663  432 L
+ 657  426 mt  657  438 L
+ 654  434 mt  666  434 L
+ 660  428 mt  660  440 L
+ 657  436 mt  669  436 L
+ 663  430 mt  663  442 L
+ 659  438 mt  671  438 L
+ 665  432 mt  665  444 L
+ 660  439 mt  672  439 L
+ 666  433 mt  666  445 L
+ 661  439 mt  673  439 L
+ 667  433 mt  667  445 L
+ 662  439 mt  674  439 L
+ 668  433 mt  668  445 L
+ 663  441 mt  675  441 L
+ 669  435 mt  669  447 L
+ 666  442 mt  678  442 L
+ 672  436 mt  672  448 L
+ 669  444 mt  681  444 L
+ 675  438 mt  675  450 L
+ 672  447 mt  684  447 L
+ 678  441 mt  678  453 L
+ 675  449 mt  687  449 L
+ 681  443 mt  681  455 L
+ 679  452 mt  691  452 L
+ 685  446 mt  685  458 L
+ 682  454 mt  694  454 L
+ 688  448 mt  688  460 L
+ 684  456 mt  696  456 L
+ 690  450 mt  690  462 L
+ 686  457 mt  698  457 L
+ 692  451 mt  692  463 L
+ 687  458 mt  699  458 L
+ 693  452 mt  693  464 L
+ 689  459 mt  701  459 L
+ 695  453 mt  695  465 L
+ 691  461 mt  703  461 L
+ 697  455 mt  697  467 L
+ 694  464 mt  706  464 L
+ 700  458 mt  700  470 L
+ 698  467 mt  710  467 L
+ 704  461 mt  704  473 L
+ 702  470 mt  714  470 L
+ 708  464 mt  708  476 L
+ 705  473 mt  717  473 L
+ 711  467 mt  711  479 L
+ 708  476 mt  720  476 L
+ 714  470 mt  714  482 L
+ 711  479 mt  723  479 L
+ 717  473 mt  717  485 L
+ 713  480 mt  725  480 L
+ 719  474 mt  719  486 L
+ 713  481 mt  725  481 L
+ 719  475 mt  719  487 L
+ 714  482 mt  726  482 L
+ 720  476 mt  720  488 L
+ 716  484 mt  728  484 L
+ 722  478 mt  722  490 L
+ 719  487 mt  731  487 L
+ 725  481 mt  725  493 L
+ 722  490 mt  734  490 L
+ 728  484 mt  728  496 L
+ 726  494 mt  738  494 L
+ 732  488 mt  732  500 L
+ 730  499 mt  742  499 L
+ 736  493 mt  736  505 L
+ 733  503 mt  745  503 L
+ 739  497 mt  739  509 L
+ 737  507 mt  749  507 L
+ 743  501 mt  743  513 L
+ 739  510 mt  751  510 L
+ 745  504 mt  745  516 L
+ 741  512 mt  753  512 L
+ 747  506 mt  747  518 L
+ 742  512 mt  754  512 L
+ 748  506 mt  748  518 L
+ 743  513 mt  755  513 L
+ 749  507 mt  749  519 L
+ 745  515 mt  757  515 L
+ 751  509 mt  751  521 L
+ 747  518 mt  759  518 L
+ 753  512 mt  753  524 L
+ 751  522 mt  763  522 L
+ 757  516 mt  757  528 L
+ 755  527 mt  767  527 L
+ 761  521 mt  761  533 L
+ 759  532 mt  771  532 L
+ 765  526 mt  765  538 L
+ 762  536 mt  774  536 L
+ 768  530 mt  768  542 L
+ 766  540 mt  778  540 L
+ 772  534 mt  772  546 L
+ 769  544 mt  781  544 L
+ 775  538 mt  775  550 L
+ 770  546 mt  782  546 L
+ 776  540 mt  776  552 L
+ 771  547 mt  783  547 L
+ 777  541 mt  777  553 L
+ 772  548 mt  784  548 L
+ 778  542 mt  778  554 L
+ 774  551 mt  786  551 L
+ 780  545 mt  780  557 L
+ 777  555 mt  789  555 L
+ 783  549 mt  783  561 L
+ 780  560 mt  792  560 L
+ 786  554 mt  786  566 L
+ 784  566 mt  796  566 L
+ 790  560 mt  790  572 L
+ 788  572 mt  800  572 L
+ 794  566 mt  794  578 L
+ 792  578 mt  804  578 L
+ 798  572 mt  798  584 L
+ 795  583 mt  807  583 L
+ 801  577 mt  801  589 L
+ 798  587 mt  810  587 L
+ 804  581 mt  804  593 L
+ 800  589 mt  812  589 L
+ 806  583 mt  806  595 L
+ 801  590 mt  813  590 L
+ 807  584 mt  807  596 L
+ 801  591 mt  813  591 L
+ 807  585 mt  807  597 L
+ 801  592 mt  813  592 L
+ 807  586 mt  807  598 L
+ 803  595 mt  815  595 L
+ 809  589 mt  809  601 L
+ 806  599 mt  818  599 L
+ 812  593 mt  812  605 L
+ 809  604 mt  821  604 L
+ 815  598 mt  815  610 L
+ 813  610 mt  825  610 L
+ 819  604 mt  819  616 L
+ 817  616 mt  829  616 L
+ 823  610 mt  823  622 L
+ 821  622 mt  833  622 L
+ 827  616 mt  827  628 L
+ 824  628 mt  836  628 L
+ 830  622 mt  830  634 L
+ 827  633 mt  839  633 L
+ 833  627 mt  833  639 L
+ 829  635 mt  841  635 L
+ 835  629 mt  835  641 L
+ 830  637 mt  842  637 L
+ 836  631 mt  836  643 L
+ 830  636 mt  842  636 L
+ 836  630 mt  836  642 L
+ 830  638 mt  842  638 L
+ 836  632 mt  836  644 L
+ 832  640 mt  844  640 L
+ 838  634 mt  838  646 L
+ 834  644 mt  846  644 L
+ 840  638 mt  840  650 L
+ 837  647 mt  849  647 L
+ 843  641 mt  843  653 L
+ 841  652 mt  853  652 L
+ 847  646 mt  847  658 L
+ 844  656 mt  856  656 L
+ 850  650 mt  850  662 L
+ 848  661 mt  860  661 L
+ 854  655 mt  854  667 L
+ 851  664 mt  863  664 L
+ 857  658 mt  857  670 L
+ 853  667 mt  865  667 L
+ 859  661 mt  859  673 L
+ 855  668 mt  867  668 L
+ 861  662 mt  861  674 L
+ 855  669 mt  867  669 L
+ 861  663 mt  861  675 L
+ 856  670 mt  868  670 L
+ 862  664 mt  862  676 L
+ 858  671 mt  870  671 L
+ 864  665 mt  864  677 L
+ 860  672 mt  872  672 L
+ 866  666 mt  866  678 L
+ 863  674 mt  875  674 L
+ 869  668 mt  869  680 L
+ 866  677 mt  878  677 L
+ 872  671 mt  872  683 L
+ 869  679 mt  881  679 L
+ 875  673 mt  875  685 L
+ 873  681 mt  885  681 L
+ 879  675 mt  879  687 L
+ 876  683 mt  888  683 L
+ 882  677 mt  882  689 L
+ 878  685 mt  890  685 L
+ 884  679 mt  884  691 L
+ 879  685 mt  891  685 L
+ 885  679 mt  885  691 L
+ 880  686 mt  892  686 L
+ 886  680 mt  886  692 L
+ 881  686 mt  893  686 L
+ 887  680 mt  887  692 L
+ 882  686 mt  894  686 L
+ 888  680 mt  888  692 L
+ 885  687 mt  897  687 L
+ 891  681 mt  891  693 L
+ 888  688 mt  900  688 L
+ 894  682 mt  894  694 L
+ 891  688 mt  903  688 L
+ 897  682 mt  897  694 L
+ 894  689 mt  906  689 L
+ 900  683 mt  900  695 L
+ 898  690 mt  910  690 L
+ 904  684 mt  904  696 L
+ 901  690 mt  913  690 L
+ 907  684 mt  907  696 L
+ 903  690 mt  915  690 L
+ 909  684 mt  909  696 L
+ 904  691 mt  916  691 L
+ 910  685 mt  910  697 L
+ 905  691 mt  917  691 L
+ 911  685 mt  911  697 L
+ 906  691 mt  918  691 L
+ 912  685 mt  912  697 L
+ 907  691 mt  919  691 L
+ 913  685 mt  913  697 L
+ 910  692 mt  922  692 L
+ 916  686 mt  916  698 L
+ 913  693 mt  925  693 L
+ 919  687 mt  919  699 L
+ 916  694 mt  928  694 L
+ 922  688 mt  922  700 L
+ 920  694 mt  932  694 L
+ 926  688 mt  926  700 L
+ 923  695 mt  935  695 L
+ 929  689 mt  929  701 L
+ 926  696 mt  938  696 L
+ 932  690 mt  932  702 L
+ 928  696 mt  940  696 L
+ 934  690 mt  934  702 L
+ 930  696 mt  942  696 L
+ 936  690 mt  936  702 L
+ 930  697 mt  942  697 L
+ 936  691 mt  936  703 L
+ 931  697 mt  943  697 L
+ 937  691 mt  937  703 L
+ 933  697 mt  945  697 L
+ 939  691 mt  939  703 L
+ 935  697 mt  947  697 L
+ 941  691 mt  941  703 L
+ 938  697 mt  950  697 L
+ 944  691 mt  944  703 L
+ 941  697 mt  953  697 L
+ 947  691 mt  947  703 L
+ 945  697 mt  957  697 L
+ 951  691 mt  951  703 L
+ 948  696 mt  960  696 L
+ 954  690 mt  954  702 L
+ 951  695 mt  963  695 L
+ 957  689 mt  957  701 L
+ 953  695 mt  965  695 L
+ 959  689 mt  959  701 L
+ 955  695 mt  967  695 L
+ 961  689 mt  961  701 L
+ 955  694 mt  967  694 L
+ 961  688 mt  961  700 L
+ 956  694 mt  968  694 L
+ 962  688 mt  962  700 L
+ 958  694 mt  970  694 L
+ 964  688 mt  964  700 L
+ 960  694 mt  972  694 L
+ 966  688 mt  966  700 L
+ 962  694 mt  974  694 L
+ 968  688 mt  968  700 L
+ 965  694 mt  977  694 L
+ 971  688 mt  971  700 L
+ 969  694 mt  981  694 L
+ 975  688 mt  975  700 L
+ 972  694 mt  984  694 L
+ 978  688 mt  978  700 L
+ 974  694 mt  986  694 L
+ 980  688 mt  980  700 L
+ 977  693 mt  989  693 L
+ 983  687 mt  983  699 L
+ 978  693 mt  990  693 L
+ 984  687 mt  984  699 L
+ 979  693 mt  991  693 L
+ 985  687 mt  985  699 L
+ 981  692 mt  993  692 L
+ 987  686 mt  987  698 L
+ 983  692 mt  995  692 L
+ 989  686 mt  989  698 L
+ 985  690 mt  997  690 L
+ 991  684 mt  991  696 L
+ 988  689 mt 1000  689 L
+ 994  683 mt  994  695 L
+ 991  688 mt 1003  688 L
+ 997  682 mt  997  694 L
+ 994  686 mt 1006  686 L
+1000  680 mt 1000  692 L
+ 996  685 mt 1008  685 L
+1002  679 mt 1002  691 L
+ 998  684 mt 1010  684 L
+1004  678 mt 1004  690 L
+1000  684 mt 1012  684 L
+1006  678 mt 1006  690 L
+1001  684 mt 1013  684 L
+1007  678 mt 1007  690 L
+1002  683 mt 1014  683 L
+1008  677 mt 1008  689 L
+1004  683 mt 1016  683 L
+1010  677 mt 1010  689 L
+1006  682 mt 1018  682 L
+1012  676 mt 1012  688 L
+1008  682 mt 1020  682 L
+1014  676 mt 1014  688 L
+1011  682 mt 1023  682 L
+1017  676 mt 1017  688 L
+1014  683 mt 1026  683 L
+1020  677 mt 1020  689 L
+1016  683 mt 1028  683 L
+1022  677 mt 1022  689 L
+1018  683 mt 1030  683 L
+1024  677 mt 1024  689 L
+1019  683 mt 1031  683 L
+1025  677 mt 1025  689 L
+1020  683 mt 1032  683 L
+1026  677 mt 1026  689 L
+1021  684 mt 1033  684 L
+1027  678 mt 1027  690 L
+1022  684 mt 1034  684 L
+1028  678 mt 1028  690 L
+1024  685 mt 1036  685 L
+1030  679 mt 1030  691 L
+1026  686 mt 1038  686 L
+1032  680 mt 1032  692 L
+1029  688 mt 1041  688 L
+1035  682 mt 1035  694 L
+1031  689 mt 1043  689 L
+1037  683 mt 1037  695 L
+1033  690 mt 1045  690 L
+1039  684 mt 1039  696 L
+1034  690 mt 1046  690 L
+1040  684 mt 1040  696 L
+1035  691 mt 1047  691 L
+1041  685 mt 1041  697 L
+1036  691 mt 1048  691 L
+1042  685 mt 1042  697 L
+1037  692 mt 1049  692 L
+1043  686 mt 1043  698 L
+1038  693 mt 1050  693 L
+1044  687 mt 1044  699 L
+1040  694 mt 1052  694 L
+1046  688 mt 1046  700 L
+1042  696 mt 1054  696 L
+1048  690 mt 1048  702 L
+1043  697 mt 1055  697 L
+1049  691 mt 1049  703 L
+1045  699 mt 1057  699 L
+1051  693 mt 1051  705 L
+1047  700 mt 1059  700 L
+1053  694 mt 1053  706 L
+1048  701 mt 1060  701 L
+1054  695 mt 1054  707 L
+1049  702 mt 1061  702 L
+1055  696 mt 1055  708 L
+1050  703 mt 1062  703 L
+1056  697 mt 1056  709 L
+1051  705 mt 1063  705 L
+1057  699 mt 1057  711 L
+1053  706 mt 1065  706 L
+1059  700 mt 1059  712 L
+1054  708 mt 1066  708 L
+1060  702 mt 1060  714 L
+1056  709 mt 1068  709 L
+1062  703 mt 1062  715 L
+1057  711 mt 1069  711 L
+1063  705 mt 1063  717 L
+1059  713 mt 1071  713 L
+1065  707 mt 1065  719 L
+1060  714 mt 1072  714 L
+1066  708 mt 1066  720 L
+1060  715 mt 1072  715 L
+1066  709 mt 1066  721 L
+1061  715 mt 1073  715 L
+1067  709 mt 1067  721 L
+1061  716 mt 1073  716 L
+1067  710 mt 1067  722 L
+1062  716 mt 1074  716 L
+1068  710 mt 1068  722 L
+1063  718 mt 1075  718 L
+1069  712 mt 1069  724 L
+1064  719 mt 1076  719 L
+1070  713 mt 1070  725 L
+1065  721 mt 1077  721 L
+1071  715 mt 1071  727 L
+1066  722 mt 1078  722 L
+1072  716 mt 1072  728 L
+1068  724 mt 1080  724 L
+1074  718 mt 1074  730 L
+1069  725 mt 1081  725 L
+1075  719 mt 1075  731 L
+1070  726 mt 1082  726 L
+1076  720 mt 1076  732 L
+1070  728 mt 1082  728 L
+1076  722 mt 1076  734 L
+1071  728 mt 1083  728 L
+1077  722 mt 1077  734 L
+1071  729 mt 1083  729 L
+1077  723 mt 1077  735 L
+1071  730 mt 1083  730 L
+1077  724 mt 1077  736 L
+1072  732 mt 1084  732 L
+1078  726 mt 1078  738 L
+1073  735 mt 1085  735 L
+1079  729 mt 1079  741 L
+1074  740 mt 1086  740 L
+1080  734 mt 1080  746 L
+1076  747 mt 1088  747 L
+1082  741 mt 1082  753 L
+1077  753 mt 1089  753 L
+1083  747 mt 1083  759 L
+1078  758 mt 1090  758 L
+1084  752 mt 1084  764 L
+1079  762 mt 1091  762 L
+1085  756 mt 1085  768 L
+1079  764 mt 1091  764 L
+1085  758 mt 1085  770 L
+1079  766 mt 1091  766 L
+1085  760 mt 1085  772 L
+ 172   90 mt  180   98 L
+ 180   90 mt  172   98 L
+ 172  116 mt  180  124 L
+ 180  116 mt  172  124 L
+ 173  131 mt  181  139 L
+ 181  131 mt  173  139 L
+ 173  134 mt  181  142 L
+ 181  134 mt  173  142 L
+ 173  132 mt  181  140 L
+ 181  132 mt  173  140 L
+ 173  140 mt  181  148 L
+ 181  140 mt  173  148 L
+ 174  152 mt  182  160 L
+ 182  152 mt  174  160 L
+ 174  163 mt  182  171 L
+ 182  163 mt  174  171 L
+ 175  174 mt  183  182 L
+ 183  174 mt  175  182 L
+ 176  186 mt  184  194 L
+ 184  186 mt  176  194 L
+ 177  199 mt  185  207 L
+ 185  199 mt  177  207 L
+ 177  212 mt  185  220 L
+ 185  212 mt  177  220 L
+ 178  224 mt  186  232 L
+ 186  224 mt  178  232 L
+ 179  233 mt  187  241 L
+ 187  233 mt  179  241 L
+ 179  238 mt  187  246 L
+ 187  238 mt  179  246 L
+ 179  239 mt  187  247 L
+ 187  239 mt  179  247 L
+ 179  240 mt  187  248 L
+ 187  240 mt  179  248 L
+ 180  243 mt  188  251 L
+ 188  243 mt  180  251 L
+ 180  249 mt  188  257 L
+ 188  249 mt  180  257 L
+ 181  255 mt  189  263 L
+ 189  255 mt  181  263 L
+ 182  262 mt  190  270 L
+ 190  262 mt  182  270 L
+ 183  270 mt  191  278 L
+ 191  270 mt  183  278 L
+ 184  279 mt  192  287 L
+ 192  279 mt  184  287 L
+ 185  288 mt  193  296 L
+ 193  288 mt  185  296 L
+ 185  295 mt  193  303 L
+ 193  295 mt  185  303 L
+ 186  302 mt  194  310 L
+ 194  302 mt  186  310 L
+ 187  307 mt  195  315 L
+ 195  307 mt  187  315 L
+ 187  309 mt  195  317 L
+ 195  309 mt  187  317 L
+ 187  308 mt  195  316 L
+ 195  308 mt  187  316 L
+ 187  311 mt  195  319 L
+ 195  311 mt  187  319 L
+ 188  316 mt  196  324 L
+ 196  316 mt  188  324 L
+ 188  323 mt  196  331 L
+ 196  323 mt  188  331 L
+ 189  332 mt  197  340 L
+ 197  332 mt  189  340 L
+ 190  342 mt  198  350 L
+ 198  342 mt  190  350 L
+ 191  352 mt  199  360 L
+ 199  352 mt  191  360 L
+ 193  362 mt  201  370 L
+ 201  362 mt  193  370 L
+ 194  370 mt  202  378 L
+ 202  370 mt  194  378 L
+ 194  377 mt  202  385 L
+ 202  377 mt  194  385 L
+ 195  381 mt  203  389 L
+ 203  381 mt  195  389 L
+ 195  383 mt  203  391 L
+ 203  383 mt  195  391 L
+ 195  385 mt  203  393 L
+ 203  385 mt  195  393 L
+ 196  390 mt  204  398 L
+ 204  390 mt  196  398 L
+ 197  395 mt  205  403 L
+ 205  395 mt  197  403 L
+ 198  402 mt  206  410 L
+ 206  402 mt  198  410 L
+ 199  409 mt  207  417 L
+ 207  409 mt  199  417 L
+ 201  417 mt  209  425 L
+ 209  417 mt  201  425 L
+ 202  424 mt  210  432 L
+ 210  424 mt  202  432 L
+ 203  431 mt  211  439 L
+ 211  431 mt  203  439 L
+ 204  435 mt  212  443 L
+ 212  435 mt  204  443 L
+ 205  438 mt  213  446 L
+ 213  438 mt  205  446 L
+ 205  440 mt  213  448 L
+ 213  440 mt  205  448 L
+ 206  442 mt  214  450 L
+ 214  442 mt  206  450 L
+ 207  445 mt  215  453 L
+ 215  445 mt  207  453 L
+ 209  449 mt  217  457 L
+ 217  449 mt  209  457 L
+ 210  452 mt  218  460 L
+ 218  452 mt  210  460 L
+ 212  456 mt  220  464 L
+ 220  456 mt  212  464 L
+ 213  460 mt  221  468 L
+ 221  460 mt  213  468 L
+ 215  463 mt  223  471 L
+ 223  463 mt  215  471 L
+ 216  466 mt  224  474 L
+ 224  466 mt  216  474 L
+ 217  468 mt  225  476 L
+ 225  468 mt  217  476 L
+ 218  469 mt  226  477 L
+ 226  469 mt  218  477 L
+ 218  471 mt  226  479 L
+ 226  471 mt  218  479 L
+ 220  474 mt  228  482 L
+ 228  474 mt  220  482 L
+ 221  478 mt  229  486 L
+ 229  478 mt  221  486 L
+ 223  481 mt  231  489 L
+ 231  481 mt  223  489 L
+ 225  485 mt  233  493 L
+ 233  485 mt  225  493 L
+ 227  489 mt  235  497 L
+ 235  489 mt  227  497 L
+ 229  492 mt  237  500 L
+ 237  492 mt  229  500 L
+ 230  495 mt  238  503 L
+ 238  495 mt  230  503 L
+ 231  496 mt  239  504 L
+ 239  496 mt  231  504 L
+ 232  496 mt  240  504 L
+ 240  496 mt  232  504 L
+ 232  497 mt  240  505 L
+ 240  497 mt  232  505 L
+ 233  498 mt  241  506 L
+ 241  498 mt  233  506 L
+ 235  500 mt  243  508 L
+ 243  500 mt  235  508 L
+ 237  500 mt  245  508 L
+ 245  500 mt  237  508 L
+ 239  498 mt  247  506 L
+ 247  498 mt  239  506 L
+ 241  493 mt  249  501 L
+ 249  493 mt  241  501 L
+ 243  487 mt  251  495 L
+ 251  487 mt  243  495 L
+ 245  480 mt  253  488 L
+ 253  480 mt  245  488 L
+ 247  469 mt  255  477 L
+ 255  469 mt  247  477 L
+ 248  456 mt  256  464 L
+ 256  456 mt  248  464 L
+ 249  449 mt  257  457 L
+ 257  449 mt  249  457 L
+ 249  454 mt  257  462 L
+ 257  454 mt  249  462 L
+ 249  449 mt  257  457 L
+ 257  449 mt  249  457 L
+ 250  433 mt  258  441 L
+ 258  433 mt  250  441 L
+ 252  413 mt  260  421 L
+ 260  413 mt  252  421 L
+ 254  394 mt  262  402 L
+ 262  394 mt  254  402 L
+ 257  376 mt  265  384 L
+ 265  376 mt  257  384 L
+ 259  360 mt  267  368 L
+ 267  360 mt  259  368 L
+ 261  347 mt  269  355 L
+ 269  347 mt  261  355 L
+ 264  339 mt  272  347 L
+ 272  339 mt  264  347 L
+ 265  335 mt  273  343 L
+ 273  335 mt  265  343 L
+ 267  334 mt  275  342 L
+ 275  334 mt  267  342 L
+ 267  335 mt  275  343 L
+ 275  335 mt  267  343 L
+ 267  334 mt  275  342 L
+ 275  334 mt  267  342 L
+ 268  334 mt  276  342 L
+ 276  334 mt  268  342 L
+ 269  335 mt  277  343 L
+ 277  335 mt  269  343 L
+ 271  336 mt  279  344 L
+ 279  336 mt  271  344 L
+ 273  337 mt  281  345 L
+ 281  337 mt  273  345 L
+ 275  339 mt  283  347 L
+ 283  339 mt  275  347 L
+ 278  341 mt  286  349 L
+ 286  341 mt  278  349 L
+ 281  343 mt  289  351 L
+ 289  343 mt  281  351 L
+ 283  345 mt  291  353 L
+ 291  345 mt  283  353 L
+ 285  346 mt  293  354 L
+ 293  346 mt  285  354 L
+ 286  346 mt  294  354 L
+ 294  346 mt  286  354 L
+ 287  346 mt  295  354 L
+ 295  346 mt  287  354 L
+ 287  347 mt  295  355 L
+ 295  347 mt  287  355 L
+ 288  347 mt  296  355 L
+ 296  347 mt  288  355 L
+ 290  347 mt  298  355 L
+ 298  347 mt  290  355 L
+ 292  346 mt  300  354 L
+ 300  346 mt  292  354 L
+ 295  345 mt  303  353 L
+ 303  345 mt  295  353 L
+ 298  343 mt  306  351 L
+ 306  343 mt  298  351 L
+ 300  342 mt  308  350 L
+ 308  342 mt  300  350 L
+ 302  340 mt  310  348 L
+ 310  340 mt  302  348 L
+ 304  339 mt  312  347 L
+ 312  339 mt  304  347 L
+ 305  338 mt  313  346 L
+ 313  338 mt  305  346 L
+ 306  337 mt  314  345 L
+ 314  337 mt  306  345 L
+ 307  337 mt  315  345 L
+ 315  337 mt  307  345 L
+ 308  335 mt  316  343 L
+ 316  335 mt  308  343 L
+ 310  333 mt  318  341 L
+ 318  333 mt  310  341 L
+ 312  329 mt  320  337 L
+ 320  329 mt  312  337 L
+ 314  326 mt  322  334 L
+ 322  326 mt  314  334 L
+ 317  322 mt  325  330 L
+ 325  322 mt  317  330 L
+ 319  318 mt  327  326 L
+ 327  318 mt  319  326 L
+ 322  314 mt  330  322 L
+ 330  314 mt  322  322 L
+ 323  311 mt  331  319 L
+ 331  311 mt  323  319 L
+ 325  309 mt  333  317 L
+ 333  309 mt  325  317 L
+ 325  308 mt  333  316 L
+ 333  308 mt  325  316 L
+ 326  307 mt  334  315 L
+ 334  307 mt  326  315 L
+ 327  305 mt  335  313 L
+ 335  305 mt  327  313 L
+ 329  303 mt  337  311 L
+ 337  303 mt  329  311 L
+ 331  299 mt  339  307 L
+ 339  299 mt  331  307 L
+ 333  295 mt  341  303 L
+ 341  295 mt  333  303 L
+ 336  291 mt  344  299 L
+ 344  291 mt  336  299 L
+ 338  288 mt  346  296 L
+ 346  288 mt  338  296 L
+ 340  285 mt  348  293 L
+ 348  285 mt  340  293 L
+ 342  282 mt  350  290 L
+ 350  282 mt  342  290 L
+ 343  280 mt  351  288 L
+ 351  280 mt  343  288 L
+ 344  280 mt  352  288 L
+ 352  280 mt  344  288 L
+ 344  279 mt  352  287 L
+ 352  279 mt  344  287 L
+ 345  277 mt  353  285 L
+ 353  277 mt  345  285 L
+ 347  275 mt  355  283 L
+ 355  275 mt  347  283 L
+ 349  273 mt  357  281 L
+ 357  273 mt  349  281 L
+ 352  270 mt  360  278 L
+ 360  270 mt  352  278 L
+ 355  267 mt  363  275 L
+ 363  267 mt  355  275 L
+ 357  265 mt  365  273 L
+ 365  265 mt  357  273 L
+ 359  263 mt  367  271 L
+ 367  263 mt  359  271 L
+ 361  262 mt  369  270 L
+ 369  262 mt  361  270 L
+ 362  262 mt  370  270 L
+ 370  262 mt  362  270 L
+ 363  262 mt  371  270 L
+ 371  262 mt  363  270 L
+ 365  262 mt  373  270 L
+ 373  262 mt  365  270 L
+ 367  262 mt  375  270 L
+ 375  262 mt  367  270 L
+ 369  262 mt  377  270 L
+ 377  262 mt  369  270 L
+ 372  263 mt  380  271 L
+ 380  263 mt  372  271 L
+ 375  263 mt  383  271 L
+ 383  263 mt  375  271 L
+ 378  264 mt  386  272 L
+ 386  264 mt  378  272 L
+ 380  265 mt  388  273 L
+ 388  265 mt  380  273 L
+ 382  266 mt  390  274 L
+ 390  266 mt  382  274 L
+ 383  266 mt  391  274 L
+ 391  266 mt  383  274 L
+ 384  266 mt  392  274 L
+ 392  266 mt  384  274 L
+ 385  267 mt  393  275 L
+ 393  267 mt  385  275 L
+ 386  267 mt  394  275 L
+ 394  267 mt  386  275 L
+ 388  269 mt  396  277 L
+ 396  269 mt  388  277 L
+ 390  270 mt  398  278 L
+ 398  270 mt  390  278 L
+ 393  272 mt  401  280 L
+ 401  272 mt  393  280 L
+ 396  274 mt  404  282 L
+ 404  274 mt  396  282 L
+ 399  276 mt  407  284 L
+ 407  276 mt  399  284 L
+ 401  277 mt  409  285 L
+ 409  277 mt  401  285 L
+ 403  279 mt  411  287 L
+ 411  279 mt  403  287 L
+ 405  280 mt  413  288 L
+ 413  280 mt  405  288 L
+ 406  280 mt  414  288 L
+ 414  280 mt  406  288 L
+ 407  281 mt  415  289 L
+ 415  281 mt  407  289 L
+ 409  282 mt  417  290 L
+ 417  282 mt  409  290 L
+ 412  284 mt  420  292 L
+ 420  284 mt  412  292 L
+ 415  285 mt  423  293 L
+ 423  285 mt  415  293 L
+ 418  287 mt  426  295 L
+ 426  287 mt  418  295 L
+ 421  289 mt  429  297 L
+ 429  289 mt  421  297 L
+ 424  291 mt  432  299 L
+ 432  291 mt  424  299 L
+ 426  292 mt  434  300 L
+ 434  292 mt  426  300 L
+ 427  293 mt  435  301 L
+ 435  293 mt  427  301 L
+ 428  294 mt  436  302 L
+ 436  294 mt  428  302 L
+ 430  295 mt  438  303 L
+ 438  295 mt  430  303 L
+ 432  297 mt  440  305 L
+ 440  297 mt  432  305 L
+ 434  299 mt  442  307 L
+ 442  299 mt  434  307 L
+ 437  302 mt  445  310 L
+ 445  302 mt  437  310 L
+ 440  305 mt  448  313 L
+ 448  305 mt  440  313 L
+ 443  307 mt  451  315 L
+ 451  307 mt  443  315 L
+ 446  309 mt  454  317 L
+ 454  309 mt  446  317 L
+ 448  311 mt  456  319 L
+ 456  311 mt  448  319 L
+ 450  312 mt  458  320 L
+ 458  312 mt  450  320 L
+ 451  313 mt  459  321 L
+ 459  313 mt  451  321 L
+ 452  314 mt  460  322 L
+ 460  314 mt  452  322 L
+ 454  315 mt  462  323 L
+ 462  315 mt  454  323 L
+ 457  317 mt  465  325 L
+ 465  317 mt  457  325 L
+ 460  318 mt  468  326 L
+ 468  318 mt  460  326 L
+ 463  320 mt  471  328 L
+ 471  320 mt  463  328 L
+ 466  322 mt  474  330 L
+ 474  322 mt  466  330 L
+ 468  324 mt  476  332 L
+ 476  324 mt  468  332 L
+ 470  325 mt  478  333 L
+ 478  325 mt  470  333 L
+ 472  326 mt  480  334 L
+ 480  326 mt  472  334 L
+ 473  327 mt  481  335 L
+ 481  327 mt  473  335 L
+ 474  328 mt  482  336 L
+ 482  328 mt  474  336 L
+ 476  329 mt  484  337 L
+ 484  329 mt  476  337 L
+ 479  331 mt  487  339 L
+ 487  331 mt  479  339 L
+ 482  333 mt  490  341 L
+ 490  333 mt  482  341 L
+ 485  335 mt  493  343 L
+ 493  335 mt  485  343 L
+ 488  336 mt  496  344 L
+ 496  336 mt  488  344 L
+ 490  338 mt  498  346 L
+ 498  338 mt  490  346 L
+ 492  339 mt  500  347 L
+ 500  339 mt  492  347 L
+ 494  340 mt  502  348 L
+ 502  340 mt  494  348 L
+ 495  341 mt  503  349 L
+ 503  341 mt  495  349 L
+ 496  341 mt  504  349 L
+ 504  341 mt  496  349 L
+ 498  342 mt  506  350 L
+ 506  342 mt  498  350 L
+ 500  344 mt  508  352 L
+ 508  344 mt  500  352 L
+ 503  345 mt  511  353 L
+ 511  345 mt  503  353 L
+ 506  346 mt  514  354 L
+ 514  346 mt  506  354 L
+ 509  348 mt  517  356 L
+ 517  348 mt  509  356 L
+ 511  349 mt  519  357 L
+ 519  349 mt  511  357 L
+ 513  350 mt  521  358 L
+ 521  350 mt  513  358 L
+ 515  351 mt  523  359 L
+ 523  351 mt  515  359 L
+ 515  352 mt  523  360 L
+ 523  352 mt  515  360 L
+ 516  352 mt  524  360 L
+ 524  352 mt  516  360 L
+ 517  353 mt  525  361 L
+ 525  353 mt  517  361 L
+ 519  354 mt  527  362 L
+ 527  354 mt  519  362 L
+ 521  356 mt  529  364 L
+ 529  356 mt  521  364 L
+ 524  358 mt  532  366 L
+ 532  358 mt  524  366 L
+ 527  360 mt  535  368 L
+ 535  360 mt  527  368 L
+ 529  361 mt  537  369 L
+ 537  361 mt  529  369 L
+ 532  363 mt  540  371 L
+ 540  363 mt  532  371 L
+ 534  364 mt  542  372 L
+ 542  364 mt  534  372 L
+ 535  365 mt  543  373 L
+ 543  365 mt  535  373 L
+ 536  365 mt  544  373 L
+ 544  365 mt  536  373 L
+ 536  366 mt  544  374 L
+ 544  366 mt  536  374 L
+ 537  366 mt  545  374 L
+ 545  366 mt  537  374 L
+ 539  367 mt  547  375 L
+ 547  367 mt  539  375 L
+ 542  368 mt  550  376 L
+ 550  368 mt  542  376 L
+ 544  370 mt  552  378 L
+ 552  370 mt  544  378 L
+ 547  371 mt  555  379 L
+ 555  371 mt  547  379 L
+ 550  372 mt  558  380 L
+ 558  372 mt  550  380 L
+ 552  373 mt  560  381 L
+ 560  373 mt  552  381 L
+ 554  374 mt  562  382 L
+ 562  374 mt  554  382 L
+ 555  375 mt  563  383 L
+ 563  375 mt  555  383 L
+ 556  375 mt  564  383 L
+ 564  375 mt  556  383 L
+ 557  375 mt  565  383 L
+ 565  375 mt  557  383 L
+ 559  376 mt  567  384 L
+ 567  376 mt  559  384 L
+ 562  377 mt  570  385 L
+ 570  377 mt  562  385 L
+ 564  378 mt  572  386 L
+ 572  378 mt  564  386 L
+ 567  379 mt  575  387 L
+ 575  379 mt  567  387 L
+ 570  380 mt  578  388 L
+ 578  380 mt  570  388 L
+ 572  381 mt  580  389 L
+ 580  381 mt  572  389 L
+ 574  382 mt  582  390 L
+ 582  382 mt  574  390 L
+ 575  383 mt  583  391 L
+ 583  383 mt  575  391 L
+ 576  383 mt  584  391 L
+ 584  383 mt  576  391 L
+ 576  384 mt  584  392 L
+ 584  384 mt  576  392 L
+ 578  384 mt  586  392 L
+ 586  384 mt  578  392 L
+ 579  386 mt  587  394 L
+ 587  386 mt  579  394 L
+ 582  387 mt  590  395 L
+ 590  387 mt  582  395 L
+ 585  389 mt  593  397 L
+ 593  389 mt  585  397 L
+ 587  391 mt  595  399 L
+ 595  391 mt  587  399 L
+ 590  393 mt  598  401 L
+ 598  393 mt  590  401 L
+ 592  395 mt  600  403 L
+ 600  395 mt  592  403 L
+ 594  396 mt  602  404 L
+ 602  396 mt  594  404 L
+ 596  397 mt  604  405 L
+ 604  397 mt  596  405 L
+ 597  397 mt  605  405 L
+ 605  397 mt  597  405 L
+ 598  398 mt  606  406 L
+ 606  398 mt  598  406 L
+ 600  399 mt  608  407 L
+ 608  399 mt  600  407 L
+ 603  400 mt  611  408 L
+ 611  400 mt  603  408 L
+ 605  402 mt  613  410 L
+ 613  402 mt  605  410 L
+ 608  404 mt  616  412 L
+ 616  404 mt  608  412 L
+ 611  405 mt  619  413 L
+ 619  405 mt  611  413 L
+ 613  406 mt  621  414 L
+ 621  406 mt  613  414 L
+ 615  407 mt  623  415 L
+ 623  407 mt  615  415 L
+ 617  408 mt  625  416 L
+ 625  408 mt  617  416 L
+ 618  409 mt  626  417 L
+ 626  409 mt  618  417 L
+ 619  409 mt  627  417 L
+ 627  409 mt  619  417 L
+ 621  410 mt  629  418 L
+ 629  410 mt  621  418 L
+ 624  412 mt  632  420 L
+ 632  412 mt  624  420 L
+ 627  413 mt  635  421 L
+ 635  413 mt  627  421 L
+ 630  415 mt  638  423 L
+ 638  415 mt  630  423 L
+ 633  416 mt  641  424 L
+ 641  416 mt  633  424 L
+ 635  418 mt  643  426 L
+ 643  418 mt  635  426 L
+ 637  419 mt  645  427 L
+ 645  419 mt  637  427 L
+ 639  420 mt  647  428 L
+ 647  420 mt  639  428 L
+ 640  420 mt  648  428 L
+ 648  420 mt  640  428 L
+ 642  421 mt  650  429 L
+ 650  421 mt  642  429 L
+ 644  423 mt  652  431 L
+ 652  423 mt  644  431 L
+ 647  424 mt  655  432 L
+ 655  424 mt  647  432 L
+ 650  426 mt  658  434 L
+ 658  426 mt  650  434 L
+ 653  428 mt  661  436 L
+ 661  428 mt  653  436 L
+ 656  430 mt  664  438 L
+ 664  430 mt  656  438 L
+ 659  432 mt  667  440 L
+ 667  432 mt  659  440 L
+ 661  434 mt  669  442 L
+ 669  434 mt  661  442 L
+ 662  435 mt  670  443 L
+ 670  435 mt  662  443 L
+ 663  435 mt  671  443 L
+ 671  435 mt  663  443 L
+ 664  435 mt  672  443 L
+ 672  435 mt  664  443 L
+ 665  437 mt  673  445 L
+ 673  437 mt  665  445 L
+ 668  438 mt  676  446 L
+ 676  438 mt  668  446 L
+ 671  440 mt  679  448 L
+ 679  440 mt  671  448 L
+ 674  443 mt  682  451 L
+ 682  443 mt  674  451 L
+ 677  445 mt  685  453 L
+ 685  445 mt  677  453 L
+ 681  448 mt  689  456 L
+ 689  448 mt  681  456 L
+ 684  450 mt  692  458 L
+ 692  450 mt  684  458 L
+ 686  452 mt  694  460 L
+ 694  452 mt  686  460 L
+ 688  453 mt  696  461 L
+ 696  453 mt  688  461 L
+ 689  454 mt  697  462 L
+ 697  454 mt  689  462 L
+ 691  455 mt  699  463 L
+ 699  455 mt  691  463 L
+ 693  457 mt  701  465 L
+ 701  457 mt  693  465 L
+ 696  460 mt  704  468 L
+ 704  460 mt  696  468 L
+ 700  463 mt  708  471 L
+ 708  463 mt  700  471 L
+ 704  466 mt  712  474 L
+ 712  466 mt  704  474 L
+ 707  469 mt  715  477 L
+ 715  469 mt  707  477 L
+ 710  472 mt  718  480 L
+ 718  472 mt  710  480 L
+ 713  475 mt  721  483 L
+ 721  475 mt  713  483 L
+ 715  476 mt  723  484 L
+ 723  476 mt  715  484 L
+ 715  477 mt  723  485 L
+ 723  477 mt  715  485 L
+ 716  478 mt  724  486 L
+ 724  478 mt  716  486 L
+ 718  480 mt  726  488 L
+ 726  480 mt  718  488 L
+ 721  483 mt  729  491 L
+ 729  483 mt  721  491 L
+ 724  486 mt  732  494 L
+ 732  486 mt  724  494 L
+ 728  490 mt  736  498 L
+ 736  490 mt  728  498 L
+ 732  495 mt  740  503 L
+ 740  495 mt  732  503 L
+ 735  499 mt  743  507 L
+ 743  499 mt  735  507 L
+ 739  503 mt  747  511 L
+ 747  503 mt  739  511 L
+ 741  506 mt  749  514 L
+ 749  506 mt  741  514 L
+ 743  508 mt  751  516 L
+ 751  508 mt  743  516 L
+ 744  508 mt  752  516 L
+ 752  508 mt  744  516 L
+ 745  509 mt  753  517 L
+ 753  509 mt  745  517 L
+ 747  511 mt  755  519 L
+ 755  511 mt  747  519 L
+ 749  514 mt  757  522 L
+ 757  514 mt  749  522 L
+ 753  518 mt  761  526 L
+ 761  518 mt  753  526 L
+ 757  523 mt  765  531 L
+ 765  523 mt  757  531 L
+ 761  528 mt  769  536 L
+ 769  528 mt  761  536 L
+ 764  532 mt  772  540 L
+ 772  532 mt  764  540 L
+ 768  536 mt  776  544 L
+ 776  536 mt  768  544 L
+ 771  540 mt  779  548 L
+ 779  540 mt  771  548 L
+ 772  542 mt  780  550 L
+ 780  542 mt  772  550 L
+ 773  543 mt  781  551 L
+ 781  543 mt  773  551 L
+ 774  544 mt  782  552 L
+ 782  544 mt  774  552 L
+ 776  547 mt  784  555 L
+ 784  547 mt  776  555 L
+ 779  551 mt  787  559 L
+ 787  551 mt  779  559 L
+ 782  556 mt  790  564 L
+ 790  556 mt  782  564 L
+ 786  562 mt  794  570 L
+ 794  562 mt  786  570 L
+ 790  568 mt  798  576 L
+ 798  568 mt  790  576 L
+ 794  574 mt  802  582 L
+ 802  574 mt  794  582 L
+ 797  579 mt  805  587 L
+ 805  579 mt  797  587 L
+ 800  583 mt  808  591 L
+ 808  583 mt  800  591 L
+ 802  585 mt  810  593 L
+ 810  585 mt  802  593 L
+ 803  586 mt  811  594 L
+ 811  586 mt  803  594 L
+ 803  587 mt  811  595 L
+ 811  587 mt  803  595 L
+ 803  588 mt  811  596 L
+ 811  588 mt  803  596 L
+ 805  591 mt  813  599 L
+ 813  591 mt  805  599 L
+ 808  595 mt  816  603 L
+ 816  595 mt  808  603 L
+ 811  600 mt  819  608 L
+ 819  600 mt  811  608 L
+ 815  606 mt  823  614 L
+ 823  606 mt  815  614 L
+ 819  612 mt  827  620 L
+ 827  612 mt  819  620 L
+ 823  618 mt  831  626 L
+ 831  618 mt  823  626 L
+ 826  624 mt  834  632 L
+ 834  624 mt  826  632 L
+ 829  629 mt  837  637 L
+ 837  629 mt  829  637 L
+ 831  631 mt  839  639 L
+ 839  631 mt  831  639 L
+ 832  633 mt  840  641 L
+ 840  633 mt  832  641 L
+ 832  632 mt  840  640 L
+ 840  632 mt  832  640 L
+ 832  634 mt  840  642 L
+ 840  634 mt  832  642 L
+ 834  636 mt  842  644 L
+ 842  636 mt  834  644 L
+ 836  640 mt  844  648 L
+ 844  640 mt  836  648 L
+ 839  643 mt  847  651 L
+ 847  643 mt  839  651 L
+ 843  648 mt  851  656 L
+ 851  648 mt  843  656 L
+ 846  652 mt  854  660 L
+ 854  652 mt  846  660 L
+ 850  657 mt  858  665 L
+ 858  657 mt  850  665 L
+ 853  660 mt  861  668 L
+ 861  660 mt  853  668 L
+ 855  663 mt  863  671 L
+ 863  663 mt  855  671 L
+ 857  664 mt  865  672 L
+ 865  664 mt  857  672 L
+ 857  665 mt  865  673 L
+ 865  665 mt  857  673 L
+ 858  666 mt  866  674 L
+ 866  666 mt  858  674 L
+ 860  667 mt  868  675 L
+ 868  667 mt  860  675 L
+ 862  668 mt  870  676 L
+ 870  668 mt  862  676 L
+ 865  670 mt  873  678 L
+ 873  670 mt  865  678 L
+ 868  673 mt  876  681 L
+ 876  673 mt  868  681 L
+ 871  675 mt  879  683 L
+ 879  675 mt  871  683 L
+ 875  677 mt  883  685 L
+ 883  677 mt  875  685 L
+ 878  679 mt  886  687 L
+ 886  679 mt  878  687 L
+ 880  681 mt  888  689 L
+ 888  681 mt  880  689 L
+ 881  681 mt  889  689 L
+ 889  681 mt  881  689 L
+ 882  682 mt  890  690 L
+ 890  682 mt  882  690 L
+ 883  682 mt  891  690 L
+ 891  682 mt  883  690 L
+ 884  682 mt  892  690 L
+ 892  682 mt  884  690 L
+ 887  683 mt  895  691 L
+ 895  683 mt  887  691 L
+ 890  684 mt  898  692 L
+ 898  684 mt  890  692 L
+ 893  684 mt  901  692 L
+ 901  684 mt  893  692 L
+ 896  685 mt  904  693 L
+ 904  685 mt  896  693 L
+ 900  686 mt  908  694 L
+ 908  686 mt  900  694 L
+ 903  686 mt  911  694 L
+ 911  686 mt  903  694 L
+ 905  686 mt  913  694 L
+ 913  686 mt  905  694 L
+ 906  687 mt  914  695 L
+ 914  687 mt  906  695 L
+ 907  687 mt  915  695 L
+ 915  687 mt  907  695 L
+ 908  687 mt  916  695 L
+ 916  687 mt  908  695 L
+ 909  687 mt  917  695 L
+ 917  687 mt  909  695 L
+ 912  688 mt  920  696 L
+ 920  688 mt  912  696 L
+ 915  689 mt  923  697 L
+ 923  689 mt  915  697 L
+ 918  690 mt  926  698 L
+ 926  690 mt  918  698 L
+ 922  690 mt  930  698 L
+ 930  690 mt  922  698 L
+ 925  691 mt  933  699 L
+ 933  691 mt  925  699 L
+ 928  692 mt  936  700 L
+ 936  692 mt  928  700 L
+ 930  692 mt  938  700 L
+ 938  692 mt  930  700 L
+ 932  692 mt  940  700 L
+ 940  692 mt  932  700 L
+ 932  693 mt  940  701 L
+ 940  693 mt  932  701 L
+ 933  693 mt  941  701 L
+ 941  693 mt  933  701 L
+ 935  693 mt  943  701 L
+ 943  693 mt  935  701 L
+ 937  693 mt  945  701 L
+ 945  693 mt  937  701 L
+ 940  693 mt  948  701 L
+ 948  693 mt  940  701 L
+ 943  693 mt  951  701 L
+ 951  693 mt  943  701 L
+ 947  693 mt  955  701 L
+ 955  693 mt  947  701 L
+ 950  692 mt  958  700 L
+ 958  692 mt  950  700 L
+ 953  691 mt  961  699 L
+ 961  691 mt  953  699 L
+ 955  691 mt  963  699 L
+ 963  691 mt  955  699 L
+ 957  691 mt  965  699 L
+ 965  691 mt  957  699 L
+ 957  690 mt  965  698 L
+ 965  690 mt  957  698 L
+ 958  690 mt  966  698 L
+ 966  690 mt  958  698 L
+ 960  690 mt  968  698 L
+ 968  690 mt  960  698 L
+ 962  690 mt  970  698 L
+ 970  690 mt  962  698 L
+ 964  690 mt  972  698 L
+ 972  690 mt  964  698 L
+ 967  690 mt  975  698 L
+ 975  690 mt  967  698 L
+ 971  690 mt  979  698 L
+ 979  690 mt  971  698 L
+ 974  690 mt  982  698 L
+ 982  690 mt  974  698 L
+ 976  690 mt  984  698 L
+ 984  690 mt  976  698 L
+ 979  689 mt  987  697 L
+ 987  689 mt  979  697 L
+ 980  689 mt  988  697 L
+ 988  689 mt  980  697 L
+ 981  689 mt  989  697 L
+ 989  689 mt  981  697 L
+ 983  688 mt  991  696 L
+ 991  688 mt  983  696 L
+ 985  688 mt  993  696 L
+ 993  688 mt  985  696 L
+ 987  686 mt  995  694 L
+ 995  686 mt  987  694 L
+ 990  685 mt  998  693 L
+ 998  685 mt  990  693 L
+ 993  684 mt 1001  692 L
+1001  684 mt  993  692 L
+ 996  682 mt 1004  690 L
+1004  682 mt  996  690 L
+ 998  681 mt 1006  689 L
+1006  681 mt  998  689 L
+1000  680 mt 1008  688 L
+1008  680 mt 1000  688 L
+1002  680 mt 1010  688 L
+1010  680 mt 1002  688 L
+1003  680 mt 1011  688 L
+1011  680 mt 1003  688 L
+1004  679 mt 1012  687 L
+1012  679 mt 1004  687 L
+1006  679 mt 1014  687 L
+1014  679 mt 1006  687 L
+1008  678 mt 1016  686 L
+1016  678 mt 1008  686 L
+1010  678 mt 1018  686 L
+1018  678 mt 1010  686 L
+1013  678 mt 1021  686 L
+1021  678 mt 1013  686 L
+1016  679 mt 1024  687 L
+1024  679 mt 1016  687 L
+1018  679 mt 1026  687 L
+1026  679 mt 1018  687 L
+1020  679 mt 1028  687 L
+1028  679 mt 1020  687 L
+1021  679 mt 1029  687 L
+1029  679 mt 1021  687 L
+1022  679 mt 1030  687 L
+1030  679 mt 1022  687 L
+1023  680 mt 1031  688 L
+1031  680 mt 1023  688 L
+1024  680 mt 1032  688 L
+1032  680 mt 1024  688 L
+1026  681 mt 1034  689 L
+1034  681 mt 1026  689 L
+1028  682 mt 1036  690 L
+1036  682 mt 1028  690 L
+1031  684 mt 1039  692 L
+1039  684 mt 1031  692 L
+1033  685 mt 1041  693 L
+1041  685 mt 1033  693 L
+1035  686 mt 1043  694 L
+1043  686 mt 1035  694 L
+1036  686 mt 1044  694 L
+1044  686 mt 1036  694 L
+1037  687 mt 1045  695 L
+1045  687 mt 1037  695 L
+1038  687 mt 1046  695 L
+1046  687 mt 1038  695 L
+1039  688 mt 1047  696 L
+1047  688 mt 1039  696 L
+1040  689 mt 1048  697 L
+1048  689 mt 1040  697 L
+1042  690 mt 1050  698 L
+1050  690 mt 1042  698 L
+1044  692 mt 1052  700 L
+1052  692 mt 1044  700 L
+1045  693 mt 1053  701 L
+1053  693 mt 1045  701 L
+1047  695 mt 1055  703 L
+1055  695 mt 1047  703 L
+1049  696 mt 1057  704 L
+1057  696 mt 1049  704 L
+1050  697 mt 1058  705 L
+1058  697 mt 1050  705 L
+1051  698 mt 1059  706 L
+1059  698 mt 1051  706 L
+1052  699 mt 1060  707 L
+1060  699 mt 1052  707 L
+1053  701 mt 1061  709 L
+1061  701 mt 1053  709 L
+1055  702 mt 1063  710 L
+1063  702 mt 1055  710 L
+1056  704 mt 1064  712 L
+1064  704 mt 1056  712 L
+1058  705 mt 1066  713 L
+1066  705 mt 1058  713 L
+1059  707 mt 1067  715 L
+1067  707 mt 1059  715 L
+1061  709 mt 1069  717 L
+1069  709 mt 1061  717 L
+1062  710 mt 1070  718 L
+1070  710 mt 1062  718 L
+1062  711 mt 1070  719 L
+1070  711 mt 1062  719 L
+1063  711 mt 1071  719 L
+1071  711 mt 1063  719 L
+1063  712 mt 1071  720 L
+1071  712 mt 1063  720 L
+1064  712 mt 1072  720 L
+1072  712 mt 1064  720 L
+1065  714 mt 1073  722 L
+1073  714 mt 1065  722 L
+1066  715 mt 1074  723 L
+1074  715 mt 1066  723 L
+1067  717 mt 1075  725 L
+1075  717 mt 1067  725 L
+1068  718 mt 1076  726 L
+1076  718 mt 1068  726 L
+1070  720 mt 1078  728 L
+1078  720 mt 1070  728 L
+1071  721 mt 1079  729 L
+1079  721 mt 1071  729 L
+1072  722 mt 1080  730 L
+1080  722 mt 1072  730 L
+1072  724 mt 1080  732 L
+1080  724 mt 1072  732 L
+1073  724 mt 1081  732 L
+1081  724 mt 1073  732 L
+1073  725 mt 1081  733 L
+1081  725 mt 1073  733 L
+1073  726 mt 1081  734 L
+1081  726 mt 1073  734 L
+1074  728 mt 1082  736 L
+1082  728 mt 1074  736 L
+1075  731 mt 1083  739 L
+1083  731 mt 1075  739 L
+1076  736 mt 1084  744 L
+1084  736 mt 1076  744 L
+1078  743 mt 1086  751 L
+1086  743 mt 1078  751 L
+1079  749 mt 1087  757 L
+1087  749 mt 1079  757 L
+1080  754 mt 1088  762 L
+1088  754 mt 1080  762 L
+1081  758 mt 1089  766 L
+1089  758 mt 1081  766 L
+1081  760 mt 1089  768 L
+1089  760 mt 1081  768 L
+1081  762 mt 1089  770 L
+1089  762 mt 1081  770 L
+gr
+
+c8
+gs 156 68 931 735 rc
+gr
+
+0 sg
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 20.8333 FMSR
+
+ 153  811 mt 
+( ) s
+1084   76 mt 
+( ) s
+1 sg
+0 89 246 0 0 -89 830 168 4 MP
+PP
+-246 0 0 89 246 0 0 -89 830 168 5 MP stroke
+0.694444 w
+DO
+SO
+1.04167 w
+0 sg
+ 830  168 mt 1076  168 L
+ 830  168 mt  830   79 L
+%%IncludeResource: font Helvetica
+/Helvetica /ISOLatin1Encoding 33.3333 FMSR
+
+ 914  115 mt 
+(Reference) s
+gs 830 79 247 90 rc
+gs 861 89 28 28 rc
+ 869  102 mt  881  102 L
+ 875   96 mt  875  108 L
+ 871   98 mt  879  106 L
+ 879   98 mt  871  106 L
+gr
+
+gr
+
+ 914  157 mt 
+(FF=2,W=3) s
+gs 830 79 247 90 rc
+gs 861 130 28 28 rc
+c8
+ 869  144 mt  881  144 L
+ 875  138 mt  875  150 L
+ 871  140 mt  879  148 L
+ 879  140 mt  871  148 L
+gr
+
+c8
+gr
+
+c8
+
+end %%Color Dict
+
+eplot
+%%EndObject
+
+epage
+end
+
+showpage
+
+%%Trailer
+%%EOF

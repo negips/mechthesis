@@ -1,0 +1,86 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle%[Succesfully testing an on-board Superlaser System] % Short title used in healines (optional)
+{%
+ Domain validation for flow around a wing section% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{Domain validation for flow around a wing section} % Title for toc
+%
+\paperauthor[Negi \etal] % Short authors used in headlines and List Of Papers
+{%
+  P. S. Negi, R. Vinuesa % D. S. Henningson and P. Schlatter%
+}%
+%
+\listpaperauthor{Negi, Vinuesa}%, Henningson \& Schlatter}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+%  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\%
+%  $^2$ Super-laser LAB, The Death Star, not orbiting Alderaan anymore ;)%
+  Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\
+  Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+}%
+%
+\paperjournal[J. Num. Force] % Short publish info used in List Of Papers
+{%
+	Journal of the Numerical Force%
+}%
+%
+\papervolume{51}%
+%
+%\papernumber{1}
+%
+\paperpages{123--122}%
+%
+\paperyear{3640}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction) 
+	A domain validation study is performed for large-eddy simulation of flow around a wing section at a chord-based Reynolds number of $Re_{c}=100,000$ in order to determine an optimum domain size. In a C-grid mesh topology, this optimum is found such that the far-field boundaries are 2 chords away from the airfoil and the outflow boundary is 3 chords downstream of the trailing edge.
+}%
+%
+\graphicspath{{validation/imgs/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+	A domain validation study is performed for large-eddy simulation of flow around a wing section at a chord-based Reynolds number of $Re_{c}=100,000$ in order to determine an optimum domain size. It is found that keeping the far-field boundaries at 2 chord lengths from the airfoil and the outflow boundary at 3 chords downstream of the trailing edge, flow distortion is minimized and further increase in the domain size causes negligible changes in the mean flow and Reynolds stresses. 
+        \keywords{wing, les}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{validation/article.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{licentiate}
+%
+\IfFileExists{validation/paper.bbl}{\input{validation/paper.bbl}}{}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}
