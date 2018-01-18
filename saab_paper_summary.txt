@@ -1,0 +1,16 @@
+An LES formulation based on the ADM-RT approach is implemented in Nek5000. Validation of the model is done for turbulent channel flows and flow around a wing section. A good agreement is found between the LES model and the direct numerical simulation (DNS) databases for the two cases. The model is subsequently used for high-order simulations of wing sections undergoing small-amplitude pitch oscillations. 
+
+
+Unsteady aerodynamic effects in small-amplitude pitch oscillations of an airfoil (Re=100k)
+
+	High-fidelity wall-resolved large-eddy simulations (LES) are utilized to investigate the flow-physics of small-amplitude pitch oscillations of an airfoil at $Re_{c}=100,000$. The investigation of the unsteady phenomenon is done in the context of natural laminar flow airfoils, which can display sensitive dependence of the aerodynamic forces on the angle of attack in certain ``off-design'' conditions. The dynamic range of the pitch oscillations is chosen to be in this sensitive region. Large variations of the transition point on the suction-side of the airfoil are observed throughout the pitch cycle resulting in a dynamically rich flow response. Changes in the stability characteristics of a leading-edge laminar separation bubble has a dominating influence on the boundary layer dynamics and causes an abrupt change in the transition location over the airfoil. The LES procedure is based on a relaxation-term which models the dissipation of the smallest unresolved scales. The validation of the procedure is provided for channel flows and for a stationary wing at $Re_{c}=400,000$.
+
+
+
+Dynamic response of natural laminar flow airfoils (Re=750k)
+
+Large-eddy simulations are performed to investigate the dynamic response of a natural laminar flow airfoil undergoing harmonic pitch oscillations at a chord based Reynolds number of $Re_{c}=750,000$. Large changes in the transition location are observed throughout the pitch cycles which leads to a non-linear response of the aerodynamic force coefficients. Preliminary results show that the evolution of the boundary layer over the airfoil can be modeled by using a simple phase-lag concept which implies that the boundary-layer evolution is quasi-steady in nature. A simple empirical model is developed based on this quasi-steady, phase-lag assumption which fits very well with the measured experimental data.
+
+
+
+

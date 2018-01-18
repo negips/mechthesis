@@ -7,56 +7,550 @@
 % Opening text of the letter
 % <blank line>
 %
-%-------------------------------------------------------------------------------
+% my copies:
+% me
+% me
+% ma/pa
+% Dan
+% Ardeshir
+% x Philipp
+% x Ramis
+% x Walter
+% Onofrio
+% x Nicolo'
+% x Mehdi
+% x Ekaterina
+% x Ricardo
+% x Prabal
+% Enrico
+% x Erik
+% x Andrea
+% x Elektra
+% Ellinor
+% x Iman
+% x Mattias
+% x Nima
+% x Ugis
+% x Werner
+%
+%===============================================================================
 % KTH Mekanik
-%-------------------------------------------------------------------------------
+%===============================================================================
 %
-Prof. Arne Johansson
-KTH Mechanics\\SE-100 44 Stockholm, Sweden
-Dear Prof. Johansson,
-
-%-------------------------------------------------------------------------------
+%% Prof. Shervin Bagheri
+%% KTH Mechanics\\SE-100 44 Stockholm, Sweden
+%% Dear Prof. Bagheri,
+%% 
+%===============================================================================
 % KTH
-%-------------------------------------------------------------------------------
+%===============================================================================
 %
-Farkost \& Flyg
-KTH\\SE-100 44 Stockholm, Sweden
-Dear Sir/Madam,
-
-%-------------------------------------------------------------------------------
+%Farkost \& Flyg
+%KTH\\SE-100 44 Stockholm, Sweden
+%Dear Sir/Madam,
+%
+%===============================================================================
 % Sweden
-%-------------------------------------------------------------------------------
+%===============================================================================
 %
-Biblioteket
-FOI\\SE-164 90 Stockholm, Sweden
-Dear Sir/Madam,
+% Biblioteket
+% FOI\\SE-164 90 Stockholm, Sweden
+% Dear Sir/Madam,
 
-Division of Fluid Mechanics
-Lule\r{a} University\\SE-971 87 Lule\aa, Sweden
-Dear Sir/Madam,
+% Biblioteket
+% Chalmers University\\SE-412 96, G\"oterborg, Sweden
+% Dear Sir/Madam,
 
-Avd. Str\"omningsteknik
-Energivetenskaper\\Lunds Universitet, Box 118\\SE-221 00 Lund, Sweden
-Dear Sir/Madam,
+% Biblioteket
+% Lule{\aa} University\\SE-971 87 Lule\aa, Sweden
+% Dear Sir/Madam,
 
-Dept. Thermo \& Fluid Mech.
-Chalmers University\\SE-412 96, G\"oterborg, Sweden
-Dear Sir/Madam,
+%Dept. Thermo \& Fluid Mech.
+%Chalmers University\\SE-412 96, G\"oterborg, Sweden
+%Dear Sir/Madam,
+%
+%Division of Fluid Mechanics
+%Lule{\aa} University\\SE-971 87 Lule\aa, Sweden
+%Dear Sir/Madam,
+%% 
+% Avd. Str\"omningsteknik
+% Energivetenskaper\\Lunds Universitet, Box 118\\SE-221 00 Lund, Sweden
+% Dear Sir/Madam,
+%
+%Prof. Jan Nordstr\"{o}m
+%Department of Mathematics\\Link\"{o}ping University\\SE-581 83 Link\"{o}ping\\Sweden
+%Dear Prof. Nordstr\"{o}m,
+%
+%Prof. Lars Davidson
+%Depatment of Applied Mechanics\\Chalmers University\\SE-412 96 Gothenburg, Sweden
+%Dear Prof. Davidson,
+%
+%Prof. Mattias Liefvendahl
+%Swedish Defence Research Agency, FOI\\SE-164 90 Stockholm, Sweden
+%Dear Prof. Liefvendahl,
+%
+%Prof. Hans Bod\'{e}n
+%Department of Aeronautical and Vehicle Engineering\\MWL, KTH\\SE-100 44 Stockholm, Sweden
+%Dear Prof. Bod\'{e}n,
 
-%-------------------------------------------------------------------------------
+%===============================================================================
 % Europe
-%-------------------------------------------------------------------------------
+%===============================================================================
 %
 %-------------------------------------------------------------------------------
+% UK
+%
+%Dr. David Moxey
+%363 Roderic Hill Building\\Imperial College London\\South Kensington Campus\\London SW7 2AZ, UK
+%Dear Dr. Moxey,
+%
+%Prof. Dwight Barkley
+%Mathematics Institute\\University of Warwick\\Coventry CV4 7AL, UK
+%Dear Prof. Barkley,
+%
+%Prof. Rich Kerswell
+%School of Mathematics\\University Walk, Bristol University\\Bristol BS8 1TW, UK
+%Dear Prof. Kerswell,
+%
+%Prof. Matthew P. Juniper
+%Department of Engineering\\Trumpington Street\\Cambridge CB2 1PZ, UK
+%Dear Prof. Juniper,
+%
+Prof. Peter J. Schmid
+Department of Mathematics\\Imperial College London\\South Kensington Campus\\London SW7 2AZ, UK
+Dear Prof. Schmid,
+%
+%Prof. Spencer J. Sherwin
+%Department of Aeronautics\\Imperial College London\\South Kensington Campus\\London SW7 2AZ, UK
+%Dear Prof. Sherwin,
+%
+%Prof. Philip Hall
+%Department of Mathematics\\Imperial College London\\South Kensington Campus\\London SW7 2AZ, UK
+%Dear Prof. Hall,
+%
+Prof. Vassilis Theofilis
+School of Engineering\\University of Liverpool\\Brownlow Hill L69 3GH, UK
+Dear Prof. Theofilis,
+%
+%Prof. Neil D. Sandham
+%Engineering and the Environment\\University of Southampton\\Highfield Southampton SO17 1BJ\\Room 13/5005
+%Dear Prof. Sandham,
+%
+%Prof. K.-S. Choi
+%School of 4M\\University of Nottingham\\University Park\\NG72RD Nottingham, UK
+%Dear Prof. Choi,
+%
+%Prof. Jonathan Morrison
+%Department of Aeronautics\\ Imperial College London\\South Kensington Campus\\London SW7 2AZ, UK
+%Dear Prof. Morrison,
+%
+%Prof. Aimee S. Morgans,
+%Department of Aeronautics\\Imperial College London\\South Kensington Campus\\ London SW7 2AZ, UK
+%Dear Prof. Morgans,
+%
+%Prof Rebecca Lingwood
+%School of Engineering and Materials Science\\Queen Mary University of London\\E123, Queens' Building, Mile End\\London, UK
+%Dear Prof. Lingwood,
+%
+%Assoc. Prof. Ati Sharma
+%Engineering and the Environment\\13/5097 University of Southampton\\Southampton SO17 1BJ, UK
+%Dear Prof. Sharma,
+%
+%Dr. Chris Davies
+%Mathematics Institute\\Cardiff University\\Senghennydd Road\\Cardiff CF24 4AG, UK
+%Dear Dr. Davies,
+
+%-------------------------------------------------------------------------------
+% Italy
+%
+%% Prof. Michele Ciofalo
+%% Dip. DEIM, edificio 6\\Viale delle Scienze\\I-90128 Palermo, Italy
+%% Dear Prof. Ciofalo,
+
+%Prof. Paolo Luchini
+%Dip. di Ingegneria Industriale\\Universit\`a di Salerno\\Via Giovanni Paolo II, 132\\I-84084 Fisciano, Italy
+%Dear Prof. Luchini,
+%
+%Dr. Flavio Giannetti
+%Dip. di Ingegneria Industriale\\Universit\`a di Salerno\\Via Giovanni Paolo II, 132\\I-84084 Fisciano, Italy
+%Dear Dr. Giannetti,
+%
+Prof. Alessandro Bottaro
+Facolt\`a di Ingegneria, DICAT\\Universit\`a di Genova\\Via Montallegro 1\\I-16145 Genova, Italy
+Dear Prof. Bottaro,
+%
+%Dr. Jan Pralits
+%Facolt\`a di Ingegneria, DICAT\\Universit\`a di Genova\\Via Montallegro 1\\I-16145 Genova, Italy
+%Dear Dr. Pralits,
+%
+%% Prof. Franco Auteri
+%% DAER\\Politecnico di Milano\\Via La Masa 34\\I-20156 Milano, Italy
+%% Dear Prof. Auteri,
+%
+%Prof. Maurizio Quadrio
+%DAER\\Politecnico di Milano\\Via La Masa 34\\I-20156 Milano, Italy
+%Dear Prof. Quadrio,
+%
+%Prof. Stefania Cherubini
+%DMMM, Macchine ed Energetica\\Politecnico di Bari\\Via Orabona 4\\I-70125 Bari, Italy
+%Dear Prof. Cherubini,
+%
+%Prof. Francesco Picano
+%Dip. Ingegneria Industriale\\Universit\'{a} di Padova\\Via Venezia 1\\I-35131 Padova, Italy
+%Dear Prof. Picano,
+
+%-------------------------------------------------------------------------------
+% France
+%
+%Prof. Patrick HUERRE
+%Laboratoire d'Hydrodynamique\\\'Ecole Polytechnique\\F-91128 Palaiseau, France
+%Dear Prof. Huerre,
+%
+%Dr. Lutz LESSHAFFT
+%Laboratoire d'Hydrodynamique\\\'Ecole Polytechnique\\F-91128 Palaiseau, France
+%Dear Dr. Lesshafft,
+%
+%Prof. Jean-Marc CHOMAZ
+%Laboratoire d'Hydrodynamique\\\'Ecole Polytechnique\\F-91128 Palaiseau, France
+%Dear Prof. Chomaz,
+%
+%Prof. P. MANNEVILLE
+%Laboratoire d'Hydrodynamique\\\'Ecole Polytechnique\\F-91128 Palaiseau, France
+%Dear Prof. Manneville,
+%
+%% Dr. O. SEMERARO
+%% Laboratoire d'Hydrodynamique\\\'Ecole Polytechnique\\F-91128 Palaiseau, France
+%% Dear Dr. Semeraro,
+%% 
+%Dr. Marco CARINI
+%ONERA DAFE\\Chemin de la Hunière BP 80100\\F-91123 Palasieu, France
+%Dear Dr. Carini,
+%
+%Prof. Denis SIPP
+%ONERA DAFE\\Chemin de la Hunière BP 80100\\F-91123 Palasieu, France
+%Dear Prof. Sipp,
+%
+%Dr. Olivier MARQUET
+%ONERA DAFE\\Chemin de la Hunière BP 80100\\F-91123 Palasieu, France
+%Dear Dr. Marquet,
+%
+%Prof. David FABRE
+%IMFT\\All\'ee du Prof. Camille Soula\\F-31400 Toulouse, France
+%Dear Prof. Fabre,
+%
+%Prof. Carlo COSSU
+%IMFT\\All\'ee du Prof. Camille Soula\\F-31400 Toulouse, France
+%Dear Prof. Cossu,
+%
+%Dr. Yohann DUGUET
+%LIMSI-CNRS\\BP 133\\F 91403 Orsay Cedex, France
+%Dear Dr. Duguet,
+%
+%Dr. Jean-Christophe Loiseau
+%Laboratoire DynFluid\\Ecole Nationale Supérieure d'Arts et Métiers\\151 boulevard de l'hôpital\\75013 Paris, France
+%Dear Dr. Loiseau,
+%
+%Prof. Jean-Christophe Robinet
+%Laboratoire DynFluid\\Ecole Nationale Supérieure d'Arts et Métiers\\151 boulevard de l'hôpital\\75013 Paris, France
+%Dear Prof. Robinet,
+%
+%Dr. Benoit Pier,
+%LMFA -\'{E}cole centrale\\36 avenue Guy-de-Collongue\\F-69134 \'{E}cully, France
+%Dear Dr. Pier,
+%
+%Dr. Thomas Leweke
+%IRPH\'{E}-CNRS\\Univ. Aix-Marseille I \& II\\49 rueFr\'{e}d\'{e}ric Joliot-Curie BP 146\\F-14484 Marseille, France
+%Dear Dr. Leweke,
+%
+%Prof. U. Ehrenstein
+%IRPH\'{E}-CNRS\\Univ. Aix-Marseille I \& II\\49 rueFr\'{e}d\'{e}ric Joliot-Curie BP 146\\F-14484 Marseille, France
+%Dear Prof. Ehrenstein,
+%
+%Prof. Christophe Airiau
+%IMFT\\All\'ee du Prof. Camille Soula\\F-31400 Toulouse, France
+%Dear Prof. Airiau,
+%
+%%-------------------------------------------------------------------------------
+%% Austria
+%%
+%Prof. Bj\"orn Hof
+%IST Austria, Am Campus 1\\A-3400 Klosterneuburg, Austria
+%Dear Prof. Hof,
+%
+%Dr. Jakob K\"uhnen
+%IST Austria, Am Campus 1\\A-3400 Klosterneuburg, Austria
+%Dear Dr. K\"uhnen,
+%
+%-------------------------------------------------------------------------------
+% Germany
+%
+%Prof. Marc Avila
+%ZARM\\\"{U}niversitat BremenAm Fallturm\\28359 Bremen, Germany
+%Dear Prof. Avila,
+%
+%Prof. Bettina Frohnapfel
+%Institute of Fluid Mechanics\\Karlsruhe Institute of Technology\\Kaiserstrasse 10, bldg. 10.23\\76131 Karlsruhe, Germany
+%Dear Prof. Frohnapfel
+
+Dr. Holger Mai 
+Deutsches Zentrum f\"{u}r Luft- und Raumfahrt (DLR), Institut f\"{u}r Aeroelastik\\Aeroelastische Experimente\\Bunsenstr. 10\\37073 G\"{o}ttingen, Germany
+Dear Dr. Mai
+
+%Prof. Ulrich Rist
+%Inst. f\"{u}r Aerodyn. und Gasdyn.\\Universit\"{a}t Stuttgart\\Pfanffenwaldring 21\\D-70550 Stuttgart, Germany
+%Dear Prof. Rist,
+%
+%Prof. Markus Kloker
+%Inst. f\"{u}r Aerodyn. und Gasdyn.\\Universit\"{a}t Stuttgart\\Pfanffenwaldring 21\\D-70550 Stuttgart, Germany
+%Dear Prof. Kloker,
+
+Dr. Stefan Hein,
+Inst. of Aerodyn. and Flow Tech.\\DLR\\Bunsen\ss tr. 10\\37073 G\"{o}ttingen, Germany
+Dear Dr. Hein,
+
+%Prof. Cameron Tropea
+%Center of Smart Interfaces\\TU Darmstadt\\Flughafenstra{\ss}e 19\\6437 Gruesheim, Germany
+%Dear Prof. Tropea,
+%
+%Prof. Sven Grundmann
+%Statikgeb\"{a}ude Haus IV\\Universit\"{a}t Rostock\\Albert-Einstein-Stra{\ss}e 2/\ 18059 Rostock, Germany
+%Dear Prof. Grundmann
+%
+%Dr.-Ing habil. Christian Stemmer
+%Lehrstuhl f\"{u}r Aerodynamik and Str\"{o}mungsmechanik\\Technische Universit\"{a}t Munchen\\Boltzmannstr. 15\\D-85748 Garchin, Germany
+%Dear Dr. Stemmer
+%
+%Dr. Dominic von Terzi
+%GE Global Research\\Aerodynamics and Acoustics Lab\\Freisinger Landstrasse 50\\D-85748 Garching bei München, Germany
+%Dear Dr. Terzi,
+%
+%-------------------------------------------------------------------------------
+% Netherlands
+%Asst. Marios Kotsonis
+%TU Delft\\Kluyverweg 2\\2629 HS Delft, Netherlands
+%Dear Prof. Kotsonis,
+%
+%%-------------------------------------------------------------------------------
+%% Spain
+%%
+%Prof. Javier Jim{\'e}nez
+%School of Aeronautics\\Universidad Politecnica de Madrid\\Plaza del Cardenal Cisneros 3\\28040 Madrid, Spain
+%Dear Prof. Jim{\'e}nez,
+%
+%%-------------------------------------------------------------------------------
+%% Switzerland
+%%
+%Dr. Francois GALLAIRE
+%EPFL STI IGM LFMI\\MED 2 2926 (Batiment MED)\\Station 9\\CH-1015 Lausanne, Switzerland
+%Dear Dr. Gallaire,
+%
+%Prof. L. Kleiser
+%Instut f\"{u}r Aerodynamik\\ETH\\CH-8092 Z\"{u}rich, Switzerland
+%Dear Prof. Kleiser,
+
+%===============================================================================
 % World
-%-------------------------------------------------------------------------------
+%===============================================================================
+% 
+%Prof. Jaacov Cohen
+%Faculty of Aerospace Engineering Technion - Insrael Institute of Technology\\Haifa 32000, Israel
+%Dear Prof Cohen,
+%
+%Prof. R. Govindarajan
+%TIFR Centre for Interdisciplinary Sciences\\21, Brundavan Colony\\Narsingi, Hyderabad-500075, India
+%Dear Prof. Govindarajan,
+
+Prof. Yury S. Kachanov
+Institute of Theoretical and Applied Mechanics\\Novosibirsk, 6300900, Russia
+Dear Prof. Kachanov,
+
+%Dr. Ekaterina Ezhova
+%Gustaf Hallstromin katu 2a,\\Physicum, B418\\00560 Helsinki, Finland
+%Dear Dr. Ezhova
 %
 %-------------------------------------------------------------------------------
-% Committee
-%-------------------------------------------------------------------------------
+% Brazil
 %
-Prof. Adolfo Zavelani Rossi
-Dip. di Ingegneria Civile\\Politecnico di Milano\\Piazza Leonardo da Vinci, 32\\20133 Milano, Italy
-Dear Prof. Zavelani Rossi,
+%Prof. Andr\'{e} V. G. Cavalieri
+%Instituto Tech. de Aeron\'{a}utica\\Praa Marechal E. Gomes, 50 Vila das Acacias, S\~{a}o Jos\'{e} dos Campos, SP, 12228-900 - Brazil
+%Dear Prof. Cavalieri,
+
+Prof. Julio Romano Meneghini
+Departamento de Eng. Mec\^{a}nica\\USP, Escola Polit\'{e}cnica\\Av. Prof. Mello de Moraes, 2231,\\Butant\~{a}, S\~{a}o Paulo\\SP, 05508030 - Brazil
+Dear Prof. Meneghini,
+
+Dr. Marcello Faraco de Medeiros
+Universidade de S\~{a}o Paulo\\ Av. Trabalhador S\~{a}ocarlense, 400 Centro, S\~{a}o Carlos\\SP, 13566590 - Brazil
+Dear Dr. Madeiros,
+
+Prof. Leonardo de Brito Alves
+Departamento de Eng. Mec\~{a}nica\\UFF, Campus da Praia Vermelha\\R. Miguel de Frias, 9\\Icara\'{i} Niter\'{o}i\\RJ - Brazil
+Dear Prof. Alves,
+
+Prof. Fl\'{a}vio Silvestre
+Instituto Tecnol\'{o}gico de Aeron\'{a}utica\\Divis\~{a}o de Engenharia Aeron\'{a}utica\\Departamento de Mec\~{a}nica do Voo Praca Marechal Eduardo Gomes, 50 - Vila das Ac\'{a}cias, CEP 12.228-900 – S\~{a}o Jos\'{e} dos Campos, SP – Brasil
+Dear Prof. Silvestre,
+
+
+
+%-------------------------------------------------------------------------------
+% Australia
+%
+%Dr. Cheng Chin
+%Dept. of Mech. Eng.\\University of Melbourne\\Parkville, Vic 3010, Australia
+%Dear Dr. Chin,
+
+Prof. Nicholas Hutchins
+Dept. of Mech. Eng.\\University of Melbourne\\Parkville, Vic 3010, Australia
+Dear Prof. Hutchins,
+
+%Prof. Jason Monty
+%Dept. of Mech. Eng.\\University of Melbourne\\Parkville, Vic 3010, Australia
+%Dear Prof. Monty,
+%
+%Prof. Ivan Marusic
+%Dept. of Mech. Eng.\\University of Melbourne\\Parkville, Vic 3010, Australia
+%Dear Prof. Marusic,
+%
+%Prof. Hugh M. Blackburn
+%Dept. of Mech. \& Aerospace Eng.\\Monash University\\Vic 3800, Australia
+%Dear Prof. Blackburn,
+%% 
+%-------------------------------------------------------------------------------
+% USA
+%
+%Prof. Fazle Hussain
+%Texas Tech University\\Dept. of Mech. Eng.\\Box 41021\\Lubbock, TX 79409−1021, USA
+%Dear Prof. Hussain,
+%
+%Prof. J. Kim
+%Mech. and Aerospace Eng. Dept.\\University of California\\48-121 Engineering IV\\UCLA Los Angeles, CA 90095-1597, USA
+%Dear Prof. Kim,
+%% 
+%% Prof. P. Moin
+%% Dept. of Mechanical Engineering\\Stanford University\\Stanford, CA 94305-3030, USA
+%% Dear Prof. Moin,
+%% 
+%Prof. Fabian Waleffe
+%819 E. B. Van Vleck Hall\\480 Lincoln Drive\\Madison, WI 53706, USA
+%Dear Prof. Waleffe,
+%
+%Prof. P. Cvitanovi\'{c}
+%School of Physics\\Georgia Institute of Technology\\Atlanta, GA 30332-0430, USA
+%Dear Prof. Cvitanovi\'{c},
+%
+%Dr. Oana Marin
+%Argonne National Laboratory\\9700 S. Cass AVE BUILDING \# 240\\Lemont, IL 60439-4803, USA
+%Dear Dr. Marin,
+%
+%Prof. Thomas R. Bewley
+%Dpt. of Mech. and Aerospace Eng.\\UCSD\\La Jolla CA 920 93 USA
+%Dear Prof Bewley,
+%
+%Dr. Ronald D. Joslin
+%NASA Langley Research Center\\Hampton, VA 23681-00001, USA
+%Dear Dr. Joslin,
+%
+%Dr. Pedro Paredes
+%NASA Langley Research Center\\Hampton, VA 23681-0001, USA
+%Dear Dr. Paredes,
+%
+%Prof. Tim Colonius
+%Mechanical and Civil Eng.\\California Tech.\\ 117 Thomas Bldg. MC 104-44\\Pasadena, CA 91125, USA
+%Dear Prof. Caolonius,
+%
+%Prof. Clarence Rowley
+%MAE Department\\D-wing, Engineering Quadrangle\\Princeton University\\Princeton, NJ 08544, USA
+%Dear Prof Rowley,
+%
+%Prof. William S. Saric
+%Texas A{\&}M University\\Flight Research Lab. Director\\701 HR Bright Building\\TAMU 3141, College Station\\TX 77843-3141, USA
+%Dear Prof. Saric,
+%
+%Prof. Helen Reed
+%Department of Aerospace Engineering\\TAMU 3141, College Station\\TX 77843-3141, USA
+%Dear Prof. Reed,
+%
+%Prof. Edward White
+%Department of Aerospace Engineering\\TAMU 3141, College Station\\TX 77843-3141, USA
+%Dear Prof. White,
+%
+%Prof. Tamer Zaki
+%Dpt. of Mechanical Engineering\\Johns Hopkins University\\118 Latrobe Hall\\3400 North Charles Street\\Baltimore, MD 21218-2682, USA
+%Dear Prof. Zaki,
+%
+%Dr. J. D. Crouch,
+%Boeing Commercial Airplanes\\ P. O. Box 3707\\ Seattle, Washington 98124 206-655-1131, USA
+%Dear Dr. Crouch,
+
+Prof. Anatoli Tumin
+Dpt. of Aerospace \& Mechanical Engineering\\University of Arizona\\Tucson, AZ 85721, USA
+Dear Prof. Tumin
+
+Prof. Daniel J. Bodony,
+Dpt. of Aerospace Eng.\\University of Illinois at Urbana-Champaign\\313 Talbot Laboratory\\104 South Wright Street\\Urbana, IL 61801, USA
+Dear Prof Bodony,
+
+Prof. Paul Fischer
+Dpt. of Computer Science, University of Illinois at Urbana-Champaign\\201 North Goodwin Avenue, Urbana, IL 61801-2302, USA
+Dear Prof. Fischer,
+
+%-------------------------------------------------------------------------------
+% Canada
+%
+Assoc. Prof. Philippe Lavoie
+Faculty of Applied Science \& Engineering\\4925 Dufferin Street\\ Toronto, ON M3H 5T6 Canada
+Dear Prof. Lavoie 
+
+
+%-------------------------------------------------------------------------------
+% Korea
+%
+%% Prof. H. Choi
+%% Mech. and Aerospace Engineering\\Seoul National University\\Seoul 151-744, Korea
+%% Dear Prof. Choi,
+
+%-------------------------------------------------------------------------------
+% Singapore
+%
+Asst. Prof. Martin Skote
+School of Mechanical \& Aerospace Engineering, College of Engineering\\Nanyang Technological University\\N3-02b-58, 50 Nanyang Avenue\\Singapore 639798
+Dear Prof. Skote,
+
+%-------------------------------------------------------------------------------
+% Private
+%
+Dr. Maneesh Mishra
+\# 08-01, Blk 35\\35 Hume avenue\\Singapore 598735
+Dear Dr. Mishra,
+
+Ms. Heavenz Kaur
+11002 Rose Avenue Apt 208\\LA CA 90034
+Dear Heavenz,
+
+Ms. Jarudhi Negi
+The greenhouse\\Aunty Maggie's hourse\\House no. 78, Carrem, succoro,\\ Bardez, Goa 403521, India
+Dear little Sis,
+
+Mr. Jvs Negi
+T1F6UA, Buransadhar Apartments,\\Thakurpur, PO Umedpur\\Dehradun 248007, India
+Dear Dad,
+
+Arch. Pushpa Negi
+T1F6UA, Buransadhar Apartments,\\Thakurpur, PO Umedpur\\Dehradun 248007, India
+Dear Mom,
+
+Ms. Akansha Lakhera
+Office No 129\\First floor, trade square\\Arvind Avenue, Khokhra circle\\Maninagar east, Ahmedabad 380026\\India
+Dear Babu,
+
+Mr. Roger Larsson
+Campus Valla, Building B, Room 2A:538\\Dept. of Electrical Engineering,\\Link\"{o}ping University\\SE-581 83 Link\"{o}ping, Sweden
+Dear Mr. Larsson,
+
+Dr. Frederik Schenk
+Department of Geological Sciences,\\Svante Arrhenius v\"{a}g 8,\\1061 91 Stockholm, Sweden
+Dear Dr. Schenk,
+
 
 % Leave a blank line at the end of the list

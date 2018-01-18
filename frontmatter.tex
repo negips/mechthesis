@@ -10,8 +10,14 @@
 %-------------------------------------------------------------------------------
 %
 \dedication{
-	{\it ``You must unlearn what you have learnt.''}\\[20pt]
-	Master Yoda
+	\begin{minipage}[r]{0.75\textwidth}
+		{\it ``His reading suggested a man swimming in the sea among the wreckage of his ship,
+		and trying to save his life by greedily clutching first at one spar and then at another.''}\\ [5pt]
+		\begin{flushright}
+			- Anton Chekhov \\
+			The Bet
+		\end{flushright}
+	\end{minipage}
 }
 
 
@@ -20,12 +26,13 @@
 %-------------------------------------------------------------------------------
 %
 \begin{abstract}
-	Access points  must work. In fact, few cryptographers would disagree with
-	the emulation of robots, which embodies the technical principles of
-	complexity theory. Hyp, our new application for lossless information, is the
-	solution to all of these challenges.
-        %
-        \keywords{super-lasers, space-stations, The Force, cookies.}
+	The understanding of developing boundary layers over wings is an important topic from the perspective of industrial applications. An increased understanding would be consequential not only for achieving higher fuel efficiency but also in the design of aircraft control strategies. With these aims in mind, the current work aims to further the understanding of developing boundary layer over wing sections. The study is performed with two particular perspectives in mind - unsteady aerodynamic effects in a pitching airfoil and turbulent boundary layer structure in non-equilibrium boundary layers over a stationary airfoil.
+	
+	The boundary layer evolution in unsteady natural laminar flow airfoils undergoing small-amplitude pitch-oscillations is investigated. For high Reynolds numbers the origins of the non-linear unsteady aerodynamic response of laminar airfoils is explained on the basis of quasi-steady assumptions. Temporal non-linearities in aerodynamic forces are shown to be inherently linked to the non-linearities of static aerodynamic force coefficients and that a simple phase-lag concept can model the observed non-linear unsteady response. On the other hand at lower Reynolds numbers, when there exists an unstable leading-edge laminar separation bubble, the unsteady response is dynamically rich and changes in boundary layer characteristics can be abrupt. The quasi-steady phase-lag concepts are no longer appropriate to explain the unsteady flow physics in such a case.
+	
+	For the case of stationary airfoils, flow statistics for flow around an airfoil at two different Reynolds numbers are compared to assess Reynolds number effects in non-equilibrium flows. Pressure gradient effects are found to be stronger at low Reynolds numbers, leading to higher energy in the larger structures present in the outer part of the turbulent boundary layer. 
+	
+        \keywords{boundary layers, unsteady aerodynamics, non-equilibrium flows}
         %
 \end{abstract}
 
@@ -35,14 +42,14 @@
 %-------------------------------------------------------------------------------
 %
 \begin{abstrakt}
-	\r{A}tkomstpunkter m\r{a}ste arbeta. I sj\"{a}lva verket skulle f\r{a}
-	kryptografer h\r{a}ller inte med emulering av robotar, som
-	f\"{o}rkroppsligar de tekniska principer av komplexitetsteori. Hyp, v\r{a}r
-	nya applikation f\"{o}r f\"{o}rlustfri information är l\"{o}sningen på alla
-	dessa utmaningar.
-        %
-        \nyckelord{super-lasrar, rymdstationer, Kraften, kakor.}
-        %
+	Förståelsen av det strömningsmekaniska gränsskiktet som utvecklas över vingar är av stort intresse för industriella tillämpningar. En ökad förståelse av detta är ett måste både för att uppnå en minskning av bränsleförbrukning och för för utformningen av effektivare flygstyrsystem. Med detta i åtanke, syftar detta arbetet till att vidga vår förståelse av det komplexa gränsskiktetsflödet över vingar. Studien utförs med två specifika mål i åtanke - instationära aerodynamiska effekter i strömningen över en oscillerande vinge och strukturer i ett turbulent gränsskikt över en stationär vinge som inte är i jämvikt.
+	
+	Här har vi studerat utvecklingen av ett instationär gränsskikt över en vinge designad för att ha laminär flöde (så kallade NLF vinge). Vingen genomgår oscillationer med små amplituder. För höga Reynoldstal förklaras ursprunget till det ickelinjära aerodynamiska responsen hos NLF vingar genom antagandet av kvasistationär strömning. Tidsberoende ickelinjäriteter hos de aerodynamiska krafterna visar sig vara starkt kopplade till de ickelinjäriteter hos de statiska aerodynamiska kraftkoefficienterna och med hjälp av ett enkelt fasfördröjningskoncept kan man modellera den observerade ickelinjära instationära responsen. Å andra sidan, vid lägre Reynoldstal, när det finns en instabil laminär separationsbubbla vid framkanten av vingen, visar den instationära responsen en stark dynamik och förändringar i karaktären av gränsskiktet kan vara abrupta. I sådana fall är antagandet av en kvasistationär fasfördröjning inte längre adekvat för att förklara fysiken hos det instationära flödet.
+	
+	I fallet med den stationärs vingen jämför vi flödesstatistiken vid två olika Reynoldstal för att förstå effekter av detta för turbulenta flöden som befinner sig i ickejämvikt. Tryckgradientenseffekter visade sig vara starkare vid låga Reynoldstal, vilket leder till högre energi i de större strukturerna som är närvarande i den yttre delen av det turbulenta gränsskiktet.
+    %
+    \nyckelord{gränsskikt, ostabil aerodynamik, icke-jämviktsflöden}
+    %
 \end{abstrakt}
 
 
@@ -51,12 +58,7 @@
 %-------------------------------------------------------------------------------
 %
 \begin{preface}
-	This thesis deals with high energy super-lasers. A brief introduction on the
-	basic concepts and methods is presented in the first part. The second part
-	contains two articles.
-	The papers are adjusted to comply with the present thesis format for
-	consistency, but their contents have not been altered as compared with their
-	original counterparts.
+	This thesis deals with boundary layers developing over a wing section. A brief introduction of the basic concepts and methods is presented in the first part. The second part contains four articles. The first two are internal technical reports. The third paper is an extended version of the paper presented at the $10^{th}$ International Symposium on Turbulence \& Shear Flow Phenomenon (TSFP-10), Chicago, USA. The final paper was also presented at TSFP-10. The fourth paper has been adjusted to comply with the present thesis format for consistency, but the contents have not been altered as compared with the original counterpart, except for the addition of an appendix.
 \end{preface}
 
 
@@ -65,18 +67,20 @@
 %-------------------------------------------------------------------------------
 %
 \begin{divisionofwork}
-	The main advisor for the project is Master Obi-Wan Kenobi (OK).
-	Supreme Cancellor Palpatine (DS) acts as co-advisor.
+	The main advisor for the project is Professor Dan S. Henningson (DH).
+	Docent Ardeshir Hanifi (AH) and Assoc.\ Professor Philipp Schlatter (PS) act as co-advisor.
 
 	\paperitem
-		The code has been developed by Anakin Skywalker (AS).
-		The paper has been written by AS and Darth Vader (DV).
+		The matlab code has been developed by Prabal S. Negi (PSN). The numerical simulations have been set-up and run by PSN. The paper has been written by PSN with feedback from PS and DH. 
 
 	\paperitem
-		The experimental set-up has been designed by DS.
-		The simulations have been performed by AS using the control-code
-		developed by DS.
-		The paper has been written by AS and DV with feedback from OK and DS.
+		The numerical simulation has been set-up and run by PSN. The paper has been written by PSN with feedback from AH and DH. 
+
+	\paperitem
+		The numerical simulations for channel flows and pitching airfoil have been set-up and run by PSN. Numerical simulations for LES validation on wing section was setup by PSN and run by Ricardo Vinuesa (RV). The paper has been written by PSN with feedback from RV, AH, PS and DH. 
+
+	\paperitem
+		The numerical simulation for the $Re_{c}=1,000,000$ case has been set-up by PSN and run by RV. The domain validation was performed by PSN. The paper has been written by RV with feedback from PSN, AH, DH and PS.
 
 \end{divisionofwork}
 
@@ -85,19 +89,19 @@
 % Additional publications (comment if none)
 %-------------------------------------------------------------------------------
 %
-\begin{otherpublications}
-	The following papers, although related, are not included in this thesis.
+%\begin{otherpublications}
+%	The following papers, although related, are not included in this thesis.
+%
+%  \paperitem%
+%    {Anakin Skywalker \& Master Obi-Wan Kenobi}% Authors
+%    {3639}% Year
+%    {The light sabre: an elegant weapon for a more civilized age}% Title
+%    {Jedi Journal of Weapons}% Journal
+%    {33}% Volume
+%    {2}% Number
+%    {pp. 55--60}% Pages
 
-  \paperitem%
-    {Anakin Skywalker \& Master Obi-Wan Kenobi}% Authors
-    {3639}% Year
-    {The light sabre: an elegant weapon for a more civilized age}% Title
-    {Jedi Journal of Weapons}% Journal
-    {33}% Volume
-    {2}% Number
-    {pp. 55--60}% Pages
-
-\end{otherpublications}
+%\end{otherpublications}
 
 
 %-------------------------------------------------------------------------------
@@ -109,11 +113,33 @@
 	international conferences. The presenting author is underlined.
 
   \conferenceitem%
-    {Anakin Skywalker, \underline{Darth Vader} \& Admiral Motti}% Authors
-    {3639}% Year
-    {Effects on breathing of underestimation of the power of The Force}% Title
-    {Intergalactic Conference on Weapons and Peace}% Conference
-    {Kamino}% Location
+  {\underline{P. S. Negi}, R. Vinuesa, A. Hanifi, P. Schlatter \& D. S. Henningson}% Authors
+  {2017}% Year
+  {Large-eddy simulations of a wing section undergoing small-amplitude pitch oscillations}% Title
+  {$16^{th}$ European Turbulence Conference (ETC)}% Conference
+  {Stockholm, Sweden}% Location
+
+
+  \conferenceitem%
+  {\underline{P. S. Negi}, R. Vinuesa, A. Hanifi, P. Schlatter \& D. S. Henningson}% Authors
+  {2017}% Year
+  {Unsteady Aerodynamic effects in small-amplitude pitch oscillations of an airfoil}% Title
+  {$10^{th}$ Int. Sym. on Turbulence \& Shear Flow Phenomenon (TSFP-10)}% Conference
+  {Chicago, USA}% Location
+
+  \conferenceitem%
+  {\underline{R. Vinuesa}, P. S. Negi, A. Hanifi, D. S. Henningson \& P. Schlatter}% Authors
+  {2017}% Year
+  {High-fidelity simulations of the flow around wings at high Reynolds numbers}% Title
+  {$10^{th}$ Int. Sym. on Turbulence \& Shear Flow Phenomenon (TSFP-10)}% Conference
+  {Chicago, USA}% Location
+  
+  \conferenceitem%
+  {\underline{P. S. Negi}, R. Vinuesa, P. Schlatter, A. Hanifi, \& D. S. Henningson}% Authors
+  {2016}% Year
+  {Relaxation-term filertering for SEM}% Title
+  {$5^{th}$ Nek user's meeting}% Conference
+  {Cambridge, USA}% Location  
 
 \end{conferences}
 

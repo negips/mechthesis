@@ -1,53 +1,48 @@
 %------------------------------------------------------------------------------
 % Define title, author(s), affiliation and publishing status
 %
-\papertitle%[Succesfully testing an on-board Superlaser System] % Short title used in healines (optional)
+\papertitle[Dynamic response of NLF airfoils] % Short title used in healines (optional)
 {%
- Succesfully testing\\an on-board Superlaser System% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+ Dynamic response of natural laminar flow airfoils% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
 }%
 %
-\papertoctitle{Succesfully testing an on-board Superlaser System} % Title for toc
+\papertoctitle{Dynamic response of natural laminar flow airfoils} % Title for toc
 %
-\paperauthor[A. Skywalker \etal] % Short authors used in headlines and List Of Papers
+\paperauthor[Negi, Hanifi \& Henningson] % Short authors used in headlines and List Of Papers
 {%
-  Anakin Skywalker$^1$, Darth Vader$^2$, Obi-Wan Kenobi$^1$ and Supreme Cancellor Palpatine$^2$%
+  P. S. Negi , A. Hanifi and D. S. Henningson%
 }%
 %
-\listpaperauthor{A. Skywalker, D. Vader, O.-W. Kenoby \& Palpatine}% (optional) Short authors used in List Of Papers
+\listpaperauthor{Negi, Hanifi \& Henningson}% (optional) Short authors used in List Of Papers
 %
 \paperaffiliation
 {%
-  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\%
-  $^2$ Super-laser LAB, The Death Star, not orbiting Alderaan anymore ;)%
+%  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\%
+%  $^2$ Super-laser LAB, The Death Star, not orbiting Alderaan anymore ;)%
+%  Linn\'e FLOW Centre, KTH Mechanics, SE-100 44 Stockholm, Sweden\\
+%  Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+Department of Mechanics, Linn\'e FLOW Centre and Swedish e-Science Research Centre (SeRC), KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden 
 }%
 %
-\paperjournal[J. Force] % Short publish info used in List Of Papers
+\paperjournal[Tech. Rep] % Short publish info used in List Of Papers
 {%
-	Journal of the Force%
+	Technical Report%
 }%
 %
-\papervolume{51}%
+\papervolume{}%
 %
 %\papernumber{1}
 %
-\paperpages{123--122}%
+\paperpages{}%
 %
-\paperyear{3640}%
+\paperyear{}%
 %
 \papersummary%
 {% Insert summary of the paper here (used in introduction) 
-	Many computational biologists would agree that, had it not been for
-	Byzantine fault tolerance, the synthesis of replication that made
-	developing and possibly investigating erasure coding a reality might
-	never have occurred. In this work, we prove  the synthesis of linked
-	lists. Even though such a hypothesis at first glance seems
-	counterintuitive, it always conflicts with the need to provide
-	object-oriented languages to systems engineers. APER, our new framework
-	for mobile archetypes, is the solution to all of these grand
-	challenges.
+	Large-eddy simulations are performed to investigate the dynamic response of a natural laminar flow airfoil undergoing harmonic pitch oscillations at a chord based Reynolds number of $Re_{c}=750,000$. Large changes in the transition location are observed throughout the pitch cycles which leads to a non-linear response of the aerodynamic force coefficients. Preliminary results show that the evolution of the boundary layer over the airfoil can be modeled by using a simple phase-lag concept which implies that the boundary-layer evolution is quasi-steady in nature. A simple empirical model is developed based on this quasi-steady, phase-lag assumption which fits very well with the measured experimental data.
 }%
 %
-\graphicspath{{paper2/}}%
+\graphicspath{{paper2/imgs/}{paper2/imgs2/}}%
 %
 %
 %===============================================================================
@@ -63,16 +58,8 @@
 %------------------------------------------------------------------------------
 %
 \begin{paperabstract}
-	Many computational biologists would agree that, had it not been for
-	Byzantine fault tolerance, the synthesis of replication that made
-	developing and possibly investigating erasure coding a reality might
-	never have occurred. In this work, we prove  the synthesis of linked
-	lists. Even though such a hypothesis at first glance seems
-	counterintuitive, it always conflicts with the need to provide
-	object-oriented languages to systems engineers. APER, our new framework
-	for mobile archetypes, is the solution to all of these grand
-	challenges.
-        \keywords{laser, death-star}
+	Large-eddy simulations are performed to investigate the dynamic response of a natural laminar flow airfoil undergoing harmonic pitch oscillations at a chord based Reynolds number of $Re_{c}=750,000$. Large changes in the transition location are observed throughout the pitch cycles which leads to a non-linear response of the aerodynamic force coefficients. Preliminary results show that the evolution of the boundary layer over the airfoil can be modeled by using a simple phase-lag concept which implies that the boundary-layer evolution is quasi-steady in nature. A simple empirical model is developed based on this quasi-steady, phase-lag assumption which fits very well with the measured experimental data.
+    \keywords{unsteady aerodynamics, natural laminar flow, empirical model}
 \end{paperabstract}
 
 
@@ -80,7 +67,8 @@
 % Article
 %------------------------------------------------------------------------------
 %
-\input{paper2/article.tex}
+
+\input{paper2/article3.tex}
 
 
 %------------------------------------------------------------------------------
@@ -89,7 +77,7 @@
 %
 %\clearpage
 \bibliographystyle{jfm}
-\bibliography{thesis}
+\bibliography{licentiate}
 %
 \IfFileExists{paper2/paper.bbl}{\input{paper2/paper.bbl}}{}
 

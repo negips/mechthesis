@@ -1,0 +1,94 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[TBL around wing sections] % Short title used in healines (optional)
+{%
+ High-fidelity simulations of the flow around wings at high Reynolds numbers% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{High-fidelity simulations of the flow around wings at high Reynolds numbers} % Title for toc
+%
+\paperauthor[Vinuesa \etal] % Short authors used in headlines and List Of Papers
+{%
+  R. Vinuesa, P. S. Negi, A. Hanifi, D. S. Henningson and P. Schlatter%
+}%
+%
+\listpaperauthor{Vinuesa, Negi, Hanifi, Henningson \& Schlatter}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+%  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\%
+%  $^2$ Super-laser LAB, The Death Star, not orbiting Alderaan anymore ;)%
+%  Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\
+%  Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+Department of Mechanics, Linn\'e FLOW Centre and Swedish e-Science Research Centre (SeRC), KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden 
+}%
+%
+\paperjournal[Proc. TSFP-10] % Short publish info used in List Of Papers
+{%
+	In Proc. $10^{th}$ Int. Sym. on Turbulence \& Shear Flow Phenomenon (TSFP-10)
+}%
+%
+\papervolume{}%
+%
+%\papernumber{1}
+%
+\paperpages{}%
+%
+\paperyear{}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction) 
+	Reynolds-number effects in the adverse-pressure-gradient (APG) turbulent boundary layer (TBL) developing on the suction side of a NACA4412 wing section are assessed in the present work. To this end, we conducted a well-resolved large-eddy simulation of the turbulent flow around the NACA4412 airfoil at a Reynolds number based on freestream velocity and chord length of $Re_{c}=1,000,000$, with $5^{\circ}$ angle of attack. The results of this simulation are used, together with the direct numerical simulation by Hosseini {\it et al.} (Int. J. Heat Fluid Flow {\bf 61}, 2016) of the same wing section at $Re_{c}=400,000$, to characterize the effect of Reynolds number on APG TBLs subjected to the same pressure-gradient distribution (defined by the Caluser pressure-gradient parameter $\beta$). Our results indicate that the increase in inner-scaled edge velocity $U^{+}_{e}$, and the decrease in shape factor $H$, is lower in the APG on the wing than in zero-pressure-gradient (ZPG) TBLs over the same Reynolds-number range. This indicates that the lower-$Re$ boundary layer is more sensitive to the effect of the APG, a conclusion that is supported by the larger values in the outer region of the tangential velocity fluctuation profile in the $Re_{c}=400,000$ wing. Future extensions of the present work will be aimed at studying the differences in the outer-region energizing mechanisms due to APGs and increasing Reynolds number.
+}%
+%
+\graphicspath{{paper4/imgs/}{paper4/imgs2/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+	Reynolds-number effects in the adverse-pressure-gradient (APG) turbulent boundary layer (TBL) developing on the suction side of a NACA4412 wing section are assessed in the present work. To this end, we conducted a well-resolved large-eddy simulation of the turbulent flow around the NACA4412 airfoil at a Reynolds number based on freestream velocity and chord length of $Re_{c}=1,000,000$, with $5^{\circ}$ angle of attack. The results of this simulation are used, together with the direct numerical simulation by Hosseini {\it et al.} (Int. J. Heat Fluid Flow {\bf 61}, 2016) of the same wing section at $Re_{c}=400,000$, to characterize the effect of Reynolds number on APG TBLs subjected to the same pressure-gradient distribution (defined by the Caluser pressure-gradient parameter $\beta$). Our results indicate that the increase in inner-scaled edge velocity $U^{+}_{e}$, and the decrease in shape factor $H$, is lower in the APG on the wing than in zero-pressure-gradient (ZPG) TBLs over the same Reynolds-number range. This indicates that the lower-$Re$ boundary layer is more sensitive to the effect of the APG, a conclusion that is supported by the larger values in the outer region of the tangential velocity fluctuation profile in the $Re_{c}=400,000$ wing. Future extensions of the present work will be aimed at studying the differences in the outer-region energizing mechanisms due to APGs and increasing Reynolds number.
+    \keywords{adverse pressure-gradient, boundary-layer, wings}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{paper4/article2.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{licentiate}
+%
+\IfFileExists{paper4/paper.bbl}{\input{paper4/paper.bbl}}{}
+\pagebreak
+
+\appendix
+
+\section{Domain Validation}
+\label{appendix:domain_validation}
+\input{paper4/appendix.tex}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}

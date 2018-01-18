@@ -1,49 +1,48 @@
 %------------------------------------------------------------------------------
 % Define title, author(s), affiliation and publishing status
 %
-\papertitle[Development of a Superlaser System] % Short title used in headlines (optional)
+\papertitle[SEM stabilization] % Short title used in headlines (optional)
 {%
-  Development of a Superlaser System for space applications% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+  A re-examination of filter-based stabilization for spectral-element methods% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
 }%
 %
-\papertoctitle{Development of a Superlaser System for space\\applications} % Title for toc
+\papertoctitle{A re-examination of filter-based stabilization for spectral-element methods} % Title for toc
 %
-\paperauthor[A. Skywalker \& D. Vader] % Short authors used in headlines and List Of Papers
+\paperauthor[Negi, Schlatter \& Henningson] % Short authors used in headlines and List Of Papers
 {%
-  Anakin Skywalker$^1$ and Darth Vader$^2$%
+  P. S. Negi, P. Schlatter and D. S. Henningson%
 }%
 %
 %\listpaperauthor{A. Skywalker \& D. Vader}% (optional) Short authors used in List Of Papers
 %
 \paperaffiliation
 {%
-  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\
-  $^2$ Super-laser LAB, The Death Star, currently orbiting Alderaan%
+%  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\
+%  $^2$ Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+%  Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\
+%  Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+Department of Mechanics, Linn\'e FLOW Centre and Swedish e-Science Research Centre (SeRC), KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden 
 }%
 %
-\paperjournal[Gal. Empire Publ.] % Short publish info used in List Of Papers
+\paperjournal[Tech. Rep] % Short publish info used in List Of Papers
 {%
-	Galactic Empire Publications%
+	Technical Report%
 }%
 %
-\papervolume{42}%
+%\papervolume{42}%
 %
-\papernumber{2}%
+%\papernumber{2}%
 %
-\paperpages{1--10}%
+%\paperpages{1--10}%
 %
-\paperyear{3639}%
+%\paperyear{3639}%
 %
 \papersummary%
 {% Insert summary of the paper here (used in introduction) 
-	The implications of concurrent archetypes have been far-reaching and
-	pervasive. Given the current status of heterogeneous technology,
-	cyberinformaticians daringly desire the key unification of the Turing
-	machine and erasure coding. We explore new decentralized information,
-	which we call Tuna.
+	We revisit the ``filter-based stabilization'' approach proposed by \cite{fischer01} and find that the loss of divergence-free condition due to commutation errors can be particularly severe in the cases of marginally resolved flows. In light of this, an alternative approach based on ``relaxation-term-based stabilization'' is proposed which is closely related to the explicit filter operation. The method retains the advantages of simplicity and efficiency of an explicit filter while also remedying some of its drawbacks. The effect of this relaxation-term is analyzed and it found to be an effective method of stabilization within the practical parameter range. Parameter limits of the stabilization procedure are also presented.
 }%
 %
-\graphicspath{{paper1/}}%
+\graphicspath{{paper1/imgs/}}%
 %
 %
 %===============================================================================
@@ -59,11 +58,7 @@
 %------------------------------------------------------------------------------
 %
 \begin{paperabstract}
-	The implications of concurrent archetypes have been far-reaching and
-	pervasive. Given the current status of heterogeneous technology,
-	cyberinformaticians daringly desire the key unification of the Turing
-	machine and erasure coding. We explore new decentralized information,
-	which we call Tuna.
+	We revisit the ``filter-based stabilization'' approach proposed by \cite{fischer01} and find that the loss of divergence-free condition due to commutation errors can be particularly severe in the cases of marginally resolved flows. In light of this, an alternative approach based on ``relaxation-term-based stabilization'' is proposed which is closely related to the explicit filter operation. The method retains the advantages of simplicity and efficiency of an explicit filter while also remedying some of its drawbacks. The effect of this relaxation-term is analyzed and it found to be an effective method of stabilization within the practical parameter range. Parameter limits of the stabilization procedure are also presented.
 \end{paperabstract}
 
 
@@ -71,7 +66,7 @@
 % Article
 %------------------------------------------------------------------------------
 %
-\input{paper1/article.tex}
+\input{paper1/article2.tex}
 
 
 %------------------------------------------------------------------------------
@@ -80,7 +75,7 @@
 %
 %\clearpage
 \bibliographystyle{jfm}
-\bibliography{thesis}
+\bibliography{licentiate}
 %
 \IfFileExists{paper1/paper.bbl}{\input{paper1/paper.bbl}}{}
 

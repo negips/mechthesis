@@ -1,0 +1,89 @@
+%------------------------------------------------------------------------------
+% Define title, author(s), affiliation and publishing status
+%
+\papertitle[Unsteady aerodynamic effects] % Short title used in healines (optional)
+{%
+ Unsteady aerodynamic effects in small-amplitude pitch oscillations of an airfoil% THE COMMENT SYMBOL AT THE END OF THIS LINE IS NEEDED
+}%
+%
+\papertoctitle{Unsteady aerodynamic effects in small-amplitude pitch oscillations of an airfoil} % Title for toc
+%
+\paperauthor[Negi \etal] % Short authors used in headlines and List Of Papers
+{%
+  P. S. Negi, R. Vinuesa, A. Hanifi, P. Schlatter and D. S. Henningson%
+}%
+%
+\listpaperauthor{Negi, Vinuesa, Hanifi, Schlatter \& Henningson}% (optional) Short authors used in List Of Papers
+%
+\paperaffiliation
+{%
+%  $^1$ Linn\'e FLOW Centre, KTH Mechanics, S-100 44 Stockholm, Sweden\\%
+%  $^2$ Super-laser LAB, The Death Star, not orbiting Alderaan anymore ;)%
+%  Linn\'e FLOW Centre, KTH Mechanics, SE-100 44 Stockholm, Sweden\\
+%  Swedish e-Science Research Centre (SeRC), SE-100 44, Stockholm, Sweden%
+Department of Mechanics, Linn\'e FLOW Centre and Swedish e-Science Research Centre (SeRC), KTH Royal Institute of Technology, SE-100 44 Stockholm, Sweden 
+}%
+%
+\paperjournal[Proc. TSFP-10 (Extended version)] % Short publish info used in List Of Papers
+{%
+	In Proc. $10^{th}$ Int. Sym. on Turbulence \& Shear Flow Phenomenon (TSFP-10 extended version)%
+}%
+%
+%\papervolume{51}%
+%%
+%%\papernumber{1}
+%%
+%\paperpages{123--122}%
+%%
+%\paperyear{3640}%
+%
+\papersummary%
+{% Insert summary of the paper here (used in introduction) 
+	High-fidelity wall-resolved large-eddy simulations (LES) are utilized to investigate the flow-physics of small-amplitude pitch oscillations of an airfoil at $Re_{c}=100,000$. The investigation of the unsteady phenomenon is done in the context of natural laminar flow airfoils, which can display sensitive dependence of the aerodynamic forces on the angle of attack in certain ``off-design'' conditions. The dynamic range of the pitch oscillations is chosen to be in this sensitive region. Large variations of the transition point on the suction-side of the airfoil are observed throughout the pitch cycle resulting in a dynamically rich flow response. Changes in the stability characteristics of a leading-edge laminar separation bubble has a dominating influence on the boundary layer dynamics and causes an abrupt change in the transition location over the airfoil. The LES procedure is based on a relaxation-term which models the dissipation of the smallest unresolved scales. The validation of the procedure is provided for channel flows and for a stationary wing at $Re_{c}=400,000$.
+}%
+%
+\graphicspath{{paper3/imgs/}}%
+%
+%
+%===============================================================================
+%                            BEGIN PAPER
+%===============================================================================
+%
+\definecolor{mygray}{gray}{0.4}
+\setlength{\belowcaptionskip}{-2pt}
+\begin{paper}
+
+\makepapertitle
+
+%------------------------------------------------------------------------------
+% Abstract
+%------------------------------------------------------------------------------
+%
+\begin{paperabstract}
+	High-fidelity wall-resolved large-eddy simulations (LES) are utilized to investigate the flow-physics of small-amplitude pitch oscillations of an airfoil at $Re_{c}=100,000$. The investigation of the unsteady phenomenon is done in the context of natural laminar flow airfoils, which can display sensitive dependence of the aerodynamic forces on the angle of attack in certain ``off-design'' conditions. The dynamic range of the pitch oscillations is chosen to be in this sensitive region. Large variations of the transition point on the suction-side of the airfoil are observed throughout the pitch cycle resulting in a dynamically rich flow response. Changes in the stability characteristics of a leading-edge laminar separation bubble has a dominating influence on the boundary layer dynamics and causes an abrupt change in the transition location over the airfoil. The LES procedure is based on a relaxation-term which models the dissipation of the smallest unresolved scales. The validation of the procedure is provided for channel flows and for a stationary wing at $Re_{c}=400,000$.
+    \keywords{unsteady aerodynamics, dynamic-response, transition, wall-resolved les}
+\end{paperabstract}
+
+
+%------------------------------------------------------------------------------
+% Article
+%------------------------------------------------------------------------------
+%
+\input{paper3/article5.tex}
+
+
+%------------------------------------------------------------------------------
+% Bibliography
+%------------------------------------------------------------------------------
+%
+%\clearpage
+\bibliographystyle{jfm}
+\bibliography{licentiate}
+%
+\IfFileExists{paper3/paper.bbl}{\input{paper3/paper.bbl}}{}
+
+
+%===============================================================================
+%                            END PAPER
+%===============================================================================
+\end{paper}
